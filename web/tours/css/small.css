@@ -1,0 +1,74 @@
+@media screen and (max-width: 990px) {
+
+  /* -------------------Common--------------------- */
+
+  h2 {
+    text-align: center;
+  }
+
+  #rating img {
+    margin-bottom: 25px;
+  }
+
+  /* ----------------------#home--------------------- */
+
+  .home-links {
+    text-align: center;
+  }
+
+  /* -----------------#whoWorks--------------------- */
+
+  .worker {
+    margin-bottom: 50px;
+  }
+
+  .worker:last-child, .worker:nth-last-child(2) {
+    margin-bottom: 0px;
+  }
+
+
+  /* -----------------#listFaculties----------------- */
+
+  .faculty {
+    margin-bottom: 25px;
+  }
+
+  .faculty:last-child {
+    margin-bottom: 0px;
+  }
+
+  /* -------------------whatKnow--------------------- */
+
+  .bg-line {
+    background: none;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #whatKnow .row:nth-child(odd){
+    border-top: 1px solid #efefef;
+  }
+
+  /* -----------------#reviews------------------- */
+
+  #reviews .video-container>div {
+    margin-bottom: 25px;
+  }
+
+  #reviews .video-container>div:last-child {
+    margin-bottom: 0px;
+  }
+
+  /* -----------------#guarantees-------------------- */
+
+  #guarantees ul {
+    margin-bottom: 25px;
+  }
+
+  /* -----------------#actions-------------------- */
+
+  #actions a {
+    font-size: 14px;
+  }
+
+}

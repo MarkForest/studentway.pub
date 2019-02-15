@@ -1,0 +1,436 @@
+html,
+body {
+    height: 100%;
+}
+
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+    background: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.navbar-brand>img{
+    position: relative;
+    top:-10px;
+    height: 40px;
+}
+
+#fh5co-home .home-content-text-block .cast-button{
+    border-top: none;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    font-size: 14px;
+    font-family: "Comic Sans MS", "PT Sans", Arial, serif;
+    font-weight: bold;
+}
+
+.drop{
+
+    position: fixed;
+    top:38px;
+    left: unset;
+    right: 0;
+    z-index: 9999;
+}
+
+.drop button{
+    border: none;
+    border-radius: 2px;
+    width: 144px;
+    height: 50px;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+.vertical-line{
+    width: 2px;
+    background: red;
+    height: 20px;
+}
+
+.button-save{
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+    border: 1px solid red;
+    line-height: 100px;
+    text-align: center;
+    background: rgba(0,0,0,0.1);
+    color: #030366;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-save:hover{
+    background: limegreen;
+    color: white;
+}
+.textarea{
+    background: transparent;
+    width: 100%;
+    border: none;
+}
+
+.textarea:focus{
+    outline: none;
+}
+
+.cast .textInput{
+    font-size: 150px;
+    background: transparent;
+    border: none;
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.stock-block h3{
+    font-size: 32px;
+    line-height: 45px;
+    color: #fff;
+
+}
+
+
+.cast-button textarea{
+    text-align: center;
+    color: #f7f9fa;
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.alert{
+    margin-top: -10px;
+}
+
+body{
+    padding-top: 0;
+}
+
+.btn{
+    text-transform: none;
+}
+
+.nav li > form > button.logout:hover{
+    background: transparent;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+.save-container{
+    width: 100%;
+    border-top: 1px solid red;
+    margin-bottom: 40px;
+}
+
+.navbar-inverse{
+    height: 51px;
+}
+
+.mt .col-md-4 .block-garant .text-garant{
+    height: 300px;
+}
+
+.text-garant .textarea{
+    font-size: 28px;
+
+}
+
+.getting-started .disc .textarea{
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.fh5co-pricing .pricing-plan{
+    margin-top: 10px;
+}
+
+.price-box .list-list-price .textarea,
+.box-services .fh5co-post .disc-services .textarea,
+.disc-team .textarea{
+    font-size: 16px;
+}
+
+.box-faq .nav-tabs li, .mt .nav-tabs li,#fh5co-footer .contact-info .nav-tabs li {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.box-faq{
+    max-height: 500px;
+}
+
+.fh5co-faq,#fh5co-explore .explore-bg,#fh5co-pricing{
+    background: rgba(241, 241, 241,0.7);
+    padding-top: 30px;
+}
+.fh5co-pricing{
+    padding: 0;
+}
+
+
+#fh5co-faq, #fh5co-team,.fh5co-explore,.fh5co-pricing,#fh5co-services{
+    padding-bottom: 0;
+}
+
+.box-faq .form-group{
+    margin-bottom: 0;
+}
+
+#fh5co-team, .fh5co-pricing{
+    background: none;
+}
+
+#fh5co-team,.fh5co-services{
+    background: rgba(241, 241, 241,0.7);
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.call-to-action > a
+{
+    display: block;
+    width: 30%;
+}
+
+.cell-to-get>a{
+    width: 100%;
+}
+
+.save-container{
+    background: none;
+}
+
+#fh5co-footer .footer-text .textarea{
+    font-size: 16px;
+}
+
+#photo-page{
+    margin-top: 100px;
+}
+
+#photo-page a{
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#photo-page h2{
+    color: #030366;
+}
+#photo-page .thumbnail p{
+    font-size: 13px;
+    font-style: italic;
+}
+
+#photo-page .thumbnail img{
+    height: 200px;
+}
+
+input[type="file"]{
+    font-size: 12px;
+    width: 100%;
+}
+
+.help-block{
+    font-size: 12px;
+}
+
+.admin-default-index{
+    margin-top: 70px;
+}
+
+.admin-default-index table{
+        font-size: 14px;!important;
+}
+
+.btn{
+    letter-spacing: normal;
+}
+
+/* ==========================================================================
+choose institute
+========================================================================== */
+
+
+.overlay {
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1031;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay img{
+    width: 24px;
+    display: inline;
+    margin-left: 10px;
+    vertical-align: middle;
+    padding-bottom: 4px;
+}
+.overlay a {
+    /*padding: 8px;*/
+    text-decoration: none;
+    /*font-size: 18px;*/
+    /*color: #818181;*/
+    /*display: block;*/
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+#btnOpenSpace{
+    position: fixed;
+    z-index: 9999;
+    top:80px;
+    right:2%;
+    /*border: 1px solid #fff;*/
+    border-radius: 2px;
+    padding: 5px;
+    color:white;
+    background:rgba(0, 198, 215,0.5);
+}

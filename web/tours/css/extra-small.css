@@ -1,0 +1,73 @@
+@media screen and (max-width: 720px) {
+
+  /* -------------------Common--------------------- */
+
+  h2 {
+    text-align: center;
+  }
+
+  .rating-item {
+    background: none;
+    padding: 0px;
+  }
+
+  #rating img {
+    margin-bottom: 25px;
+  }
+
+  /* --------------------#sales----------------------- */
+
+  .sale-badge {
+    font-size: 16px;
+  }
+
+  /* -----------------#whoWorks--------------------- */
+
+  .worker, .worker:nth-last-child(2) {
+    margin-bottom: 50px;
+  }
+
+  .worker:last-child {
+    margin-bottom: 0px;
+  }
+
+  /* -----------------#videoUniver------------------- */
+
+  #videoUniver .video-container>div {
+    margin-bottom: 25px;
+  }
+
+  #videoUniver .video-container>div:last-child {
+    margin-bottom: 0px;
+  }
+
+  /* -----------------#videoUniver------------------- */
+
+  #reviews .video-container>div {
+    margin-bottom: 25px;
+  }
+
+  #reviews .video-container>div:last-child {
+    margin-bottom: 0px;
+  }
+
+  
+  /* -------------------#guarantees-------------------*/
+
+  .certificates>div {
+    padding-bottom: 25px;
+  }
+
+  /* -------------------#whyRecomend------------------*/
+
+  .explain-why>div:first-child ul {
+    margin-bottom: 20px;
+  }
+
+  /* -------------------#actions--------------------- */
+
+  .actions-container>div:first-child {
+    margin-bottom: 25px;
+
+  }
+}

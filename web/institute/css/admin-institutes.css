@@ -1,0 +1,130 @@
+#nav-admin-institute{
+    margin-top: 52px;
+    background: black;
+}
+
+#btnOpenSpace{
+    top:250px;
+}
+
+.iHome{
+    background: url("/institute/images/home-bg-slideshow1.jpg");
+
+}
+
+.iHome h1,.iHome h3{
+    color:#fff;
+}
+
+.iSecond h1,.iSecond h4,.iSecond h3{
+    color: #fff;
+}
+
+.iFourth h4{
+    color:#fff;
+}
+
+.iSeventh ul{
+
+    list-style: none;
+}
+
+.iSeventh h3,.iSeventh h2{
+    letter-spacing: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.iEighth h1,.iEighth h2,.iEighth h3{
+    color: #fff;
+}
+
+#nav-admin-institute .nav-tabs{
+    margin-top: 0;
+}
+
+.iHome .disc-block .tab-content{
+    padding-top: 0;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#nav-admin-institute .tab-content, {
+    padding-top: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+#nav-admin-institute .tab-content textarea{
+    font-size: 14px;
+    color: white;
+}
+
+#nav-admin-institute .container >.navbar-header .tab-content textarea{
+    font-size: 20px;
+}
+
+#nav-admin-institute .nav-tabs > li > a,
+.iHome .nav-tabs > li > a,
+.iFirst .nav-tabs > li > a,
+.iSecond .nav-tabs > li > a,
+#iThird .nav-tabs > li > a,
+.iFourth .nav-tabs > li > a,
+.iFifth .nav-tabs > li > a,
+#iSixth .nav-tabs > li > a,
+.iSeventh .nav-tabs > li > a,
+.iEighth .nav-tabs > li > a{
+    padding: 5px;
+}
+
+#nav-admin-institute .nav-tabs > li > a img{
+    width: 20px;
+}
+
+#nav-admin-institute .nav-tabs > li.active > a,
+.iHome .nav-tabs > li.active > a,
+.iFirst .nav-tabs > li.active > a,
+.iSecond .nav-tabs > li.active > a,
+#iThird .nav-tabs > li.active > a,
+.iFourth .nav-tabs > li.active > a,
+.iFifth .nav-tabs > li.active > a,
+#iSixth .nav-tabs > li.active > a,
+.iSeventh .nav-tabs > li.active > a,
+.iEighth .nav-tabs > li.active > a{
+    border: 1px solid #ddd;
+
+}
+
+.iFirst  .tab-content textarea{
+    font-size: 15px;
+}
+
+#work .col-md-4:hover{
+    box-shadow: none;
+}
+
+.yellow{
+    color:yellow;
+    font-size: 15px;
+}
+
+.content-text-style{
+    font-size: 15px;
+}
+
+#iThird .nav-tabs img,
+#iSixth .nav-tabs img{
+    width: 25px;
+}
+
+#iFourthTeam .team-des{
+    opacity: 1;
+    position: static;
+    margin-bottom: 20px;
+    align-items: stretch;
+}
+
+.info_footer{
+    font-size: 18px;
+}
+

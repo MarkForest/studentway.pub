@@ -1,0 +1,95 @@
+.cta-sub2{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.cta-sub3{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url(../images/question.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*.cta-sub {*/
+    /*padding-top: 150px;*/
+    /*padding-bottom: 150px;*/
+    /*background: linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url(../images/Screenshot_2.jpg) no-repeat center center;*/
+    /*background-attachment: fixed;*/
+    /*background-size: cover;*/
+/*}*/
+/*.pitch {*/
+    /*padding: 100px 0 100px 0;*/
+    /*background: #2e2e30;*/
+/*}*/
+
+/*.pitch-intro {*/
+    /*max-width: 650px;*/
+    /*margin: 0 auto;*/
+    /*padding: 0 0 100px 0;*/
+/*}*/
+
+/*.pitch-intro h1 {*/
+    /*font-size: 37px;*/
+    /*font-weight: 900;*/
+    /*line-height: 1.2;*/
+    /*color: #FFF;*/
+    /*margin: 0 0 30px 0;*/
+/*}*/
+
+
+/*.pitch-intro p {*/
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-size: 14px;*/
+    /*line-height: 1.5;*/
+    /*color: #A1A1A1;*/
+    /*letter-spacing: 0;*/
+/*}*/
+
+/*.pitch-icon {*/
+    /*margin: 0 0 10px 0;*/
+    /*background: #00aeda;*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    /*display: inline-block;*/
+    /*border-radius: 50%;*/
+/*}*/
+
+/*.pitch-icon i {*/
+    /*font-size: 34px;*/
+    /*color: #FFFFFF;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*top: 13px;*/
+/*}*/
+
+/*.pitch-content {*/
+    /*padding: 10px 0 50px 0;*/
+/*}*/
+
+/*.pitch-content h1 {*/
+    /*font-size: 17px;*/
+    /*font-weight: 600;*/
+    /*line-height: 1.2;*/
+    /*letter-spacing: 0;*/
+    /*color: #FFF;*/
+    /*margin: 0 0 10px 0;*/
+    /*text-transform:uppercase;*/
+/*}*/
+
+/*.pitch-content p {*/
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-size: 14px;*/
+    /*line-height: 1.5;*/
+    /*color: #A1A1A1;*/
+    /*letter-spacing: 0;*/
+/*}*/
+/*.info ::selection {*/
+    /*background: #00aeda;*/
+    /*color:darkkhaki;*/
+/*}*/
+.info ::selection {
+    background: #00aeda;
+    color:black;
+}
