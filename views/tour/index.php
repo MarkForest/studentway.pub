@@ -378,7 +378,7 @@ $this->title = 'Tours | Austria';
 
     </div>
 
-    <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+    <div style="padding-top: 30px; width: 100%; display: flex; align-items: center; justify-content: center;">
         <a  href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
             style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
     </div>
