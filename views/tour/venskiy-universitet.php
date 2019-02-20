@@ -7,85 +7,7 @@
     <title>Венский Университет</title>
 </head>
 <body>
-<div id="home" style="background-color: #00b3ee">
-    <div class = "container " >
-        <div class="navbar-header page-scroll" style="padding-top: 10px">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <a  href="./" style="color: white; text-decoration: none;" >
-                <p style=" font-family: 'Open Sans', sans-serif ">Агентство StudentWay</p>
-                <p style="font-size: 12px; margin-top: 5px "> т. 067 636 72 47</p>
-            </a>
-        </div>
-        <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-1">
-                <div class="row f-18px home-links">
-                    <div class="col-xs-12 col-sm-4 col-md-12">
-                        <a href="#">Официальный сайт</a>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-12">
-                        <a href="#">Форум об академии</a>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-12">
-                        <a href="#">Википедия о моджевского</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-7">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1323.7255187111605!2d35.03761317828425!3d48.428682611104676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbfcb347737ead%3A0x125dda796521111c!2zU3R1ZGVudFdheSDQkNCz0LXQvdGC0YHRgtCy0L4g0L7QsdGA0LDQt9C-0LLQsNGC0LXQu9GM0L3Ri9GFINC_0YDQvtCz0YDQsNC80Lwg0JTQvdC10L_RgA!5e0!3m2!1sen!2sua!4v1519493603551"
-                        class="frame"  allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-<br>
 <a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;">Вернуться назад</a>
-<div id="listFaculties" class = "grey">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0  col-sm-10 col-sm-offset-1
-        col-md-10 col-md-offset-1">
-                <h2 class="header-title">Перечень факультетов</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-2
-      col-md-offset-1 text-center faculty">
-                <img src="/tours/images/500X500.png" alt="img">
-                <h4>Заголовок</h4>
-                <p>описание</p>
-                <a href="#">Подробнее</a>
-            </div>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-2
-      text-center faculty">
-                <img src="/tours/images/500X500.png" alt="img">
-                <h4>Заголовок</h4>
-                <p>описание</p>
-                <a href="#">Подробнее</a>
-            </div>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-2
-      text-center faculty">
-                <img src="/tours/images/500X500.png" alt="img">
-                <h4>Заголовок</h4>
-                <p>описание</p>
-                <a href="#">Подробнее</a>
-            </div>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-2
-      text-center faculty">
-                <img src="/tours/images/500X500.png" alt="img">
-                <h4>Заголовок</h4>
-                <p>описание</p>
-                <a href="#">Подробнее</a>
-            </div>
-            <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-2
-      text-center faculty">
-                <img src="/tours/images/500X500.png" alt="img">
-                <h4>Заголовок</h4>
-                <p>описание</p>
-                <a href="#">Подробнее</a>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <div id="rating">
@@ -93,27 +15,57 @@
         <div class="row">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
       col-md-offset-1">
-                <h2 class="header-title">Рейтинги</h2>
+                <h2 class="header-title"></h2>
+            </div>
+        </div>
+        <div class="row flexbox-wrapper">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+                <ul>
+                    <li style="background-color: rgb(216, 216, 216); padding: 40px;">
+                        Венский университет / Uni Wien:
+                    </li>
+                    <li style="background-color: rgb(216, 216, 216); padding: 40px; margin-top: 25px;">
+                        <ul>
+                            <li>Самый крупный университет в Австрии</li>
+                            <li>Большое разнообразие специальностей</li>
+                            <li>Сильная исследовательская база</li>
+                        </ul>
+                    </li>
+                    <li style="width: 100%; height: 100px; background-color: #FEE599">
+                        <a style="width: 100%;display: flex; align-items: center; justify-content: center; height: 100%; background-color: #FEE599" href="#">Кнопка</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
+                        col-md-offset-1">
+                <img class="office" src="/tours/images/vui1.jpg" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div id="rating">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+                        col-md-offset-1">
+                <h2 class="header-title" style="font-size: 30px;">История Университета</h2>
             </div>
         </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
-      col-md-offset-1">
-                <img class="office" src="/tours/images/500X300.png" alt="img">
+                        col-md-offset-1">
+                <img class="office" src="/tours/images/vui2.jpg" alt="img">
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul>
-                    <li class="rating-item">
-                        <b>Рейтинг 1.</b>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro necessitatibus numquam magnam perferendis velit repellat alias suscipit, error illo facere!
+                    <li style="background-color: rgb(216, 216, 216);font-size: 20px; padding: 20px;">
+                        История Университета
                     </li>
-                    <li class="rating-item">
-                        <b>Рейтинг 2.</b>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro necessitatibus numquam magnam perferendis velit repellat alias suscipit, error illo facere!
-                    </li>
-                    <li class="rating-item">
-                        <b>Рейтинг 3.</b>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro necessitatibus numquam magnam perferendis velit repellat alias suscipit, error illo facere!
+                    <li style="background-color: rgb(216, 216, 216); padding: 40px; margin-top: 25px;">
+                        Тут история
                     </li>
                 </ul>
             </div>
@@ -121,34 +73,243 @@
     </div>
 </div>
 
-<div id="sales" class="grey">
+<hr>
+
+<div id="rating">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-      col-md-offset-1">
-                <h2 class="header-title">Акции и подарки для наших клиентов</h2>
+                        col-md-offset-1">
+                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (1):</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3
-      col-md-6 col-md-offset-3 text-center">
-                <span class="f-18px block">Lorem ipsum</span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora tenetur nesciunt illo provident, a ad reprehenderit rerum repellat sapiente mollitia!
+        <div class="row flexbox-wrapper">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+                <ul>
+                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold">
+                        Международная репутация:
+                    </li>
+                    <li style="background-color: rgb(216, 216, 216); padding: 40px; margin-top: 25px;">
+                        Тут репутация
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4
-    col-md-offset-4">
-                <div class="sale">
-                    <div class="sale-badge">
-                        Lorem ipsum dolor sit amet, consectetur
-                    </div>
-                    <h3>50 &euro;</h3>
-                </div>
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
+                        col-md-offset-1">
+                <img class="office" src="/tours/images/vui3.jpg" alt="img">
             </div>
         </div>
     </div>
 </div>
+
+<hr>
+
+<div id="rating">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+                        col-md-offset-1">
+                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (2):</h2>
+            </div>
+        </div>
+        <div class="row flexbox-wrapper">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
+                        col-md-offset-1">
+                <img class="office" src="/tours/images/vui4.jpg" alt="img">
+            </div>
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+                <ul>
+                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold">
+                        Исследовательские возможности:
+                    </li>
+                    <li style="background-color: rgb(216, 216, 216); padding: 40px; margin-top: 5px;">
+                        Тут возможности
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div id="rating">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+                        col-md-offset-1">
+                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (3):</h2>
+            </div>
+        </div>
+        <div class="row flexbox-wrapper">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+                <ul>
+                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold">
+                        Возможности обучения:
+                    </li>
+                    <li style="background-color: rgb(216, 216, 216); padding: 40px; margin-top: 5px;">
+                        Тут возможности
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
+                        col-md-offset-1">
+                <img class="office" src="/tours/images/vui5.jpg" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div id="docs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+      col-md-offset-1">
+                <h2 style="font-size: 35px; display: flex; align-items: center; justify-content: center;" class="header-title">
+                    Информация о специальностях - Бакалаврат
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+      col-md-offset-1">
+                <div style="height: 100px; background-color: #FEE599; display: flex; align-items: center; justify-content: center;" class="header-title">
+                    Бакалавр + Което-то лого
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+      col-md-offset-1">
+                <ul>
+                    <li>
+                        <h4><b>1. Lorem ipsum</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita est, repudiandae reiciendis laboriosam voluptas eligendi corrupti tempore perspiciatis quaerat, excepturi fugit harum ipsum. Quam harum, nostrum eius sed excepturi amet?
+                    </li>
+                    <li>
+                        <h4><b>2. Dolor sit</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo magni asperiores ipsum hic, ex itaque debitis! Eveniet odio aspernatur consequatur, cupiditate impedit libero eaque facilis ipsum commodi, similique ex corrupti suscipit. Molestiae dolorum temporibus hic, accusamus laudantium tempore possimus cum.
+                    </li>
+                    <li>
+                        <h4><b>3. Lorem ipsum</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita est, repudiandae reiciendis laboriosam voluptas eligendi corrupti tempore perspiciatis quaerat, excepturi fugit harum ipsum. Quam harum, nostrum eius sed excepturi amet?
+                    </li>
+                    <li>
+                        <h4><b>4. Dolor sit</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo magni asperiores ipsum hic, ex itaque debitis! Eveniet odio aspernatur consequatur, cupiditate impedit libero eaque facilis ipsum commodi, similique ex corrupti suscipit. Molestiae dolorum temporibus hic, accusamus laudantium tempore possimus cum.
+                    </li>
+                    <li>
+                        <h4><b>5. Lorem ipsum</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita est, repudiandae reiciendis laboriosam voluptas eligendi corrupti tempore perspiciatis quaerat, excepturi fugit harum ipsum. Quam harum, nostrum eius sed excepturi amet?
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div id="docs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+      col-md-offset-1">
+                <h2 style="font-size: 35px; display: flex; align-items: center; justify-content: center;" class="header-title">
+                    Информация о специальностях - Магистратура (1)
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+      col-md-offset-1">
+                <div style="height: 100px; background-color: #FEE599; display: flex; align-items: center; justify-content: center;" class="header-title">
+                    Бакалавр + Което-то лого
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+      col-md-offset-1">
+                <ul>
+                    <li>
+                        <h4><b>1. Lorem ipsum</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita est, repudiandae reiciendis laboriosam voluptas eligendi corrupti tempore perspiciatis quaerat, excepturi fugit harum ipsum. Quam harum, nostrum eius sed excepturi amet?
+                    </li>
+                    <li>
+                        <h4><b>2. Dolor sit</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo magni asperiores ipsum hic, ex itaque debitis! Eveniet odio aspernatur consequatur, cupiditate impedit libero eaque facilis ipsum commodi, similique ex corrupti suscipit. Molestiae dolorum temporibus hic, accusamus laudantium tempore possimus cum.
+                    </li>
+                    <li>
+                        <h4><b>3. Lorem ipsum</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita est, repudiandae reiciendis laboriosam voluptas eligendi corrupti tempore perspiciatis quaerat, excepturi fugit harum ipsum. Quam harum, nostrum eius sed excepturi amet?
+                    </li>
+                    <li>
+                        <h4><b>4. Dolor sit</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo magni asperiores ipsum hic, ex itaque debitis! Eveniet odio aspernatur consequatur, cupiditate impedit libero eaque facilis ipsum commodi, similique ex corrupti suscipit. Molestiae dolorum temporibus hic, accusamus laudantium tempore possimus cum.
+                    </li>
+                    <li>
+                        <h4><b>5. Lorem ipsum</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita est, repudiandae reiciendis laboriosam voluptas eligendi corrupti tempore perspiciatis quaerat, excepturi fugit harum ipsum. Quam harum, nostrum eius sed excepturi amet?
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div id="docs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+      col-md-offset-1">
+                <h2 style="font-size: 35px; display: flex; align-items: center; justify-content: center;" class="header-title">
+                    Информация о специальностях - Магистратура (2)
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+      col-md-offset-1">
+                <div style="height: 100px; background-color: #FEE599; display: flex; align-items: center; justify-content: center;" class="header-title">
+                    Бакалавр + Което-то лого
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
+      col-md-offset-1">
+                <ul>
+                    <li>
+                        <h4><b>1. Lorem ipsum</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita est, repudiandae reiciendis laboriosam voluptas eligendi corrupti tempore perspiciatis quaerat, excepturi fugit harum ipsum. Quam harum, nostrum eius sed excepturi amet?
+                    </li>
+                    <li>
+                        <h4><b>2. Dolor sit</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo magni asperiores ipsum hic, ex itaque debitis! Eveniet odio aspernatur consequatur, cupiditate impedit libero eaque facilis ipsum commodi, similique ex corrupti suscipit. Molestiae dolorum temporibus hic, accusamus laudantium tempore possimus cum.
+                    </li>
+                    <li>
+                        <h4><b>3. Lorem ipsum</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita est, repudiandae reiciendis laboriosam voluptas eligendi corrupti tempore perspiciatis quaerat, excepturi fugit harum ipsum. Quam harum, nostrum eius sed excepturi amet?
+                    </li>
+                    <li>
+                        <h4><b>4. Dolor sit</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo magni asperiores ipsum hic, ex itaque debitis! Eveniet odio aspernatur consequatur, cupiditate impedit libero eaque facilis ipsum commodi, similique ex corrupti suscipit. Molestiae dolorum temporibus hic, accusamus laudantium tempore possimus cum.
+                    </li>
+                    <li>
+                        <h4><b>5. Lorem ipsum</b></h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita est, repudiandae reiciendis laboriosam voluptas eligendi corrupti tempore perspiciatis quaerat, excepturi fugit harum ipsum. Quam harum, nostrum eius sed excepturi amet?
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <div id="whoWorks">
     <div class="container">
