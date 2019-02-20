@@ -648,37 +648,60 @@ $this->title = 'Tours | Austria';
                 <!--                            tempore consequuntur officia ducimus unde doloribus quod unt repell </p>-->
             </div>
             <div class="col-sm-6">
-                <div class="table-left wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="pricing-details">
-                        <h2><?=$tour_prices_block['title_first']?></h2>
-                        <span><?=$tour_prices_block['price_first']?></span>
-                        <!--                                <ul>-->
-                        <!--                                    <li>Consectetur adipiscing</li>-->
-                        <!--                                    <li>Nunc luctus nulla et tellus</li>-->
-                        <!--                                    <li>Suspendisse quis metus</li>-->
-                        <!--                                    <li>Vestibul varius fermentum erat</li>-->
-                        <!--                                </ul>-->
-                        <br>
-                        <button class="btn btn-primary btn-action btn-fill"><?=$tour_prices_block['btn_rate_first']?></button>
+                <div style="display: flex; border-radius: 5px;
+                background-color: #fff;
+                align-items: flex-start;
+                flex-direction: column; padding: 30px;" class="wow fadeInUp" data-wow-delay="0.4s">
+                    <h2 style="margin: 0 0 50px 0;
+                            padding: 0;
+                            font-size: 13px;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            color: #888f94;">
+                        <?=$tour_prices_block['title_first']?>
+                    </h2>
+                    <span style="color: #6d6d6d; font-size: 48px; font-family: 'Roboto', sans-serif; padding-bottom: 50px;"><?=$tour_prices_block['price_first']?></span>
+                    <ul style="padding-bottom: 50px;">
+                        <li style="display: flex;">
+                            <object style="height: 15px; width: 15px;" type="image/svg+xml" data="/tours/icons/check-mark.svg"></object>
+                            <p style="color: #333;"><?=$tour_prices_block['little_text_first']?></p>
+                        </li>
+                    </ul>
+                    <div style="display: flex; justify-content: flex-end; width: 100%;">
+                        <button style="padding: 10px 20px; font-size: 18px;
+                            background: #000080; font-family: 'Roboto', sans-serif;
+                            color: #fff;" class="btn btn-select-plan btn-sm"><?=$tour_prices_block['btn_rate_first']?></button>
                     </div>
-                    <div><p style="font-size: x-small; color: white"><?=$tour_prices_block['little_text_first']?></p></div>
+
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="pricing-details">
-                        <h2><?=$tour_prices_block['title_second']?></h2>
-                        <span><?=$tour_prices_block['price_second']?></span>
-                        <!--                                <ul>-->
-                        <!--                                    <li>Consectetur adipiscing</li>-->
-                        <!--                                    <li>Nunc luctus nulla et tellus</li>-->
-                        <!--                                    <li>Suspendisse quis metus</li>-->
-                        <!--                                    <li>Vestibul varius fermentum erat</li>-->
-                        <!--                                </ul>-->
-                        <br>
-                        <button class="btn btn-primary btn-action btn-fill"><?=$tour_prices_block['btn_rate_second']?></button>
+                <div style="display: flex; border-radius: 5px;
+                background-color: #fff;
+                align-items: flex-start;
+                flex-direction: column; padding: 30px;" class="wow fadeInUp" data-wow-delay="0.4s">
+                    <h2 style="margin: 0 0 50px 0;
+                            padding: 0;
+                            font-size: 13px;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            color: #888f94;">
+                        <?=$tour_prices_block['title_second']?>
+                    </h2>
+                    <span style="color: #6d6d6d; font-size: 48px; font-family: 'Roboto', sans-serif; padding-bottom: 50px;"><?=$tour_prices_block['price_second']?></span>
+                    <ul style="padding-bottom: 50px;">
+                        <li style="display: flex;">
+                            <object style="height: 15px; width: 15px;" type="image/svg+xml" data="/tours/icons/check-mark.svg"></object>
+                            <p style="color: #333;"><?=$tour_prices_block['little_text_second']?></p>
+                        </li>
+                    </ul>
+                    <div style="display: flex; justify-content: flex-end; width: 100%;">
+                        <button style="padding: 10px 20px; font-size: 18px;
+                            background: #000080; font-family: 'Roboto', sans-serif;
+                            color: #fff;" class="btn btn-select-plan btn-sm"><?=$tour_prices_block['btn_rate_second']?></button>
                     </div>
-                    <div><p style="font-size: x-small; color: white"><?=$tour_prices_block['little_text_second']?></p></div>
                 </div>
             </div>
         </div>
