@@ -748,32 +748,32 @@ $this->title = 'Tours | Austria';
             <br>
             <br>
             <div class="row" style="margin-left: 5px">
-                <div class="col-xs-6 col-md-2 contact-button" style="width: 230px">
-                    <a href="viber://chat?number=+380676367247" class="thumbnail ">
+                <div class="col-xs-6 col-md-2" style="width: 230px;">
+                    <a href="viber://chat?number=+380676367247" class="thumbnail" style="background-color: transparent;">
                         <img src="/tours/images/viber-logo.png" class="img-circle" alt="...">
                     </a>
                     <p><?=$tour_contact_block['description_first']?></p>
                 </div>
-                <div class="col-xs-6 col-md-2 contact-button" style="width: 230px">
-                    <a href="https://t.me/StudentWay_Ukraina" class="thumbnail">
+                <div class="col-xs-6 col-md-2" style="width: 230px">
+                    <a href="https://t.me/StudentWay_Ukraina" class="thumbnail" style="background-color: transparent;">
                         <img src="/tours/images/telegram_PNG27.png" alt="...">
                     </a>
                     <p><?=$tour_contact_block['description_second']?></p>
                 </div>
-                <div class="col-xs-6 col-md-2 contact-button" style="width: 230px">
-                    <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail">
+                <div class="col-xs-6 col-md-2" style="width: 230px">
+                    <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail" style="background-color: transparent;">
                         <img src="/tours/images/facebook-messenger-chat-logo.png" alt="...">
                     </a>
                     <p><?=$tour_contact_block['description_third']?></p>
                 </div>
-                <div class="col-xs-6 col-md-2 contact-button" style="width: 230px">
-                    <a href="whatsapp://send?phone=+380968141132" class="thumbnail">
+                <div class="col-xs-6 col-md-2" style="width: 230px">
+                    <a href="whatsapp://send?phone=+380968141132" class="thumbnail" style="background-color: transparent;">
                         <img src="/tours/images/whatsapp.png" alt="...">
                     </a>
                     <p><?=$tour_contact_block['description_four']?></p>
                 </div>
-                <div class="col-xs-6 col-md-2 contact-button" style="width: 230px">
-                    <a href="https://www.instagram.com/studentway_ukraina/" class="thumbnail">
+                <div class="col-xs-6 col-md-2" style="width: 230px">
+                    <a href="https://www.instagram.com/studentway_ukraina/" class="thumbnail" style="background-color: transparent;">
                         <img src="/tours/images/instagram-icon.png" alt="...">
                     </a>
                     <p><?=$tour_contact_block['description_five']?></p>
