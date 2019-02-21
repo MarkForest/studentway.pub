@@ -40,7 +40,7 @@ $this->title = 'Tours | Austria';
     <div class="main app form" id="main">
         <!-- блок Главная-->
         <div class="cta-sub no-color{" style="background-image:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(/tours/images/<?=$tour_first_img_block->image?>)">
-            <divf class="container nopadding">
+            <div class="container nopadding">
                 <div class="col-md-12">
                     <div class="hero-content text-center">
                         <h1 class="wow fadeInUp newcll" data-wow-delay="0.1s"
@@ -53,7 +53,7 @@ $this->title = 'Tours | Austria';
                            style="visibility: visible; animation-name: fadeInUp;"><?= $tour_first_block['btn_message_text'] ?></a>
                     </div>
                 </div>
-            </divf>
+            </div>
         </div>
         <!-- конец блока Главная-->
         <!-- блок Инфо -->
@@ -235,7 +235,7 @@ $this->title = 'Tours | Austria';
     </div>
 </div>
 </div>
-<div class="row">
+<div style="margin-right: 0" class="row">
     <div class="col-md-12 wow fadeInDown" data-wow-delay="0.2s">
         <div style="margin-bottom: 20px;" class="feature-single">
             <div class="icon"><i class="ion-ios-heart-outline"></i></div>
