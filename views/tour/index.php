@@ -491,7 +491,7 @@ $this->title = 'Tours | Austria';
 </div>
 <!-- конец блока О нас -->
 <!-- блок Отзывы -->
-<div class="review-section" id="review">
+<div style="padding: 150px 0 0 0" class="review-section" id="review">
     <div class="container">
         <div class="col-md-10 col-md-offset-1">
             <div class="reviews owl-carousel owl-theme">
