@@ -129,7 +129,7 @@ $this->title = 'Tours | Austria';
 
             </div>
             <a  href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
-                style="width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
+                style="margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
             <div>
                 <h6 style="color: white; font-weight: bold"><?= $tour_info_block['text_footer'] ?></h6>
                 <br>
