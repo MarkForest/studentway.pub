@@ -7,6 +7,7 @@
     <title>Венский Университет Экономики и Бизнеса</title>
 </head>
 <body style="font-family: 'Roboto', sans-serif;">
+>>>>>>> 596fc66782f8c68e71efd78efacd2de073cca835
 <a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;">Вернуться назад</a>
 
 <div id="rating">
