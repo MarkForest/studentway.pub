@@ -29,11 +29,8 @@ $GLOBALS['RESTmap']['GET'] = [
             ],
         ];
     },
-    'foo' => function() {
-        if (isset($_SERVER['HTTP_FOO'])) {
-            return 'foo: "' . $_SERVER['HTTP_FOO'] . '"';
-        }
-        return 'foo: not found';
+    'http-host' => function() {
+        return 'host: "' . $_SERVER['HTTP_HOST'] . '"';
     }
 
 ];

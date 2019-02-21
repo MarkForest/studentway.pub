@@ -75,15 +75,14 @@ class Console implements EventSubscriberInterface
     protected $chars = ['success' => '+', 'fail' => 'x', 'of' => ':'];
 
     protected $options = [
-        'debug'       => false,
-        'ansi'        => false,
-        'steps'       => true,
-        'verbosity'   => 0,
-        'xml'         => null,
-        'phpunit-xml' => null,
-        'html'        => null,
-        'tap'         => null,
-        'json'        => null,
+        'debug'     => false,
+        'ansi'      => false,
+        'steps'     => true,
+        'verbosity' => 0,
+        'xml'       => null,
+        'html'      => null,
+        'tap'       => null,
+        'json'      => null,
     ];
 
     /**
@@ -106,7 +105,7 @@ class Console implements EventSubscriberInterface
             $this->chars['fail'] = '✖';
         }
 
-        foreach (['html', 'xml', 'phpunit-xml', 'tap', 'json'] as $report) {
+        foreach (['html', 'xml', 'tap', 'json'] as $report) {
             if (!$this->options[$report]) {
                 continue;
             }
@@ -442,7 +441,7 @@ class Console implements EventSubscriberInterface
         }
     }
 
-    public function printExceptionTrace($e)
+    public function printExceptionTrace(\Exception $e)
     {
         static $limit = 10;
 

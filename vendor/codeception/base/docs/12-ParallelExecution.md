@@ -28,7 +28,7 @@ Run official Codeception image from DockerHub:
     docker run codeception/codeception
 
 Running tests from a project, by mounting the current path as a host-volume into the container.
-The **default working directory in the container is `/project`**.
+The default working directory in the container is `/project`.
 
     docker run -v ${PWD}:/project codeception/codeception run
 
@@ -39,15 +39,17 @@ Define all required services in `docker-compose.yml` file. Make sure to follow D
 We prepared a sample config with codeception, web server, database, and selenium with firefox to be executed together.
 
 ```yaml
-version: '3'
+version: '2'
 services:
   codecept:
     image: codeception/codeception
     depends_on:
-      - chrome
+      - firefox
       - web
     volumes:
-      - .:/project
+      - ./src:/src
+      - ./tests:/tests
+      - ./codeception.yml:/codeception.yml
   web:
     image: php:7-apache
     depends_on:
@@ -56,8 +58,13 @@ services:
       - .:/var/www/html
   db:
     image: percona:5.6
-  chrome:
-    image: selenium/standalone-chrome
+    ports:
+      - '3306'
+  firefox:
+    image: selenium/standalone-firefox-debug:2.53.0
+    ports:
+      - '4444'
+      - '5900'
 ```
 
 Codeception service will execute command `codecept run` but only after all services are started. This is defined using `depends_on` parameter.
@@ -138,7 +145,7 @@ $ composer require codeception/codeception
 
 ### Preparing Robo
 
-Initializes basic RoboFile in the root of your project
+Intitalizes basic RoboFile in the root of your project
 
 ```bash
 $ robo init
@@ -286,8 +293,8 @@ public function parallelRun()
     for ($i = 1; $i <= 5; $i++) {
         $parallel->process(
             $this->taskExec('docker-compose run --rm codecept run')
-                ->option('group', "paracept_$i") // run for groups paracept_*
-                ->option('xml', "tests/_log/result_$i.xml") // provide xml report
+                ->opt('group', "paracept_$i") // run for groups paracept_*
+                ->opt('xml', "tests/_log/result_$i.xml"); // provide xml report
         );
     }
     return $parallel->run();

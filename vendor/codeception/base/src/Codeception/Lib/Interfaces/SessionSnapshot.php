@@ -36,23 +36,11 @@ interface SessionSnapshot
     public function saveSessionSnapshot($name);
 
     /**
-     * Loads cookies from a saved snapshot.
-     * Allows to reuse same session across tests without additional login.
-     *
-     * See [saveSessionSnapshot](#saveSessionSnapshot)
+     * Loads cookies from saved snapshot.
      *
      * @param $name
+     * @see saveSessionSnapshot
      * @return mixed
      */
     public function loadSessionSnapshot($name);
-
-    /**
-     * Deletes session snapshot.
-     *
-     * See [saveSessionSnapshot](#saveSessionSnapshot)
-     *
-     * @param $name
-     * @return mixed
-     */
-    public function deleteSessionSnapshot($name);
 }

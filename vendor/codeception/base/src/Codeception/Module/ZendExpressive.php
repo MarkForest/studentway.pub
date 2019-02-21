@@ -3,6 +3,7 @@ namespace Codeception\Module;
 
 use Codeception\Lib\Framework;
 use Codeception\TestInterface;
+use Codeception\Configuration;
 use Codeception\Lib\Connector\ZendExpressive as ZendExpressiveConnector;
 use Codeception\Lib\Interfaces\DoctrineProvider;
 
@@ -18,11 +19,9 @@ use Codeception\Lib\Interfaces\DoctrineProvider;
  *
  * ## Config
  *
- * * `container` - (default: `config/container.php`) relative path to file which returns Container
- * * `recreateApplicationBetweenTests` - (default: false) whether to recreate the whole application before each test
- * * `recreateApplicationBetweenRequests` - (default: false) whether to recreate the whole application before each request
+ * * container: relative path to file which returns Container (default: `config/container.php`)
  *
- * ## Public properties
+ * ## API
  *
  * * application -  instance of `\Zend\Expressive\Application`
  * * container - instance of `\Interop\Container\ContainerInterface`
@@ -32,9 +31,7 @@ use Codeception\Lib\Interfaces\DoctrineProvider;
 class ZendExpressive extends Framework implements DoctrineProvider
 {
     protected $config = [
-        'container'                          => 'config/container.php',
-        'recreateApplicationBetweenTests'    => false,
-        'recreateApplicationBetweenRequests' => false,
+        'container' => 'config/container.php',
     ];
 
     /**
@@ -44,38 +41,43 @@ class ZendExpressive extends Framework implements DoctrineProvider
 
     /**
      * @var \Interop\Container\ContainerInterface
-     * @deprecated Doesn't work as expected if Application is recreated between requests
      */
     public $container;
 
     /**
      * @var \Zend\Expressive\Application
-     * @deprecated Doesn't work as expected if Application is recreated between requests
      */
     public $application;
 
+    protected $responseCollector;
+
     public function _initialize()
     {
-        $this->client = new ZendExpressiveConnector();
-        $this->client->setConfig($this->config);
+        $cwd = getcwd();
+        $projectDir = Configuration::projectDir();
+        chdir($projectDir);
+        $this->container = require $projectDir . $this->config['container'];
+        $app = $this->container->get('Zend\Expressive\Application');
 
-        if ($this->config['recreateApplicationBetweenTests'] == false && $this->config['recreateApplicationBetweenRequests'] == false) {
-            $this->application = $this->client->initApplication();
-            $this->container   = $this->client->getContainer();
+        $pipelineFile = $projectDir . 'config/pipeline.php';
+        if (file_exists($pipelineFile)) {
+            require $pipelineFile;
         }
+        $routesFile = $projectDir . 'config/routes.php';
+        if (file_exists($routesFile)) {
+            require $routesFile;
+        }
+        chdir($cwd);
+
+        $this->application = $app;
+        $this->initResponseCollector();
     }
 
     public function _before(TestInterface $test)
     {
         $this->client = new ZendExpressiveConnector();
-        $this->client->setConfig($this->config);
-
-        if ($this->config['recreateApplicationBetweenTests'] != false && $this->config['recreateApplicationBetweenRequests'] == false) {
-            $this->application = $this->client->initApplication();
-            $this->container   = $this->client->getContainer();
-        } elseif (isset($this->application)) {
-            $this->client->setApplication($this->application);
-        }
+        $this->client->setApplication($this->application);
+        $this->client->setResponseCollector($this->responseCollector);
     }
 
     public function _after(TestInterface $test)
@@ -86,6 +88,20 @@ class ZendExpressive extends Framework implements DoctrineProvider
         }
 
         parent::_after($test);
+    }
+
+    private function initResponseCollector()
+    {
+        /**
+         * @var Zend\Expressive\Emitter\EmitterStack
+         */
+        $emitterStack = $this->application->getEmitter();
+        while (!$emitterStack->isEmpty()) {
+            $emitterStack->pop();
+        }
+
+        $this->responseCollector = new ZendExpressiveConnector\ResponseCollector;
+        $emitterStack->unshift($this->responseCollector);
     }
 
     public function _getEntityManager()

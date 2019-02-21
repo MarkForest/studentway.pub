@@ -15,10 +15,7 @@ env:
                 WebDriver:
                     url: http://127.0.0.1:8000
                     browser: firefox
-    work:
-        coverage:
-            remote: false
-            work_dir: /tmp/test
+
 
 coverage:
     enabled: true

@@ -60,23 +60,13 @@ modules:
         - \Helper\Acceptance
 ```
 
-We should start by creating a test with the next command:
-
-```
-php vendor/bin/codecept g:cest acceptance Signin
-```
-
-It will be placed into `tests/acceptance` directory.
+We should start by creating a 'Cept' file:
 
 ```php
 <?php
-class SigninCest
-{
-    public function tryToTest(AcceptanceTester $I)
-    {
-        $I->wantTo('test my page');
-    }
-}
+// tests/acceptance/SigninCept.php
+$I = new AcceptanceTester($scenario);
+$I->wantTo('sign in');
 ```
 
 The `$I` object is used to write all interactions.
@@ -213,6 +203,7 @@ you can pass instance `\Codeception\Step\Argument\PasswordArgument` with the dat
 
 ```php
 <?php
+<?php
 use \Codeception\Step\Argument\PasswordArgument;
 
 $I->amOnPage('/form/password_argument');
@@ -295,7 +286,7 @@ and you want to check that the user can log into the site using this password:
 
 ```php
 <?php
-$I->fillField('email', 'miles@davis.com');
+$I->fillField('email', 'miles@davis.com')
 $I->click('Generate Password');
 $password = $I->grabTextFrom('#password');
 $I->click('Login');
@@ -337,9 +328,9 @@ Actions for URLs:
 ```php
 <?php
 $I->seeCurrentUrlEquals('/login');
-$I->seeCurrentUrlMatches('~^/users/(\d+)~');
+$I->seeCurrentUrlMatches('~$/users/(\d+)~');
 $I->seeInCurrentUrl('user/1');
-$user_id = $I->grabFromCurrentUrl('~^/user/(\d+)/~');
+$user_id = $I->grabFromCurrentUrl('~$/user/(\d+)/~');
 ```
 
 ## WebDriver

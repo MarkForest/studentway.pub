@@ -17,17 +17,17 @@ class PersistentServiceManager extends ServiceManager implements ServiceLocatorI
         $this->serviceManager = $serviceManager;
     }
 
-    public function get($name, $usePeeringServiceManagers = true)
+    public function get($name)
     {
         if (parent::has($name)) {
-            return parent::get($name, $usePeeringServiceManagers);
+            return parent::get($name);
         }
         return $this->serviceManager->get($name);
     }
 
-    public function has($name, $checkAbstractFactories = true, $usePeeringServiceManagers = true)
+    public function has($name)
     {
-        if (parent::has($name, $checkAbstractFactories, $usePeeringServiceManagers)) {
+        if (parent::has($name)) {
             return true;
         }
         if (preg_match('/doctrine/i', $name)) {

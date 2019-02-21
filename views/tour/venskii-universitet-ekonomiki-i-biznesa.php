@@ -12,7 +12,7 @@
         <div class="navbar-header page-scroll" style="padding-top: 10px">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             <a  href="./" style="color: white; text-decoration: none;" >
-                <p style=" font-family: 'Open Sans', sans-serif ">Агентство StudentWay</p>
+                <p style=" font-family: 'Open Sans', sans-serif ">Поехали с нами</p>
                 <p style="font-size: 12px; margin-top: 5px "> т. 067 636 72 47</p>
             </a>
         </div>

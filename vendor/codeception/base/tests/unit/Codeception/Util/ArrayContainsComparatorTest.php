@@ -264,20 +264,4 @@ class ArrayContainsComparatorTest extends \Codeception\Test\Unit
             . "+ " . var_export($comparator->getHaystack(), true)
         );
     }
-
-    /**
-     * @issue https://github.com/Codeception/Codeception/issues/5303
-     */
-    public function testContainsArrayComparesAssociativeArrayIntersectCorrectlyWhenExpectedArrayKeyIsEmptyArray()
-    {
-        $comparator = new ArrayContainsComparator([
-            'key' => [
-                'foo' => 'bar',
-            ],
-        ]);
-        $expectedArray = [
-            'key' => [],
-        ];
-        $this->assertTrue($comparator->containsArray($expectedArray));
-    }
 }

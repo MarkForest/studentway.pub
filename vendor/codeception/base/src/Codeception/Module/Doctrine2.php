@@ -108,25 +108,11 @@ EOF;
 
     public function _before(TestInterface $test)
     {
-        $this->init();
-    }
-
-    private function init()
-    {
         $this->retrieveEntityManager();
         if ($this->config['cleanup']) {
             $this->em->getConnection()->beginTransaction();
             $this->debugSection('Database', 'Transaction started');
         }
-    }
-
-    /**
-     * @throws ModuleConfigException
-     */
-    public function onReconfigure()
-    {
-        $this->finish();
-        $this->init();
     }
 
     protected function retrieveEntityManager()
@@ -162,27 +148,20 @@ EOF;
         $this->em->getConnection()->connect();
     }
 
-    private function finish()
+    public function _after(TestInterface $test)
     {
         if (!$this->em instanceof \Doctrine\ORM\EntityManagerInterface) {
             return;
         }
         if ($this->config['cleanup'] && $this->em->getConnection()->isTransactionActive()) {
             try {
-                while ($this->em->getConnection()->getTransactionNestingLevel() > 0) {
-                    $this->em->getConnection()->rollback();
-                }
+                $this->em->getConnection()->rollback();
                 $this->debugSection('Database', 'Transaction cancelled; all changes reverted.');
             } catch (\PDOException $e) {
             }
         }
         $this->clean();
         $this->em->getConnection()->close();
-    }
-
-    public function _after(TestInterface $test)
-    {
-        $this->finish();
     }
 
     protected function clean()
@@ -326,7 +305,7 @@ EOF;
 
     /**
      * Persists record into repository.
-     * This method creates an entity, and sets its properties directly (via reflection).
+     * This method crates an entity, and sets its properties directly (via reflection).
      * Setters of entity won't be executed, but you can create almost any entity and save it to database.
      * Returns id using `getId` of newly created entity.
      *
