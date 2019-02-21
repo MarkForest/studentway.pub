@@ -23,7 +23,16 @@ Author URI: http://www.designstub.com
 9. Media Queries
 ------------------*/
 
+.myli {
+	display: flex;
+}
+
+.strr {
+	padding-right: 20px;
+}
+
 /*----- 1. Reset.css -----*/
+
 
 
 html, body, div, span, applet, object, iframe,
