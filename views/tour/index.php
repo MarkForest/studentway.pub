@@ -67,7 +67,7 @@ $this->title = 'Tours | Austria';
                     <div class="row">
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                             <div style="background-color: transparent;" class="pitch-icon">
-                                <object type="image/svg+xml" data="/tours/icons/web.svg"></object>
+                                <img src="/tours/icons/web.png" class="img-responsive" alt="picture"></img>
                                 <!--<i class="ion-ios-checkmark-outline"></i>-->
                             </div>
                             <div class="pitch-content">
@@ -77,7 +77,7 @@ $this->title = 'Tours | Austria';
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                             <div style="background-color: transparent" class="pitch-icon">
-                                <object type="image/svg+xml" data="/tours/icons/diploma.svg"></object>
+                                <img src="/tours/icons/diploma.png" class="img-responsive" alt="picture"></img>
                             </div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_second'] ?></h1>
@@ -86,7 +86,7 @@ $this->title = 'Tours | Austria';
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                             <div style="background-color: transparent" class="pitch-icon">
-                                <object type="image/svg+xml" data="/tours/icons/alarm.svg"></object>
+                                <img src="/tours/icons/alarm.png" class="img-responsive" alt="picture"></img>
                             </div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_third'] ?></h1>
@@ -97,7 +97,7 @@ $this->title = 'Tours | Austria';
                     <div class="row">
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                             <div style="background-color: transparent" class="pitch-icon">
-                                <object type="image/svg+xml" data="/tours/icons/germany.svg"></object>
+                                <img src="/tours/icons/germany.png" class="img-responsive" alt="picture"></img>
                             </div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_four'] ?></h1>
@@ -106,7 +106,7 @@ $this->title = 'Tours | Austria';
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                             <div style="background-color: transparent" class="pitch-icon">
-                                <object type="image/svg+xml" data="/tours/icons/graduate.svg"></object>
+                                <img src="/tours/icons/graduate.png" class="img-responsive" alt="picture"></img>
                             </div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_five'] ?></h1>
@@ -115,7 +115,7 @@ $this->title = 'Tours | Austria';
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                             <div style="background-color: transparent" class="pitch-icon">
-                                <object type="image/svg+xml" data="/tours/icons/coins.svg"></object>
+                                <img src="/tours/icons/coins.png" class="img-responsive" alt="picture"></img>
                             </div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_six'] ?></h1>
@@ -168,7 +168,7 @@ $this->title = 'Tours | Austria';
                             <div class="col-md-7 wow fadeInDown" data-wow-delay="0.2s">
                                 <div class="feature-single">
                                     <div style="background-color: transparent" class="pitch-icon">
-                                        <object style="width: 70px; height: 70px;" type="image/svg+xml" data="/tours/icons/univer.svg"></object>
+                                        <img style="width: 70px; height: 70px;" class="img-responsive" alt="picture" src="/tours/icons/univer.png"></img>
                                     </div>
                                     <h1 style="font-weight: 800"> <?= $tour_about_university_block['title_first'] ?></h1>
                 <p style="color: #4a4a4a">
@@ -187,7 +187,7 @@ $this->title = 'Tours | Austria';
         <div class="col-md-7 wow fadeInDown" data-wow-delay="0.2s">
             <div class="feature-single">
                 <div style="background-color: transparent" class="pitch-icon">
-                    <object type="image/svg+xml" data="/tours/icons/search.svg"></object>
+                    <img src="/tours/icons/search.png" class="img-responsive" alt="picture">
                 </div>
                 <a target="_blank"
                    href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskiy-technicheskiy-universitet']) ?>">
@@ -218,7 +218,7 @@ $this->title = 'Tours | Austria';
         <div class="col-md-7 wow fadeInDown" data-wow-delay="0.2s">
             <div class="feature-single">
                 <div style="background-color: transparent" class="pitch-icon">
-                    <object type="image/svg+xml" data="/tours/icons/rich.svg"></object>
+                    <img src="/tours/icons/rich.png" class="img-responsive" alt="picture">
                 </div>
                 <a target="_blank"
                    href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskii-universitet-ekonomiki-i-biznesa']) ?>">
@@ -546,7 +546,7 @@ $this->title = 'Tours | Austria';
             <div class="row">
                 <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                     <div style="background-color: transparent" class="pitch-icon">
-                        <object type="image/svg+xml" data="/tours/icons/file.svg"></object>
+                        <img class="img-responsive" src="/tours/icons/file.png" alt="picture">
                     </div>
                     <div class="pitch-content">
                         <h1><?= $tour_questions_block['title_first'] ?></h1>
@@ -557,7 +557,7 @@ $this->title = 'Tours | Austria';
                 </div>
                 <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                     <div style="background-color: transparent" class="pitch-icon">
-                        <object type="image/svg+xml" data="/tours/icons/hourglass.svg"></object>
+                       <img class="img-responsive" src="/tours/icons/hourglass.png" alt="picture">
                     </div>
                     <div class="pitch-content">
                         <h1><?= $tour_questions_block['title_second'] ?></h1>
@@ -568,7 +568,7 @@ $this->title = 'Tours | Austria';
                 </div>
                 <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                     <div style="background-color: transparent" class="pitch-icon">
-                        <object type="image/svg+xml" data="/tours/icons/germany.svg"></object>
+                        <img class="img-responsive" src="/tours/icons/germany.png" alt="picture">
                     </div>
                     <div class="pitch-content">
                         <h1><?= $tour_questions_block['title_third'] ?></h1>
@@ -582,7 +582,7 @@ $this->title = 'Tours | Austria';
             <div class="row">
                 <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                     <div style="background-color: transparent" class="pitch-icon">
-                        <object type="image/svg+xml" data="/tours/icons/coins.svg"></object>
+                        <img class="img-responsive" src="/tours/icons/coins.png" alt="picture">
                     </div>
                     <div class="pitch-content">
                         <h1><?= $tour_questions_block['title_four'] ?></h1>
@@ -593,7 +593,7 @@ $this->title = 'Tours | Austria';
                 </div>
                 <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                     <div style="background-color: transparent" class="pitch-icon">
-                        <object type="image/svg+xml" data="/tours/icons/diploma.svg"></object>
+                        <img class="img-responsive" src="/tours/icons/diploma.png" alt="picture">
                     </div>
                     <div class="pitch-content">
                         <h1><?= $tour_questions_block['title_five'] ?></h1>
@@ -604,7 +604,7 @@ $this->title = 'Tours | Austria';
                 </div>
                 <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                     <div style="background-color: transparent" class="pitch-icon">
-                        <object type="image/svg+xml" data="/tours/icons/report.svg"></object>
+                        <img class="img-responsive" src="/tours/icons/report.png" alt="picture">
                     </div>
                     <div class="pitch-content">
                         <h1><?= $tour_questions_block['title_six'] ?></h1>
@@ -664,7 +664,7 @@ $this->title = 'Tours | Austria';
                     <span style="color: #6d6d6d; font-size: 48px; font-family: 'Roboto', sans-serif; padding-bottom: 50px;"><?=$tour_prices_block['price_first']?></span>
                     <ul style="padding-bottom: 50px;">
                         <li style="display: flex;">
-                            <object style="height: 15px; width: 15px;" type="image/svg+xml" data="/tours/icons/check-mark.svg"></object>
+                            <img style="height: 15px; width: 15px;" src="/tours/icons/check-mark.png">
                             <p style="color: #333;"><?=$tour_prices_block['little_text_first']?></p>
                         </li>
                     </ul>
@@ -693,7 +693,7 @@ $this->title = 'Tours | Austria';
                     <span style="color: #6d6d6d; font-size: 48px; font-family: 'Roboto', sans-serif; padding-bottom: 50px;"><?=$tour_prices_block['price_second']?></span>
                     <ul style="padding-bottom: 50px;">
                         <li style="display: flex;">
-                            <object style="height: 15px; width: 15px;" type="image/svg+xml" data="/tours/icons/check-mark.svg"></object>
+                            <img style="height: 15px; width: 15px;" src="/tours/icons/check-mark.png">
                             <p style="color: #333;"><?=$tour_prices_block['little_text_second']?></p>
                         </li>
                     </ul>
