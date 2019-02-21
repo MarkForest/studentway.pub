@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Венский Университет</title>
 </head>
-<body>
+<body style="font-family: 'Roboto', sans-serif;">
 <a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;">Вернуться назад</a>
 
 
