@@ -39,7 +39,7 @@ $this->title = 'Tours | Austria';
 
     <div class="main app form" id="main">
         <!-- блок Главная-->
-        <div class="cta-sub no-color{" style="background-image:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(/tours/images/<?=$tour_first_img_block->image?>)">
+        <div class="cta-sub no-color{" style="background-image:linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url(/tours/images/<?=$tour_first_img_block->image?>)">
             <div class="container nopadding">
                 <div class="col-md-12">
                     <div class="hero-content text-center">
@@ -57,37 +57,30 @@ $this->title = 'Tours | Austria';
         </div>
         <!-- конец блока Главная-->
         <!-- блок Инфо -->
-        <div style="padding: 50px 0 20px 0;" class="pitch text-center" id="info">
-            <div style="padding-bottom: 5px;" class="container">
-                <div style="padding: 0;" class="pitch-intro">
+        <div class="pitch text-center" id="info">
+            <div class="container">
+                <div class="pitch-intro">
                     <h1 class="wow fadeInDown" data-wow-delay="0.2s"><?= $tour_info_block['title_big_head'] ?></h1>
                     <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p> -->
                 </div>
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent;" class="pitch-icon">
-                                <img src="/tours/icons/web.png" class="img-responsive" alt="picture"></img>
-                                <!--<i class="ion-ios-checkmark-outline"></i>-->
-                            </div>
+                            <div class="pitch-icon"><i class="ion-ios-checkmark-outline"></i></div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_first'] ?></h1>
                                 <p> <?= $tour_info_block['description_first'] ?> </p>
                             </div>
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent" class="pitch-icon">
-                                <img src="/tours/icons/diploma.png" class="img-responsive" alt="picture"></img>
-                            </div>
+                            <div class="pitch-icon"><i class="ion-ios-mic-outline"></i></div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_second'] ?></h1>
                                 <p> <?= $tour_info_block['description_second'] ?> </p>
                             </div>
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent" class="pitch-icon">
-                                <img src="/tours/icons/alarm.png" class="img-responsive" alt="picture"></img>
-                            </div>
+                            <div class="pitch-icon"><i class="ion-ios-folder-outline"></i></div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_third'] ?></h1>
                                 <p> <?= $tour_info_block['description_third'] ?> </p>
@@ -96,27 +89,21 @@ $this->title = 'Tours | Austria';
                     </div>
                     <div class="row">
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent" class="pitch-icon">
-                                <img src="/tours/icons/germany.png" class="img-responsive" alt="picture"></img>
-                            </div>
+                            <div class="pitch-icon"><i class="ion-ios-folder-outline"></i></div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_four'] ?></h1>
                                 <p> <?= $tour_info_block['description_four'] ?> </p>
                             </div>
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent" class="pitch-icon">
-                                <img src="/tours/icons/graduate.png" class="img-responsive" alt="picture"></img>
-                            </div>
+                            <div class="pitch-icon"><i class="ion-ios-folder-outline"></i></div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_five'] ?></h1>
                                 <p> <?= $tour_info_block['description_five'] ?> </p>
                             </div>
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent" class="pitch-icon">
-                                <img src="/tours/icons/coins.png" class="img-responsive" alt="picture"></img>
-                            </div>
+                            <div class="pitch-icon"><i class="ion-ios-folder-outline"></i></div>
                             <div class="pitch-content">
                                 <h1><?= $tour_info_block['title_six'] ?></h1>
                                 <p> <?= $tour_info_block['description_six'] ?> </p>
@@ -128,8 +115,6 @@ $this->title = 'Tours | Austria';
                 </div>
 
             </div>
-            <a  href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
-                style="margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
             <div>
                 <h6 style="color: white; font-weight: bold"><?= $tour_info_block['text_footer'] ?></h6>
                 <br>
@@ -149,7 +134,7 @@ $this->title = 'Tours | Austria';
         <!-- блок Про Университеты  -->
 
 
-        <div style="padding: 100px 0 50px 0" class="app-features text-center" id="about_universiti">
+        <div class="app-features text-center" id="about_universiti">
             <div class="container">
                 <h1 class="wow fadeInDown"
                     data-wow-delay="0.1s"><?= $tour_about_university_block['title_big_head'] ?></h1>
@@ -161,15 +146,13 @@ $this->title = 'Tours | Austria';
 
                             <div class="col-md-5 wow fadeInDown" data-wow-delay="0.2s">
                                 <div class="feature-single">
-                                    <img class="img-responsive" src="/tours/images/<?= $tour_about_university_img_block[1]['image'];?>" alt="App"
+                                    <img class="img-responsive" src="/tours/images/<?= $tour_about_university_img_block[0]['image'];?>" alt="App"
                                          style="margin-bottom: 30px"/>
                                 </div>
                             </div>
                             <div class="col-md-7 wow fadeInDown" data-wow-delay="0.2s">
                                 <div class="feature-single">
-                                    <div style="background-color: transparent" class="pitch-icon">
-                                        <img style="width: 70px; height: 70px;" class="img-responsive" alt="picture" src="/tours/icons/univer.png"></img>
-                                    </div>
+                                    <div class="icon"><i class="ion-ios-list-outline"></i></div>
                                     <h1 style="font-weight: 800"> <?= $tour_about_university_block['title_first'] ?></h1>
                 <p style="color: #4a4a4a">
                     <?= $tour_about_university_block['description_first'] ?>
@@ -186,9 +169,7 @@ $this->title = 'Tours | Austria';
     <div class="row">
         <div class="col-md-7 wow fadeInDown" data-wow-delay="0.2s">
             <div class="feature-single">
-                <div style="background-color: transparent" class="pitch-icon">
-                    <img src="/tours/icons/search.png" class="img-responsive" alt="picture">
-                </div>
+                <div class="icon"><i class="ion-ios-americanfootball-outline"></i></div>
                 <a target="_blank"
                    href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskiy-technicheskiy-universitet']) ?>">
                     <h1 style="font-weight: 800"><?= $tour_about_university_block['title_second'] ?></h1></a>
@@ -202,7 +183,7 @@ $this->title = 'Tours | Austria';
         </div>
         <div class="col-md-5 wow fadeInDown" data-wow-delay="0.2s">
             <div class="feature-single">
-                <img class="img-responsive" src="/tours/images/<?= $tour_about_university_img_block[0]['image'];?>" alt="App"
+                <img class="img-responsive" src="/tours/images/<?= $tour_about_university_img_block[1]['image'];?>" alt="App"
                      style="margin-bottom: 15px"/>
             </div>
         </div>
@@ -217,9 +198,7 @@ $this->title = 'Tours | Austria';
         </div>
         <div class="col-md-7 wow fadeInDown" data-wow-delay="0.2s">
             <div class="feature-single">
-                <div style="background-color: transparent" class="pitch-icon">
-                    <img src="/tours/icons/rich.png" class="img-responsive" alt="picture">
-                </div>
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                 <a target="_blank"
                    href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskii-universitet-ekonomiki-i-biznesa']) ?>">
                     <h1 style="font-weight: 800"><?= $tour_about_university_block['title_third'] ?></h1></a>
@@ -235,9 +214,9 @@ $this->title = 'Tours | Austria';
     </div>
 </div>
 </div>
-<div style="margin-right: 0" class="row">
+<div class="row">
     <div class="col-md-12 wow fadeInDown" data-wow-delay="0.2s">
-        <div style="margin-bottom: 20px;" class="feature-single">
+        <div class="feature-single">
             <div class="icon"><i class="ion-ios-heart-outline"></i></div>
             <h1 style="font-weight: 800; font-size: xx-large"
                 id="other_universities"><?= $tour_about_university_block['title_big_footer'] ?></h1>
@@ -255,7 +234,7 @@ $this->title = 'Tours | Austria';
                             <li data-target="#carousel" data-slide-to="3"></li>
                             <li data-target="#carousel" data-slide-to="4"></li>
                         </ol>
-                        <div style="max-width: 1120px;" class="carousel-inner">
+                        <div class="carousel-inner">
                             <div class="item active">
                                 <a target="_blank"
                                    href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskij-agrarnyij-universitet']) ?>"><img
@@ -320,16 +299,16 @@ $this->title = 'Tours | Austria';
                     </div>
 
                 </div>
-            </div>
-            <br>
-            <p style="color: #4a4a4a; font-size: 15px;">
+            </div
+            </br>
+            <p style="color: #4a4a4a">
                 <?= $tour_about_university_block['text_footer'] ?>
             </p>
         </div>
 
-        <a  href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
+        <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
 
-            style="visibility: visible; animation-name: fadeInUp;"><?= $tour_about_university_block['btn_message_text'] ?></a>
+           style="visibility: visible; animation-name: fadeInUp;"><?= $tour_about_university_block['btn_message_text'] ?></a>
     </div>
 
 </div>
@@ -348,7 +327,7 @@ $this->title = 'Tours | Austria';
 <!-- конец блока Про Университеты  -->
 <!-- блок Наши Услуги -->
 <div class="split-features" id="our_services">
-    <div style="margin-top: 23px;" class="col-md-5 col-md-offset-1 nopadding">
+    <div class="col-md-5 col-md-offset-1 nopadding">
         <div class="split-image"><img class="img-responsive wow fadeIn" src="/tours/images/<?=$tour_our_services_img_block->image?>"
                                       alt="Image"/></div>
     </div>
@@ -378,11 +357,6 @@ $this->title = 'Tours | Austria';
 
     </div>
 
-    <div style="padding-top: 30px; width: 100%; display: flex; align-items: center; justify-content: center;">
-        <a  href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
-            style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
-    </div>
-
     <div style="text-align: center;">
         <div class="btn-group">
             <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
@@ -396,7 +370,7 @@ $this->title = 'Tours | Austria';
 </div>
 <!-- конец блока Наши Услуги -->
 <!-- блок О нас -->
-<div style="padding: 50px 0 0 0;" class="split-features2" id="about_us">
+<div class="split-features2" id="about_us">
     <div class="col-md-6 nopadding">
         <div class="split-content second">
             <h1 class="wow fadeInUp"><?= $tour_about_us_block['title_big_head'] ?></h1>
@@ -474,11 +448,6 @@ $this->title = 'Tours | Austria';
             <?= $tour_about_us_block['text_footer'] ?>
         </h6>
         <br>
-        <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
-            <a  href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
-                style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
-        </div>
-
         <div class="btn-group">
             <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
                                                              href="tel:<?= $tour_about_us_block['btn_first_text'] ?>"><?= $tour_about_us_block['btn_first_text'] ?></a>
@@ -490,8 +459,101 @@ $this->title = 'Tours | Austria';
     </div>
 </div>
 <!-- конец блока О нас -->
+<!-- блок Часто задаваемые вопросы -->
+<div class="pitch text-center" id="questions">
+    <div class="container">
+        <div class="pitch-intro">
+            <h1 class="wow fadeInDown" data-wow-delay="0.2s"><?= $tour_questions_block['title_big_head'] ?></h1>
+            <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p> -->
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+                    <div class="pitch-icon"><i class="ion-ios-checkmark-outline"></i></div>
+                    <div class="pitch-content">
+                        <h1><?= $tour_questions_block['title_first'] ?></h1>
+                        <p>
+                            <?= $tour_questions_block['description_first'] ?>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+                    <div class="pitch-icon"><i class="ion-ios-mic-outline"></i></div>
+                    <div class="pitch-content">
+                        <h1><?= $tour_questions_block['title_second'] ?></h1>
+                        <p>
+                            <?= $tour_questions_block['description_second'] ?>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+                    <div class="pitch-icon"><i class="ion-ios-folder-outline"></i></div>
+                    <div class="pitch-content">
+                        <h1><?= $tour_questions_block['title_third'] ?></h1>
+                        <p>
+                            <?= $tour_questions_block['description_third'] ?>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+                    <div class="pitch-icon"><i class="ion-ios-folder-outline"></i></div>
+                    <div class="pitch-content">
+                        <h1><?= $tour_questions_block['title_four'] ?></h1>
+                        <p>
+                            <?= $tour_questions_block['description_four'] ?>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+                    <div class="pitch-icon"><i class="ion-ios-folder-outline"></i></div>
+                    <div class="pitch-content">
+                        <h1><?= $tour_questions_block['title_five'] ?></h1>
+                        <p>
+                            <?= $tour_questions_block['description_five'] ?>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+                    <div class="pitch-icon"><i class="ion-ios-folder-outline"></i></div>
+                    <div class="pitch-content">
+                        <h1><?= $tour_questions_block['title_six'] ?></h1>
+                        <p>
+                            <?= $tour_questions_block['description_six'] ?>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <h6 style="color: white; font-weight: bold"><?= $tour_questions_block['text_footer'] ?></h6>
+        <br>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
+                                                             href="tel:<?= $tour_questions_block['btn_first_text'] ?>"><?= $tour_questions_block['btn_first_text'] ?></a>
+            </button>
+            <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
+                                                          href="tel:<?= $tour_questions_block['btn_second_text'] ?>"><?= $tour_questions_block['btn_second_text'] ?></a>
+            </button>
+        </div>
+    </div>
+</div>
+<!-- конец блока Часто задаваемые вопросы -->
+<!-- блок Есть вопросы -->
+<div class="feature-sub cta-sub3" style="background-image:linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url(/tours/images/<?=$tour_have_questions_img_block->image?>)">
+    <div class="container">
+        <div class="sub-inner" style="margin-left: 110px">
+            <h1 class="wow fadeInUp"><?= $tour_have_questions_block['title_big_head'] ?></h1>
+            <a href="https://m.me/studentway.ukraina?ref=w3726749"
+               class="btn btn-action wow fadeInUp"><?= $tour_have_questions_block['btn_message_text'] ?></a></div>
+    </div>
+</div>
+<!-- конец блока Есть вопросы -->
 <!-- блок Отзывы -->
-<div style="padding: 150px 0 0 0" class="review-section" id="review">
+<div class="review-section" id="review">
     <div class="container">
         <div class="col-md-10 col-md-offset-1">
             <div class="reviews owl-carousel owl-theme">
@@ -533,111 +595,22 @@ $this->title = 'Tours | Austria';
             </div>
         </div>
     </div>
-</div>
-<!-- конец блока Отзывы -->
-<!-- блок Часто задаваемые вопросы -->
-<div style="padding: 40px 0 40px 0" class="pitch text-center" id="questions">
-    <div class="container">
-        <div style="padding: 0 0 10px 0;" class="pitch-intro">
-            <h1 class="wow fadeInDown" data-wow-delay="0.2s"><?= $tour_questions_block['title_big_head'] ?></h1>
-            <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p> -->
-        </div>
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                    <div style="background-color: transparent" class="pitch-icon">
-                        <img class="img-responsive" src="/tours/icons/file.png" alt="picture">
-                    </div>
-                    <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_first'] ?></h1>
-                        <p>
-                            <?= $tour_questions_block['description_first'] ?>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                    <div style="background-color: transparent" class="pitch-icon">
-                       <img class="img-responsive" src="/tours/icons/hourglass.png" alt="picture">
-                    </div>
-                    <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_second'] ?></h1>
-                        <p>
-                            <?= $tour_questions_block['description_second'] ?>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                    <div style="background-color: transparent" class="pitch-icon">
-                        <img class="img-responsive" src="/tours/icons/germany.png" alt="picture">
-                    </div>
-                    <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_third'] ?></h1>
-                        <p>
-                            <?= $tour_questions_block['description_third'] ?>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                    <div style="background-color: transparent" class="pitch-icon">
-                        <img class="img-responsive" src="/tours/icons/coins.png" alt="picture">
-                    </div>
-                    <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_four'] ?></h1>
-                        <p>
-                            <?= $tour_questions_block['description_four'] ?>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                    <div style="background-color: transparent" class="pitch-icon">
-                        <img class="img-responsive" src="/tours/icons/diploma.png" alt="picture">
-                    </div>
-                    <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_five'] ?></h1>
-                        <p>
-                            <?= $tour_questions_block['description_five'] ?>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                    <div style="background-color: transparent" class="pitch-icon">
-                        <img class="img-responsive" src="/tours/icons/report.png" alt="picture">
-                    </div>
-                    <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_six'] ?></h1>
-                        <p>
-                            <?= $tour_questions_block['description_six'] ?>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
-        <a  href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
-            style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
-    </div>
-
     <div style="text-align: center;">
-        <h6 style="color: white; font-weight: bold"><?= $tour_questions_block['text_footer'] ?></h6>
+        <h6 style="color: white; font-weight: bold"><?=$tour_review_block['text_footer']?></h6>
         <br>
         <div class="btn-group">
             <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
-                                                             href="tel:<?= $tour_questions_block['btn_first_text'] ?>"><?= $tour_questions_block['btn_first_text'] ?></a>
+                                                             href="tel:<?=$tour_review_block['btn_first_text']?>">
+                    <?=$tour_review_block['btn_first_text']?></a>
             </button>
             <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
-                                                          href="tel:<?= $tour_questions_block['btn_second_text'] ?>"><?= $tour_questions_block['btn_second_text'] ?></a>
+                                                          href="tel:<?=$tour_review_block['btn_second_text']?>">
+                    <?=$tour_review_block['btn_second_text']?></a>
             </button>
         </div>
     </div>
 </div>
-<!-- конец блока Часто задаваемые вопросы -->
-
-
+<!-- конец блока Отзывы -->
 <!-- блок Цены -->
 <div id="pricing" class="pricing-section text-center">
     <div class="container">
@@ -648,60 +621,37 @@ $this->title = 'Tours | Austria';
                 <!--                            tempore consequuntur officia ducimus unde doloribus quod unt repell </p>-->
             </div>
             <div class="col-sm-6">
-                <div style="display: flex; border-radius: 5px;
-                background-color: #fff;
-                align-items: flex-start;
-                flex-direction: column; padding: 30px;" class="wow fadeInUp" data-wow-delay="0.4s">
-                    <h2 style="margin: 0 0 50px 0;
-                            padding: 0;
-                            font-size: 13px;
-                            letter-spacing: 2px;
-                            text-transform: uppercase;
-                            font-weight: 700;
-                            color: #888f94;">
-                        <?=$tour_prices_block['title_first']?>
-                    </h2>
-                    <span style="color: #6d6d6d; font-size: 48px; font-family: 'Roboto', sans-serif; padding-bottom: 50px;"><?=$tour_prices_block['price_first']?></span>
-                    <ul style="padding-bottom: 50px;">
-                        <li style="display: flex;">
-                            <img style="height: 15px; width: 15px;" src="/tours/icons/check-mark.png">
-                            <p style="color: #333;"><?=$tour_prices_block['little_text_first']?></p>
-                        </li>
-                    </ul>
-                    <div style="display: flex; justify-content: flex-end; width: 100%;">
-                        <button style="padding: 10px 20px; font-size: 18px;
-                            background: #000080; font-family: 'Roboto', sans-serif;
-                            color: #fff;" class="btn btn-select-plan btn-sm"><?=$tour_prices_block['btn_rate_first']?></button>
+                <div class="table-left wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="pricing-details">
+                        <h2><?=$tour_prices_block['title_first']?></h2>
+                        <span><?=$tour_prices_block['price_first']?></span>
+                        <!--                                <ul>-->
+                        <!--                                    <li>Consectetur adipiscing</li>-->
+                        <!--                                    <li>Nunc luctus nulla et tellus</li>-->
+                        <!--                                    <li>Suspendisse quis metus</li>-->
+                        <!--                                    <li>Vestibul varius fermentum erat</li>-->
+                        <!--                                </ul>-->
+                        <br>
+                        <button class="btn btn-primary btn-action btn-fill"><?=$tour_prices_block['btn_rate_first']?></button>
                     </div>
-
+                    <div><p style="font-size: x-small; color: white"><?=$tour_prices_block['little_text_first']?></p></div>
                 </div>
             </div>
             <div class="col-sm-6">
-                <div style="display: flex; border-radius: 5px;
-                background-color: #fff;
-                align-items: flex-start;
-                flex-direction: column; padding: 30px;" class="wow fadeInUp" data-wow-delay="0.4s">
-                    <h2 style="margin: 0 0 50px 0;
-                            padding: 0;
-                            font-size: 13px;
-                            letter-spacing: 2px;
-                            text-transform: uppercase;
-                            font-weight: 700;
-                            color: #888f94;">
-                        <?=$tour_prices_block['title_second']?>
-                    </h2>
-                    <span style="color: #6d6d6d; font-size: 48px; font-family: 'Roboto', sans-serif; padding-bottom: 50px;"><?=$tour_prices_block['price_second']?></span>
-                    <ul style="padding-bottom: 50px;">
-                        <li style="display: flex;">
-                            <img style="height: 15px; width: 15px;" src="/tours/icons/check-mark.png">
-                            <p style="color: #333;"><?=$tour_prices_block['little_text_second']?></p>
-                        </li>
-                    </ul>
-                    <div style="display: flex; justify-content: flex-end; width: 100%;">
-                        <button style="padding: 10px 20px; font-size: 18px;
-                            background: #000080; font-family: 'Roboto', sans-serif;
-                            color: #fff;" class="btn btn-select-plan btn-sm"><?=$tour_prices_block['btn_rate_second']?></button>
+                <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="pricing-details">
+                        <h2><?=$tour_prices_block['title_second']?></h2>
+                        <span><?=$tour_prices_block['price_second']?></span>
+                        <!--                                <ul>-->
+                        <!--                                    <li>Consectetur adipiscing</li>-->
+                        <!--                                    <li>Nunc luctus nulla et tellus</li>-->
+                        <!--                                    <li>Suspendisse quis metus</li>-->
+                        <!--                                    <li>Vestibul varius fermentum erat</li>-->
+                        <!--                                </ul>-->
+                        <br>
+                        <button class="btn btn-primary btn-action btn-fill"><?=$tour_prices_block['btn_rate_second']?></button>
                     </div>
+                    <div><p style="font-size: x-small; color: white"><?=$tour_prices_block['little_text_second']?></p></div>
                 </div>
             </div>
         </div>
@@ -723,16 +673,8 @@ $this->title = 'Tours | Austria';
 <!-- блок Контакты -->
 <div class="cta-sub no-color" style="background-image:linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url(/tours/images/<?=$tour_contact_img_block->image?>)">
     <div class="container">
-        <div class="cta-inner">
-            <h1 class="wow fadeInUp"><?= $tour_have_questions_block['title_big_head'] ?></h1>
-            <br>
-            <a href="https://m.me/studentway.ukraina?ref=w3726749"
-               class="btn btn-action wow fadeInUp"><?= $tour_have_questions_block['btn_message_text'] ?></a>
-            <br>
-            <br>
-            <br>
-            <br>
 
+        <div class="cta-inner">
             <h1 id="contacts" class="wow fadeInUp" data-wow-delay="0s">
                 <?=$tour_contact_block['title_big_head']?>
             </h1>
@@ -748,32 +690,32 @@ $this->title = 'Tours | Austria';
             <br>
             <br>
             <div class="row" style="margin-left: 5px">
-                <div class="col-xs-6 col-md-2" style="width: 230px;">
-                    <a href="viber://chat?number=+380676367247" class="thumbnail" style="background-color: transparent;">
+                <div class="col-xs-6 col-md-2 contact-button" style="width: 230px">
+                    <a href="viber://chat?number=+380676367247" class="thumbnail ">
                         <img src="/tours/images/viber-logo.png" class="img-circle" alt="...">
                     </a>
                     <p><?=$tour_contact_block['description_first']?></p>
                 </div>
-                <div class="col-xs-6 col-md-2" style="width: 230px">
-                    <a href="https://t.me/StudentWay_Ukraina" class="thumbnail" style="background-color: transparent;">
+                <div class="col-xs-6 col-md-2 contact-button" style="width: 230px">
+                    <a href="https://t.me/StudentWay_Ukraina" class="thumbnail">
                         <img src="/tours/images/telegram_PNG27.png" alt="...">
                     </a>
                     <p><?=$tour_contact_block['description_second']?></p>
                 </div>
-                <div class="col-xs-6 col-md-2" style="width: 230px">
-                    <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail" style="background-color: transparent;">
+                <div class="col-xs-6 col-md-2 contact-button" style="width: 230px">
+                    <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail">
                         <img src="/tours/images/facebook-messenger-chat-logo.png" alt="...">
                     </a>
                     <p><?=$tour_contact_block['description_third']?></p>
                 </div>
-                <div class="col-xs-6 col-md-2" style="width: 230px">
-                    <a href="whatsapp://send?phone=+380968141132" class="thumbnail" style="background-color: transparent;">
+                <div class="col-xs-6 col-md-2 contact-button" style="width: 230px">
+                    <a href="whatsapp://send?phone=+380968141132" class="thumbnail">
                         <img src="/tours/images/whatsapp.png" alt="...">
                     </a>
                     <p><?=$tour_contact_block['description_four']?></p>
                 </div>
-                <div class="col-xs-6 col-md-2" style="width: 230px">
-                    <a href="https://www.instagram.com/studentway_ukraina/" class="thumbnail" style="background-color: transparent;">
+                <div class="col-xs-6 col-md-2 contact-button" style="width: 230px">
+                    <a href="https://www.instagram.com/studentway_ukraina/" class="thumbnail">
                         <img src="/tours/images/instagram-icon.png" alt="...">
                     </a>
                     <p><?=$tour_contact_block['description_five']?></p>
