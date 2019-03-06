@@ -12,12 +12,6 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-      col-md-offset-1">
-                <h2 class="header-title"></h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul>
@@ -38,7 +32,7 @@
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vue1.jpg" alt="img">
+                <img class="office" src="/tours/images/vue1(4).jpg" alt="img">
             </div>
         </div>
     </div>
@@ -48,12 +42,6 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">История Университета</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
@@ -86,56 +74,55 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Экономического Университета (1):</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold">
-                        Престиж:
+                <ul style="background-color: rgb(216, 216, 216); padding: 25px 20px 0px 20px;list-style-type:circle;text-align:justify;">
+                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
+                        Престижный вариант:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 25px 10px; margin-top: 25px;">
+                    <li style="margin-bottom:0px;">
                         Это не только не только лучший университет в сфере экономики и бизнеса
                         в Австрии, но и один из самых престижных университетов в мире.
+                    </li>
                         <br>
-                        <br>
+                    <li style="margin-bottom:0px;">
                         Рейтинги Financial times 2017:
+                    </li>
                         <br>
+                    <li style="margin-bottom:0px;list-style-type:none;">
+                        <ul style="margin-left:10px;">
+                            <li>
+                            WU занимает 44 место в Европе (или 8 место в немецкоязычном
+                            пространстве);
+                            </li>
+                        </ul>
+                    </li>
                         <br>
-                        WU занимает 44 место в Европе (или 8 место в немецкоязычном
-                        пространстве)
-                        <br>
-                        <br>
+                    <li style="margin-bottom:0px;">
                         Магистр международного менеджмента (Master’s in International
                         Management) в WU занимает 13 место в списке лучших программ
                         менеджмента в мире (или 2 место в немецкоязычном пространстве)
+                    </li>    
                         <br>
-                        <br>
+                    <li style="margin-bottom:0px;">
                         Рейтинги QS Rankings 2017-2018:
-                        <br>
-                        <br>
-                        WU входит в список 100 лучших университетов мира по направлению
-                        основных специальностей (Business & Management)
-                        <br>
-                        <br>
-                        Специальности Магистр менеджмента и Магистр финансов занимают 17
-                        место и 22 место соответственно в списке лучших программ в мире
-                        <br>
-                        <br>
-                        Немаловажно, что Венский экономический университет обладает сразу
-                        тремя международными аккредитациями - «EQUIS», «AACSB» и «AMBA».
-                        Стоить отметить, что менее 1% учебных учреждений в мире имеют сразу 3
-                        аккредитации.
                     </li>
+                        <br>
+                    <li style="margin-bottom:0px;list-style-type:none;">
+                    <ul style="margin-left:10px;">
+                            <li>
+                            WU входит в список 100 лучших университетов мира по направлению
+                            основных специальностей (Business & Management);
+                            </li>
+                        </ul>
+                       
+                    </li>
+                        <br>
                 </ul>
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vue3.jpg" alt="img">
+                <img class="office" src="/tours/images/vue3(2).jpg" alt="img">
             </div>
         </div>
     </div>
@@ -145,54 +132,36 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (2):</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vue4.jpg" alt="img">
+                <img class="office" src="/tours/images/vue4(4).jpg" alt="img">
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold">
-                        Трудоустройство:
+                <ul style="background-color: rgb(216, 216, 216);padding: 25px 20px 0px 20px;list-style-type:circle;text-align:justify;">
+                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;margin-bottom:0px; ">
+                        Высокое трудоустройство:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 25px 10px; margin-top: 5px;">
+                    <li style="background-color: rgb(216, 216, 216); padding: 25px 10px;margin-bottom:0px; ">
                         Благодаря мировым рейтингам высокому уровню образования, диплом
                         WU открывает широкие возможности трудоустройства не только в Австрии,
                         но и по всему миру. Особую роль в трудоустройстве студентов играет
                         центр карьеры WU ZBP Career center, который поддерживает своих
                         студентов в поиске работы:
                         <br>
-                        <br>
-                        <p style="margin-left: 10px">
-                            * Мероприятия как Career calling (крупнейшие конференция для поиска
+                    </li>
+                    <li style="margin-left: 10px;list-style-type:disc;margin-bottom:0px;">
+                            Мероприятия как Career calling (крупнейшие конференция для поиска
                             работы в Австрии - https://www.careercalling.at/de/home/); Meet your
                             job (интервью с фирмами), консультации по улучшению резюме и
-                            многое другое
-                        </p>
+                            многое другое;
+                    </li>
                         <br>
-                        <p style="margin-left: 10px">
-                            * Эксклюзивная онлайн платформа с более 2 500 вакансиями, которые
+                    <li style="margin-left:10px; list-style-type:disc;padding-bottom:15px;">
+                            Эксклюзивная онлайн платформа с более 2 500 вакансиями, которые
                             ориентированы на студентов и выпускников WU. Это позволяет найти
                             работу или стажировку в разных по размеру фирмах и даже в разных
-                            странах
-                        </p>
-                        <br>
-                        <br>
-                        Студентам и выпускникам легче находить работу и это подтверждает
-                        статика – в среднем, выпускники высылают резюме только в 5 фирм перед
-                        тем как найти работу.
-                        <br>
-                        <br>
-                        Нажмите здесь, чтобы посмотреть чем занимаются студенты после
-                        получения образования -
-                        https://www.linkedin.com/school/wu-wirtschaftsuniversit%C3%A4t-wien-/alu
-                        mni/
+                            странах;
                     </li>
                 </ul>
             </div>
@@ -204,20 +173,14 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (3):</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold">
+                <ul style="background-color: rgb(216, 216, 216);padding: 25px 20px 0px 20px;list-style-type:circle;text-align:justify;">
+                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         Большой выбор возможностей:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 25px 10px; margin-top: 5px;">
-                        Поступая на бакалавр, вы изучаете предметы на базовом с разных
+                    <li style="background-color: rgb(216, 216, 216); margin-top: 5px;">
+                        Поступая на бакалавра, вы изучаете предметы на базовом уровне с разных
                         областей экономики и бизнеса. Только потом, вам предоставляется
                         возможность выбора предметов, на которых вы будете в дальнейшем
                         специализироваться. Этих специальностей в университете более 20, так что
@@ -225,25 +188,21 @@
                         предлагает более 15 разных специальностей магистратур, которые помогут
                         углубить ранее полученные знания и стать востребованный фирмами
                         выпускником. Это идеальный вариант для тех, кто еще точно не
-                        определился на какой специализации сконцентрироваться
+                        определился на какой специализации сконцентрироваться.
                         <br>
-                        <br>
+                    </li>
+                    <li style="padding-bottom:15px;">
                         Более того, в рамках своей программы обучения, студенты могут поехать
-                        по обмену в один из 240 партнерских университетов WU по всему миру
-                        (https://www.wu.ac.at/en/students/study-abroad/partner-universities/). В
-                        списке вы можете найти такие учебные заведения как Университет
-                        Боккони в Милане, Копенгагенская высшая школа экономики, HEC в
-                        Париже и множество других ТОП университетов и школ экономики и
-                        бизнеса по всему миру. Это открывает безграничные возможности
-                        путешествий и получения знаний в других странах. После семестра по
-                        обмену вы получите незабываемый опыт и станете более
-                        привлекательными для работодателей.
+                        по обмену в один из 240 партнерских университетов WU по всему миру. Это 
+                        открывает безграничные возможности путешествий и получения знаний в 
+                        других странах. После семестра по обмену вы получите незабываемый опыт 
+                        и станете более привлекательными для работодателей.
                     </li>
                 </ul>
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vue5.jpg" alt="img">
+                <img class="office" src="/tours/images/vue5(1).jpg" alt="img">
             </div>
         </div>
     </div>
@@ -253,44 +212,38 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (4):</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vue6.jpg" alt="img">
+                <img class="office" src="/tours/images/vue6(4).jpg" alt="img">
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold">
+                <ul style="background-color: rgb(216, 216, 216);padding: 25px 10px 0px 20px;list-style-type:circle;text-align:justify;">
+                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;text-align:auto;">
                         Новый кампус:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 25px 10px; margin-top: 5px;">
-                        Поступая на бакалавр, вы изучаете предметы на базовом с разных
-                        областей экономики и бизнеса. Только потом, вам предоставляется
-                        возможность выбора предметов, на которых вы будете в дальнейшем
-                        специализироваться. Этих специальностей в университете более 20, так что
-                        каждому студенту найдется что-то по вкусу. После бакалавра, университет
-                        предлагает более 15 разных специальностей магистратур, которые помогут
-                        углубить ранее полученные знания и стать востребованный фирмами
-                        выпускником. Это идеальный вариант для тех, кто еще точно не
-                        определился на какой специализации сконцентрироваться
-                        <br>
-                        <br>
-                        Более того, в рамках своей программы обучения, студенты могут поехать
-                        по обмену в один из 240 партнерских университетов WU по всему миру
-                        (https://www.wu.ac.at/en/students/study-abroad/partner-universities/). В
-                        списке вы можете найти такие учебные заведения как Университет
-                        Боккони в Милане, Копенгагенская высшая школа экономики, HEC в
-                        Париже и множество других ТОП университетов и школ экономики и
-                        бизнеса по всему миру. Это открывает безграничные возможности
-                        путешествий и получения знаний в других странах. После семестра по
-                        обмену вы получите незабываемый опыт и станете более
-                        привлекательными для работодателей.
+                    <li style="list-style-type:none;margin-bottom:0px;">
+                    C 2013 года, Венский экономический университет переехал в новый кампус в
+                    Вене, который имеет удобное соединение почти с любой точкой Вены.
+                    Основные преимущества нового кампуса:
+                    </li>
+                    <br>
+                    <li style="background-color: rgb(216, 216, 216);margin-bottom:0px; margin-left:15px;">
+                    Все здания расположены в одном кампусе – не нужно ездить по всей Вене
+                    для посещения разных занятий;
+                    </li>
+                    <br>
+                    <li style="background-color: rgb(216, 216, 216);margin-bottom:0px;margin-left:15px;">
+                    Одна из самых больших и современных библиотек экономики и бизнеса в
+                    Австрии, в которой приятно готовиться на занятия и экзамены. Более того,
+                    некоторые части библиотеки открыты 24 часа в сутки – все для того, чтобы
+                    у любого студента была возможность учиться;
+                    </li>
+                    <br>
+                    <li style="background-color: rgb(216, 216, 216);padding-bottom:15px;margin-left:15px; ">
+                    Кампус оборудован всевозможными устройствами, которые помогают
+                    студентам в учебном процессе (компьютеры, интеллектуальные доски,
+                    проекторы и тд.);
                     </li>
                 </ul>
             </div>
@@ -302,27 +255,16 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (5):</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-6">
                 <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold">
+                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold;margin-bottom:0px;">
                         Стоимость образования:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 30px 10px; margin-top: 5px;">
+                    <li style="background-color: rgb(216, 216, 216); padding: 30px 20px;text-align:justify; ">
                         Как правило, обучение в топовых бизнес университетах мира – удовольствие не из
                         дешевых. Средняя стоимость образования в год начинается с 9 тысяч евро и достигает
-                        отметки в 50 – 60 тысяч евро в топовых университетах. Для обучения в таких странах как
-                        Великобритания или Америка, студенты нередко берут студенческие кредиты и
-                        выплачивают их годами после получения образования, что часто негативно сказывается
-                        на их психическое состояние и принуждает идти на нелюбимую работу для погашения
-                        кредита.
-
+                        отметки в 50 – 60 тысяч евро в топовых университетах. 
                         В этом смысле, Венский экономический университет является уникальным. Несмотря на
                         очень высокий уровень образования и мировое признание, обучение в среднем стоит
                         только 750 евро в семестр. Это значительно ниже той суммы, которую пришлось бы
@@ -331,16 +273,14 @@
                         магистром менеджмента в Imperial College Business School в Лондоне (14 место в мире),
                         то образование в Лондоне обошлось бы вам £14,150 в семестр, когда как в WU – только
                         750 евро. Поэтому, в рейтинге Financial Times, WU занимает 18 место в мире по
-                        соотношению стоимости образования и средней зарплаты после получения образования
-                        (Стэнфордская бизнес школа занимает 70 место в этом рейтинге)
-
+                        соотношению стоимости образования и средней зарплаты после получения образования.
                         Если Вы ищите достойное образование, которое обеспечит трудоустройство в будущем,
                         но не хотите влезть в долги, WU – один их лучших вариантов для вас.
                     </li>
                 </ul>
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-md-5">
-                <img class="office" src="/tours/images/vue7.jpg" alt="img">
+                <img class="office" src="/tours/images/vue7(4).jpg" alt="img">
             </div>
         </div>
     </div>
@@ -366,7 +306,7 @@
                         Какое-то лого
                     </div>
 
-                    <div style="margin-top: 20px; height: 250px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
+                    <div style="margin-top: 20px; height: 300px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
                         Бакалавр:
                         <br>
                         <br>
@@ -410,7 +350,7 @@
                         Какое-то лого
                     </div>
 
-                    <div style="margin-top: 20px; height: 250px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
+                    <div style="margin-top: 20px; height: 300px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
                         Магистратура (на английском языке):
                         <br>
                         <br>
@@ -461,6 +401,17 @@
                                     Экономика
                                 </p>
                             </li>
+                            <br>
+                            <li style="display: flex; ">
+                                <p style="padding-left: 5px; width: 60px">*</p>
+                                <p>
+                                    Международный менеджмент 
+                                    /CEMS (13 место в мире по рейтингу 
+                                    FT в 2017 году) 
+                                </p>
+                            </li>
+                            <br>
+                            и др.
                         </ul>
                     </div>
                 </div>
@@ -469,7 +420,7 @@
                         Какое-то лого
                     </div>
 
-                    <div style="margin-top: 20px; height: 250px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
+                    <div style="margin-top: 20px; height: 300px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
                         Магистратура (на немецком языке):
                         <br>
                         <br>
@@ -524,6 +475,8 @@
                                     Экономическое право
                                 </p>
                             </li>
+                            <br>
+                            и др.
                         </ul>
                     </div>
                 </div>
