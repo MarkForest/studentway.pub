@@ -57,7 +57,7 @@ $this->title = 'Admin|Edit'
     <div class="gradient"></div>
     <div class="container">
         <div class="row">
-            <div class="row hidden">
+            <div class="row">
                 <div class="col-md-6 home-first-text-block pull-left">
                     <p>
                     <ul class="nav nav-tabs">

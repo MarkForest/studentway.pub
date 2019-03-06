@@ -15,8 +15,8 @@ $this->title='Polish|StudentWay';
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#" data-nav-section="home"><span><?=$loc=='uk'?'Головна':'Главная'?></span></a></li>
-                    <li><a href="#" data-nav-section="pricing"><span><?=$loc=='uk'?'Ціни':'Цены'?></span></a></li>
-                    <li><a href="#" data-nav-section="team"><span><?=$loc=='uk'?'Команда':'Команда'?></span></a></li>
+                    <li><a href="#" data-nav-section="pricing"><span><?=$loc == 'uk'?'Ціни':'Цены'?></span></a></li>
+                    <li><a href="#" data-nav-section="team"><span>Команда</span></a></li>
                     <li><a href="#" data-nav-section="faq"><span><?=$loc=='uk'?'Питання':'Вопросы'?></span></a></li>
                     <li><a href="#" data-nav-section="contact"><span><?=$loc=='uk'?'Контакти':'Контакты'?></span></a></li>
                     <li class="dropdown drop">
@@ -209,7 +209,7 @@ $this->title='Polish|StudentWay';
                 </ul>
                 <div class="mobi__explore ">
                     <div class="mobi__explore_header text-center">
-                        <h2><?=$loc=='ru'?'Расписание групп':'Розклад груп'?></h2>
+                        <h2><?=$loc=='ru'?'Расписание':'Розклад'?></h2>
                     </div>
                 </div>
                 <ul class="mobi__explore_levels">
@@ -756,7 +756,7 @@ $this->title='Polish|StudentWay';
 <!-- end Layout for mobile device block conditions-->
 <!-- Layout for mobile device block price-->
 <div class="mobi__price_header text-center hidden-md hidden-lg">
-  <h2><?=$loc=='ru'?'Стоимость курса':'Вартість курсу'?></h2>
+  <h2><?=$loc=='ru'?'StudentWay - это ':'StudentWay - цe'?></h2>
 </div>
 <section class="mobi__price hidden-md hidden-lg">
     <div class="container">
