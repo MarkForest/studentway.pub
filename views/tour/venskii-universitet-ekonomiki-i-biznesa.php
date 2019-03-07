@@ -45,14 +45,14 @@
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vue2.jpg" alt="img">
+                <img class="office" src="/tours/images/vue2(1).jpg" alt="img">
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 20px; padding: 20px;">
+                <ul style="text-align:justify;">
+                    <li style="background-color: blue;color:white;font-size: 20px; padding: 20px;">
                         История Университета
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 25px 10px; margin-top: 25px;">
+                    <li style="line-height:20px; padding: 25px 10px; margin-top: 25px;">
                         Венский экономический университет создан в 1898 году с целью
                         подготовки будущих специалистов в сфере экономики и бизнеса. Со
                         временем, Венский Экономический Университет начал становиться
@@ -76,8 +76,8 @@
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul style="background-color: rgb(216, 216, 216); padding: 25px 20px 0px 20px;list-style-type:circle;text-align:justify;">
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
+                <ul style="padding: 25px 20px 0px 20px;list-style-type:disc;text-align:justify;line-height:20px;">
+                    <li style="color:white;background-color:blue;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         Престижный вариант:
                     </li>
                     <li style="margin-bottom:0px;">
@@ -138,11 +138,11 @@
                 <img class="office" src="/tours/images/vue4(4).jpg" alt="img">
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul style="background-color: rgb(216, 216, 216);padding: 25px 20px 0px 20px;list-style-type:circle;text-align:justify;">
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;margin-bottom:0px; ">
+                <ul style="padding: 25px 20px 0px 20px;list-style-type:circle;text-align:justify;line-height:20px;">
+                    <li style="background-color:blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;margin-bottom:0px; ">
                         Высокое трудоустройство:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 25px 10px;margin-bottom:0px; ">
+                    <li style="padding: 25px 10px;margin-bottom:0px; ">
                         Благодаря мировым рейтингам высокому уровню образования, диплом
                         WU открывает широкие возможности трудоустройства не только в Австрии,
                         но и по всему миру. Особую роль в трудоустройстве студентов играет
@@ -175,19 +175,16 @@
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul style="background-color: rgb(216, 216, 216);padding: 25px 20px 0px 20px;list-style-type:circle;text-align:justify;">
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
+                <ul style="padding: 25px 20px 0px 20px;line-height:20px;list-style-type:disc;text-align:justify;">
+                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         Большой выбор возможностей:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); margin-top: 5px;">
+                    <li style=" margin-top: 5px;">
                         Поступая на бакалавра, вы изучаете предметы на базовом уровне с разных
                         областей экономики и бизнеса. Только потом, вам предоставляется
                         возможность выбора предметов, на которых вы будете в дальнейшем
                         специализироваться. Этих специальностей в университете более 20, так что
-                        каждому студенту найдется что-то по вкусу. После бакалавра, университет
-                        предлагает более 15 разных специальностей магистратур, которые помогут
-                        углубить ранее полученные знания и стать востребованный фирмами
-                        выпускником. Это идеальный вариант для тех, кто еще точно не
+                        каждому студенту найдется что-то по вкусу. Это идеальный вариант для тех, кто еще точно не
                         определился на какой специализации сконцентрироваться.
                         <br>
                     </li>
@@ -218,8 +215,8 @@
                 <img class="office" src="/tours/images/vue6(4).jpg" alt="img">
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul style="background-color: rgb(216, 216, 216);padding: 25px 10px 0px 20px;list-style-type:circle;text-align:justify;">
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;text-align:auto;">
+                <ul style="padding: 25px 10px 0px 20px;list-style-type:disc;text-align:justify;line-height:20px;">
+                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;text-align:auto;">
                         Новый кампус:
                     </li>
                     <li style="list-style-type:none;margin-bottom:0px;">
@@ -228,19 +225,19 @@
                     Основные преимущества нового кампуса:
                     </li>
                     <br>
-                    <li style="background-color: rgb(216, 216, 216);margin-bottom:0px; margin-left:15px;">
+                    <li style="margin-bottom:0px; margin-left:15px;">
                     Все здания расположены в одном кампусе – не нужно ездить по всей Вене
                     для посещения разных занятий;
                     </li>
                     <br>
-                    <li style="background-color: rgb(216, 216, 216);margin-bottom:0px;margin-left:15px;">
+                    <li style="margin-bottom:0px;margin-left:15px;">
                     Одна из самых больших и современных библиотек экономики и бизнеса в
                     Австрии, в которой приятно готовиться на занятия и экзамены. Более того,
                     некоторые части библиотеки открыты 24 часа в сутки – все для того, чтобы
                     у любого студента была возможность учиться;
                     </li>
                     <br>
-                    <li style="background-color: rgb(216, 216, 216);padding-bottom:15px;margin-left:15px; ">
+                    <li style="padding-bottom:15px;margin-left:15px; ">
                     Кампус оборудован всевозможными устройствами, которые помогают
                     студентам в учебном процессе (компьютеры, интеллектуальные доски,
                     проекторы и тд.);
@@ -257,11 +254,11 @@
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-6">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold;margin-bottom:0px;">
+                <ul style="line-height:20px;">
+                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;margin-bottom:0px;">
                         Стоимость образования:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 30px 20px;text-align:justify; ">
+                    <li style="padding: 30px 20px;text-align:justify; ">
                         Как правило, обучение в топовых бизнес университетах мира – удовольствие не из
                         дешевых. Средняя стоимость образования в год начинается с 9 тысяч евро и достигает
                         отметки в 50 – 60 тысяч евро в топовых университетах. 
@@ -280,7 +277,7 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-md-5">
-                <img class="office" src="/tours/images/vue7(4).jpg" alt="img">
+                <img class="office" src="/tours/images/vue7(7).jpg" alt="img">
             </div>
         </div>
     </div>
