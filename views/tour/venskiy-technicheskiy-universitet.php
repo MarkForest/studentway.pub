@@ -38,7 +38,7 @@
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vtui1.jpg" alt="img">
+                <img class="office" src="/tours/images/vtui1(4).jpg" alt="img">
             </div>
         </div>
     </div>
@@ -48,23 +48,17 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">История Университета</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vtui2.jpg" alt="img">
+                <img class="office" src="/tours/images/vtui2(1).jpg" alt="img">
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 20px; padding: 20px;">
+                <ul style="line-height:20px;text-align:justify;">
+                    <li style="background-color: blue;color:white;font-size: 20px; padding: 20px;">
                         История Университета
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 20px 10px; margin-top: 25px;">
+                    <li style="padding: 20px 0px 0px 0px; margin-top: 25px;">
                         Венский Технический Университет был основан в начале 19 века в
                         Австрии с целью создания платформы для соперничества с Англией
                         за звание передовой индустриальной страны в Европе. По
@@ -86,56 +80,43 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (1):</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold">
-                        Высокий уровень образования:
+                <ul style="line-height:20px;text-align:justify;">
+                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;margin-bottom:10px;">
+                        Высокий уровень:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 20px 10px; margin-top: 25px;">
+                    <li style=" padding: 15px 0px; margin-bottom:0px;">
                         Венский технический университет является самым лучшим технический
                         университетом в Австрии, образование которого цениться во всем мире.
-                        Как подтверждение, специальности Венского Технического университета
-                        фигурируют в мировых рейтингах.
-                        <br>
-                        <br>
+                    </li>
+                    <li>
                         Рейтинги QS Rankings 2017-2018:
-                        <br>
-                        <br>
-                        * Специальности Компьютерных наук и Информационных систем
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        Специальности Компьютерных наук и Информационных систем
                         (Computer Science & Information Systems) в TU входят в список Топ
-                        51-100 по всему миру
-                        <br>
-                        <br>
+                        51-100 по всему миру;
+                    </li>
+                    <li>
                         Рейтинги The Subject Ranking 2017/18:
-                        <br>
-                        <br>
-                        * Специальность Компьютерных наук (Computer Science) в TU заняла 61
-                        место по всему миру
-                        <br>
-                        <br>
-                        * Рейтинги Shanghai Ranking Subject 2017:
-                        <br>
-                        <br>
-                        * Специальности Компьютерных наук и Инженерии (Computer Science &
-                        Engineering) в TU входят в список Топ 51-75 по всему миру
-                        <br>
-                        <br>
-                        Более того, множество других специальностей в TU стабильно входят в
-                        список Топ 200 по всему миру, что гарантирует хорошую подготовку
-                        каждого студента для дальнейшей профессиональной карьеры.
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        Специальность Компьютерных наук (Computer Science) в TU заняла 61
+                        место по всему миру;
+                    </li>
+                    <li>
+                        Рейтинги Shanghai Ranking Subject 2017:
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        Специальности Компьютерных наук и Инженерии (Computer Science &
+                        Engineering) в TU входят в список Топ 51-75 по всему мир;
                     </li>
                 </ul>
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vtui3.jpg" alt="img">
+                <img class="office" src="/tours/images/vtui3(3).jpg" alt="img">
             </div>
         </div>
     </div>
@@ -145,58 +126,38 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (2):</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vtui4.jpg" alt="img">
+                <img class="office" src="/tours/images/vtui4(2).jpg" alt="img">
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-11 col-md-6">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px; font-weight: bold">
-                        Трудоустройство:
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+                <ul style="line-height:20px;text-align:justify;">
+                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold">
+                    Исследовательские возможности:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); font-size: 13px; padding: 20px 10px; margin-top: 5px;">
-                        Венский технический университет видит себя прежде всего как научно-
-                        исследовательское учреждение. TU имеет различные исследовательские центры, как
+                    <li >Венский технический университет имеет различные исследовательские центры, как
                         рентгеновский центр, центр электронной микроскопии, помещение низкотемпературных
-                        исследований, обширную библиотеку и даже исследовательский реактор, что открывает
-                        значительные исследовательские возможности для студентов.
-                        <br>
-                        <br>
-                        В своих исследованиях, TU охватывает и теорию, и практику - начиная с
-                        фундаментальных принципов науки и заканчивая прикладными технологическими
-                        исследованиями и сотрудничеством с индустриями. Высокий профессионализм
-                        выпускников и ученых TU позволяют удерживать конкурентоспособность
-                        исследовательского центра Австрии на международном уровне и стимулирует
-                        инновационный потенциал страны.
-                        <br>
-                        <br>
+                        исследований, обширную библиотеку и даже исследовательский реактор.
+                    </li>
+                    <li>
                         Исследования в TU Wien сосредоточены на пяти основных областях, которые
                         представляют TU на международной сцене:
-                        <br>
-                        * Вычислительная Наука и техника
-                        <br>
-                        * Квантовая физика и квантовые технологии
-                        <br>
-                        * Материалы и вещества
-                        <br>
-                        * Информационно-коммуникационные технологии
-                        <br>
-                        * Энергия и окружающая Среда
-                        <br>
-                        <br>
-                        Кроме выше представленных областей, TU делает исследования в других областях и
-                        постоянно расширяет спектр исследований.
-                        <br>
-                        Не в последнюю очередь, высокий уровень исследований и области специализации
-                        позволяет TU играть важную роль в приоритетных программах австрийского научного
-                        фонда (FWF).
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        Вычислительная наука и техника
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        Квантовая физика и квантовые технологии
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        Материалы и вещества
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        Информационно-коммуникационные технологии
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        Энергия и окружающая Среда
                     </li>
                 </ul>
             </div>
@@ -208,41 +169,29 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (3):</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-6">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 20px; padding: 20px 10px; font-weight: bold">
-                        Трудоустройство студентов после получения образования:
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+                <ul style="line-height:20px;text-align:justify;">
+                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px 10px; font-weight: bold">
+                        Высокое трудоустройство студентов после получения образования:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 20px; margin-top: 5px;">
-                        Венский технический университет уделяет особое внимание
-                        практическому обучению. Студенты участвуют в различных научных
+                    <li >
+                        Студенты участвуют в различных научных
                         разработках, проходят практику на промышленных предприятиях,
                         выполняют реальные заказы действующих предприятий. Все это позволяет
                         им получить опыт работы уже перед окончанием университета, что, в свою
                         очередь, помогает с большей легкостью найти работу.
-                        <br>
-                        <br>
-                        Преподаваемые специальности в Венском техническом университете
-                        начинают быть все более востребованными. Выпускники вуза пользуются
+                    </li>
+                    <li>
+                        Выпускники вуза пользуются
                         популярностью на рынке труда, и фирмы предлагают лучшее условия
                         труда и более привлекательные зарплаты для привлечения выпускников.
-                        <br>
-                        <br>
-                        Также, различные центры как TU Career Center или TU Alumni Club
-                        поддерживают своих студентов в трудоустройстве с помощью различных
-                        выставок, тренингов с потенциальными работодателями,
-                        профессиональных карьерных советов и так далее.
                     </li>
+                    <li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-md-5">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
+                        col-md-offset-1">
                 <img class="office" src="/tours/images/vtui5.jpg" alt="img">
             </div>
         </div>
@@ -253,46 +202,36 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-                        col-md-offset-1">
-                <h2 class="header-title" style="font-size: 30px;">Преимущества Венского Университета (4):</h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vtui6.jpg" alt="img">
+                <img class="office" src="/tours/images/vtui6(1).jpg" alt="img">
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-md-6">
-                <ul>
-                    <li style="background-color: rgb(216, 216, 216);font-size: 25px; padding: 20px 10px; font-weight: bold">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+                <ul style="line-height:20px;text-align:justify;">
+                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px 10px; font-weight: bold">
                         Жизнь вне учебы:
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 20px 10px; margin-top: 5px;">
+                    <li >
                         Помимо учебы, Венских Технический университет предлагает студентам
                         развивать свои таланты и способности с помощью различных технический,
                         культурных и спортивных организаций. Например:
-                        <br>
-                        <br>
-                        * The Space Team – группа студентов аэрокосмического направления,
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        The Space Team – группа студентов аэрокосмического направления,
                         которые разрабатывает экспериментальные ракеты, аэрокосмические
-                        двигатели, малые спутники и многое другое.
-                        <br>
-                        * The TUW Racing Team – группа студентов, которые имели успех в
+                        двигатели, малые спутники и др.
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        The TUW Racing Team – группа студентов, которые имели успех в
                         многочисленных международных соревнованиях по самодельным
                         транспортным средствам.
-                        <br>
-                        * Университетский хор регулярно выступает внутри и снаружи TU и даже
-                        фигурировал в Австрийском телевидени
-                        <br>
-                        * С другой стороны, университетский оркестр так же имеет
-                        международные выступления и каждый год открывает TU бал
-                        <br>
-                        * The TU Robots – официальная спортивная команда TU Wien и HTU,
+                    </li>
+                    <li style="list-style-type:disc;margin-left:10px;">
+                        The TU Robots – официальная спортивная команда TU Wien и HTU,
                         которая принимает участие в баскетболе, футболе и чирлидингу
-                        <br>
-                        <br>
+                    </li>
+                    <li>
                         Все эти организации и студенческие группы также позволяют студентам
                         найти друзей по узкому кругу интересов и реализовать свои детские
                         мечты.
@@ -308,211 +247,96 @@
 <div id="cost">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-       col-md-offset-1">
-                <h2 class="header-title" style="font-size: 35px;">
-                    Информация о специальностях:
-                </h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1 col-md-10
+            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
       col-md-offset-1">
                 <div class="col-md-6" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                     <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Какое-то лого
+                    Бакалавр
                     </div>
-                    <style>
-                        .myli {
-                            display: flex;
-                        }
-
-                        .strr {
-                            padding-right: 20px;
-                        }
-                    </style>
-                    <div style="margin-top: 20px; height: 450px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 10px">
-                        Бакалавр:
+                    <div style="margin-top: 20px; height: 450px; width: 100%; font-size: 17px; padding: 9px 10px">
+                       Информация о специальностях:
                         <br>
                         <br>
-                        <ul>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Архитектура;
-                                </p>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
+                                 Архитектура;<br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Геодезия и геоинформатика;
-                                </p>
+                            <li >
+                                 Геодезия и геоинформатика;<br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Гражданское строительство;
-                                </p>
+                            <li >
+                                Гражданское строительство;<br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Организация промышленного производства и
-                                    машиностроения;
-                                </p>
+                            <li >
+                                Организация промышленного производства и
+                                машиностроения;<br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Территориальное и региональное планирование;
-                                </p>
+                            <li >
+                                Территориальное и региональное планирование;<br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Техническая физика;
-                                </p>
+                            <li >
+                                Техническая физика;<br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Техническая химия;
-                                </p>
+                            <li >
+                                Техническая химия;<br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Технология производства;
-                                </p>
+                            <li >
+                                Технология производства;<br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Факультет информатики: Медиа-информатика; Медицинская
-                                    информатика; Программное обеспечение и информационная
-                                    инженерия; Техническая Информатика;
-                                </p>
+                            <li >
+                                Факультет информатики; <br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Факультет Технической математики: Техническая математика;
-                                    Статистика и экономическая математика; Финансовая и
-                                    актуарная математика;
-                                </p>
+                            <li >
+                                 Факультет Технической математики; <br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Экономическая информатика;
-                                </p>
+                            <li >
+                                Экономическая информатика;<br>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Электротехника и вычислительная техника;
-                                </p>
+                            <li >
+                                Электротехника и вычислительная техника;<br>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                     <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Какое-то лого
+                    Магистратура 
                     </div>
 
-                    <div style="margin-top: 20px; height: 450px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 10px">
-                        Магистратура (в основном на немецком языке, есть специальности на английском
-                        языке):
+                    <div style="margin-top: 20px; height: 450px; width: 100%; font-size: 17px; padding: 9px 10px">
+                       Информация о специальностях:
                         <br>
                         <br>
-                        <ul>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Факультет Архитектуры: Архитектура; Наука строительства и технологий (англ);
-                                </p>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
+                                Факультет Архитектуры;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Факультет Гражданского строительства: Гражданское строительство;
-                                    Управление инфраструктурой;
-                                </p>
+                            <li >
+                                Факультет Гражданского строительства;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Факультет информатики: Медиа-информатика; Медицинская информатика;
-                                    Техническая Информатика; Вычислительная логика (двойной диплом, англ);
-                                    Вычислительный интеллект (англ); Визуальные вычисления; Программное
-                                    обеспечение и интернет вычисления;
-                                </p>
+                            <li >
+                                Факультет информатики;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Машиностроение;
-                                </p>
+                            <li >
+                                Машиностроение;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Территориальное и региональное планирование;
-                                </p>
+                            <li >
+                                Территориальное и региональное планирование;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Факультет Технической математики: Техническая математика; Статистика и
-                                    экономическая математика; Финансовая и актуарная математика;
-                                </p>
+                            <li >
+                                Факультет Технической математики;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Технология производства;
-                                </p>
+                            <li >
+                                Технология производства;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Бизнес информатика (англ);
-                                </p>
+                            <li >
+                                Бизнес информатика (англ);
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Организация промышленного производства и машиностроения
-                                </p>
+                            <li >
+                                Организация промышленного производства и машиностроения;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Факультет Технической математики: Техническая математика;
-                                    Статистика и экономическая математика; Финансовая и
-                                    актуарная математика;
-                                </p>
+                            <li >
+                                Факультет Технической математики;
                             </li>
                         </ul>
                     </div>
@@ -522,7 +346,25 @@
         </div>
     </div>
 </div>
-
+<div id="cost">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
+      col-md-offset-1">
+                <div class="col-md-6"  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div id="bakal" class="btn" style="border-radius:5px;width: 100%;font-size:20px; padding: 30px;line-height:25px;font-weight:bold; height: 70px;color:white; background-color: blue; display: flex; align-items: center; justify-content: center; text-align: center">
+                        Все специальности бакалавриата
+                    </div>
+                </div>
+                <div class="col-md-6"  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div id="magis" class="btn" style="width: 100%;font-size:20px; padding: 30px;line-height:25px;font-weight:bold; height: 70px;color:white; background-color: blue; display: flex; align-items: center; justify-content: center; text-align: center;border-radius:5px;">
+                        Все специальности магистратуры
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <hr>
 
 <div id="cost">
@@ -536,82 +378,49 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1 col-md-10
+            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
       col-md-offset-1">
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Требуемые документы - лого и текст
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                        Требуемые документы 
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 10px">
-                        Требуемые документы:
-                        <br>
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px">
                         Главными документами для подачи
                         являются:
                         <br>
                         <br>
-                        <ul>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Аттестат / сертификат об окончании
-                                    среднего образования
-                                </p>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
+                                Аттестат / сертификат об окончании
+                                среднего образования;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Справка из университета
-                                </p>
+                            <li >
+                                Справка из университета;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Сертификат о знании немецкого
-                                    языка – минимум А2:
-                                </p>
+                            <li >
+                                Сертификат о знании немецкого
+                                языка – минимум А2:
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p style="padding-left: 20px" class="strr">*</p>
-                                <p>
-                                    Österreichisches Sprachdiplom -
-                                    ÖSD Zertifikat A2.
-                                </p>
+                            <li style="margin-left:7px;list-style-type:circle;">
+                                Österreichisches Sprachdiplom -
+                                ÖSD Zertifikat A2.
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p style="padding-left: 20px" class="strr">*</p>
-                                <p>
-                                    Goethe Institut - Goethe
-                                    Zertifikat A2.
-                                </p>
+                            <li style="margin-left:7px;list-style-type:circle;">
+                                Goethe Institut - Goethe
+                                Zertifikat A2.
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p style="padding-left: 20px" class="strr">*</p>
-                                <p>
-                                    telc Deutsch A2.
-                                </p>
+                            <li style="margin-left:7px;list-style-type:circle;">
+                                telc Deutsch A2.
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p style="padding-left: 20px" class="strr">*</p>
-                                <p>
-                                    Deutsches Sprachdiplom der
-                                    Kultusministerkonferenz DSD I.
-                                </p>
+                            <li style="margin-left:7px;list-style-type:circle;">
+                                Deutsches Sprachdiplom der
+                                Kultusministerkonferenz DSD I.
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p style="padding-left: 20px" class="strr">*</p>
-                                <p>
-                                    Sprachenzentrum der
-                                    Universität Wien - Prüfung auf
-                                    dem Niveau A2/2.
-                                </p>
+                            <li style="margin-left:7px;list-style-type:circle;">
+                                Sprachenzentrum der
+                                Universität Wien - Prüfung auf
+                                dem Niveau A2/2.
                             </li>
                         </ul>
                     </div>
@@ -619,43 +428,34 @@
 
                 </div>
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Сроки подачи документов - лого и текст
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                        Сроки подачи документов
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 10px">
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                         Основные сроки:
                         <br>
                         <br>
-                        <br>
-                        <ul>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    До 5 Сентября подача документов
-                                    на зимний семестр
-                                </p>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
+                                До 5 Сентября подача документов
+                                на зимний семестр;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    До 5 Февраля подача документов на
-                                    летний семестр
-                                </p>
+                            <li >
+                                До 5 Февраля подача документов на
+                                летний семестр;
                             </li>
-                            <br>
                         </ul>
                     </div>
 
 
                 </div>
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Стоимость обучения - лого и текст
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                        Стоимость обучения
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                         Стоимость обучения в Венском
                         Техническом университете составляет
                         ~ 1 500 евро в год

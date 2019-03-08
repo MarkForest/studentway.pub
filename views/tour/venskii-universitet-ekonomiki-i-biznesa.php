@@ -253,12 +253,12 @@
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-6">
-                <ul style="line-height:20px;">
-                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;margin-bottom:0px;">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+                <ul style="line-height:20px;text-align:justify;">
+                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px 10px; font-weight: bold;">
                         Стоимость образования:
                     </li>
-                    <li style="padding: 30px 20px;text-align:justify; ">
+                    <li>
                         Как правило, обучение в топовых бизнес университетах мира – удовольствие не из
                         дешевых. Средняя стоимость образования в год начинается с 9 тысяч евро и достигает
                         отметки в 50 – 60 тысяч евро в топовых университетах. 
@@ -276,7 +276,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-md-5">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
+                        col-md-offset-1">
                 <img class="office" src="/tours/images/vue7(7).jpg" alt="img">
             </div>
         </div>
@@ -288,191 +289,116 @@
 <div id="cost">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-       col-md-offset-1">
-                <h2 class="header-title" style="font-size: 35px;">
-                    Информация о специальностях:
-                </h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1 col-md-10
+            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
       col-md-offset-1">
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Какое-то лого
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                    Бакалавр
                     </div>
 
-                    <div style="margin-top: 20px; height: 300px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
-                        Бакалавр:
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                        Информация о специальностях:
                         <br>
                         <br>
-                        <ul>
-                            <li style="display: flex; justify-content: space-between">
-                                <p style="padding-left: 5px; width: 140px">*</p>
-                                <p>
-                                    Бизнес, экономика и социальные
-                                    науки (обучение на немецком
-                                    языке, на выбор 4 разных
-                                    направления и 27 специальностей;
-                                    вступительный экзамен
-                                    присутствует, но обычно
-                                    отменяется)
-                                </p>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
+                                Бизнес, экономика и социальные
+                                науки (обучение на немецком
+                                языке, на выбор 4 разных
+                                направления и 27 специальностей;
+                                вступительный экзамен
+                                присутствует, но обычно
+                                отменяется);
                             </li>
-                            <br>
-                            <li style="display: flex; justify-content: space-between">
-                                <p style="padding-left: 5px; width: 90px">*</p>
-                                <p>
-                                    Бизнес и экономика (обучение на
-                                    английском языке, на выбор 20
-                                    разных специальностей;
-                                    вступительный экзамен)
-                                </p>
+                            <li >
+                                Бизнес и экономика (обучение на
+                                английском языке, на выбор 20
+                                разных специальностей;
+                                вступительный экзамен);
                             </li>
-                            <br>
-                            <li style="display: flex; justify-content: space-between">
-                                <p style="padding-left: 5px; width: 60px">*</p>
-                                <p>
-                                    Бизнес право (обучение на
-                                    немецком языке, на выбор 28
-                                    разных специальностей)
-                                </p>
+                            <li >
+                                Бизнес право (обучение на
+                                немецком языке, на выбор 28
+                                разных специальностей);
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Какое-то лого
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color:blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                    Магистратура(на английском языке)
                     </div>
 
-                    <div style="margin-top: 20px; height: 300px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
-                        Магистратура (на английском языке):
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                    Информация о специальностях:
                         <br>
                         <br>
-                        <ul>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Информационные системы
-                                </p>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
+                                Информационные системы;
                             </li>
-                            <br>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 55px">*</p>
-                                <p>
-                                    Квантитативные финансы (22
-                                    место в мире по рейтингу QS в
-                                    2017 году)
-                                </p>
+                            <li >
+                                Квантитативные финансы (22
+                                место в мире по рейтингу QS в
+                                2017 году);
                             </li>
-                            <br>
-                            <li style="display: flex;">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Маркетинг
-                                </p>
+                            <li >
+                                Маркетинг;
                             </li>
-                            <br>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Социально-экологическая
-                                    экономика
-                                </p>
+                            <li >
+                                Социально-экологическая
+                                экономика;
                             </li>
-                            <br>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 60px">*</p>
-                                <p>
-                                    Стратегия, инновация и
-                                    менеджмент (18 место в мире по
-                                    рейтингу QS в 2018 году)
-                                </p>
+                            <li >
+                                Стратегия, инновация и
+                                менеджмент (18 место в мире по
+                                рейтингу QS в 2018 году);
                             </li>
-                            <br>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Экономика
-                                </p>
+                            <li >
+                                Экономика;
                             </li>
-                            <br>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 60px">*</p>
-                                <p>
-                                    Международный менеджмент 
-                                    /CEMS (13 место в мире по рейтингу 
-                                    FT в 2017 году) 
-                                </p>
+                            <li >
+                                Международный менеджмент 
+                                /CEMS (13 место в мире по рейтингу 
+                                FT в 2017 году) 
                             </li>
-                            <br>
                             и др.
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Какое-то лого
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                    Магистратура (на немецком языке)
                     </div>
 
-                    <div style="margin-top: 20px; height: 300px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
-                        Магистратура (на немецком языке):
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                    Информация о специальностях:
                         <br>
                         <br>
-                        <ul>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Менеджмент
-                                </p>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
+                                Менеджмент;
                             </li>
-                            <br>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 31px">*</p>
-                                <p>
-                                    Налогообложение и
-                                    бухгалтерский учет
-                                </p>
+                            <li >
+                                Налогообложение и
+                                бухгалтерский учет;
                             </li>
-                            <br>
-                            <li style="display: flex;">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Социоэкономика
-                                </p>
+                            <li >
+                                Социоэкономика;
                             </li>
-                            <br>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 34px">*</p>
-                                <p>
-                                    Управление экспортом и
-                                    интернационализацией
-                                </p>
+                            <li >
+                                Управление экспортом и
+                                интернационализацией;
                             </li>
-                            <br>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Финансы и бухгалтерия
-                                </p>
+                            <li >
+                                 Финансы и бухгалтерия;
                             </li>
-                            <br>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Экономическая педагогика
-                                </p>
+                            <li >
+                                Экономическая педагогика;
                             </li>
-                            <br>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Экономическое право
-                                </p>
+                            <li >
+                                Экономическое право;
                             </li>
-                            <br>
                             и др.
                         </ul>
                     </div>
@@ -495,139 +421,99 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1 col-md-10
+            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
       col-md-offset-1">
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Требуемые документы - лого и текст
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color:blue; color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                        Требуемые документы 
                     </div>
 
-                    <div style="margin-top: 20px; height: 250px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
-                        Требуемые документы:
-                        <br>
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                       
                         Главными документами для подачи
                         являются:
                         <br>
-                        <ul>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Аттестат
-                                </p>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
+                                    Аттестат / сертификат об окончании
+                                    среднего образования;
                             </li>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 31px">*</p>
-                                <p>
-                                    Справка из университета
-                                </p>
+                            <li >
+                                    Справка из университета;
                             </li>
-                            <li style="display: flex;">
-                                <p style="padding-left: 5px; width: 40px">*</p>
-                                <p>
+                            <li >
                                     Сертификат о знании немецкого
-                                    языка – минимум А2:
-                                </p>
+                                    языка – минимум А2 :
                             </li>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 25px; width: 55px">*</p>
-                                <p>
+                            <li style="margin-left:7px;list-style-type:circle;">
                                     Österreichisches Sprachdiplom -
-                                    ÖSD Zertifikat A2.
-                                </p>
+                                    ÖSD Zertifikat A2;
                             </li>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 25px; width: 45px">*</p>
-                                <p>
+                            <li style="margin-left:7px;list-style-type:circle;">
                                     Goethe Institut - Goethe
-                                    Zertifikat A2.
-                                </p>
+                                    Zertifikat A2;
                             </li>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 25px; width: 48px">*</p>
-                                <p>
-                                    telc Deutsch A2.
-                                </p>
+                            <li style="margin-left:7px;list-style-type:circle;">
+                                    telc Deutsch A2;
                             </li>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 25px; width: 60px">*</p>
-                                <p>
+                            <li style="margin-left:7px;list-style-type:circle;">
                                     Deutsches Sprachdiplom der
-                                    Kultusministerkonferenz DSD I.
-                                </p>
+                                    Kultusministerkonferenz DSD I;
                             </li>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 25px; width: 60px">*</p>
-                                <p>
+                            <li style="margin-left:7px;list-style-type:circle;">
                                     Sprachenzentrum der
                                     Universität Wien - Prüfung auf
-                                    dem Niveau A2/2.
-                                </p>
+                                    dem Niveau A2/2;
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Требуемые документы - лого и текст
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                       Сроки подачи документов
                     </div>
 
-                    <div style="margin-top: 20px; height: 250px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 4px">
-                        Основные сроки подачи документов
-                        WU:
-                        <br>
-                        Бакалавр (точные сроки будут
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                       
+                         Бакалавр (точные сроки будут
                         объявлены в начале 2019 года):
                         <br>
-                        <ul>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 30px">*</p>
-                                <p>
-                                    Онлайн регистрация (является
-                                    обязательной для последующей
-                                    подачи документов) начинается в
-                                    начале марта и заканчивается в
-                                    середине мая
-                                </p>
+                        <br>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
+                                Онлайн регистрация (является
+                                обязательной для последующей
+                                подачи документов) начинается в
+                                начале марта и заканчивается в
+                                середине мая;
                             </li>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 31px">*</p>
-                                <p>
-                                    Подача документов проходит с
-                                    начала июля и заканчивается в
-                                    начале сентября
-                                </p>
+                            <li >
+                                Подача документов проходит с
+                                начала июля и заканчивается в
+                                начале сентября;
                             </li>
-                            Магистратура – подача документов
-                            почти на все специальности
-                            происходит в трех волнах:
-                            <li style="display: flex;">
-                                <p style="padding-left: 5px; width: 20px">*</p>
-                                <p>
-                                    Первая волна - до 8 октября
-                                </p>
+                                Магистратура – подача документов
+                                почти на все специальности
+                                происходит в трех волнах:
+                            <li style="margin-left:7px;list-style-type:circle;">
+                                 Первая волна - до 8 октября;
                             </li>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 20px">*</p>
-                                <p>
-                                    Вторая волна - до 8 января
-                                </p>
+                            <li style="margin-left:7px;list-style-type:circle;">
+                                Вторая волна - до 8 января;
                             </li>
-                            <li style="display: flex; ">
-                                <p style="padding-left: 5px; width: 20px">*</p>
-                                <p>
-                                    Третья волна - до 8 марта
-                                </p>
+                            <li style="margin-left:7px;list-style-type:circle;">
+                                Третья волна - до 8 марта;
                             </li>
                         </ul>
                     </div>
 
                 </div>
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Требуемые документы - лого и текст
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                        Стоимость обучения
                     </div>
 
-                    <div style="margin-top: 20px; height: 250px; width: 100%; background-color: #F2F2F2;font-size: 15px; padding: 3px 4px">
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                         Стоимость обучения в Венском Университете состовляет ~ 1500 евро в год
                     </div>
                 </div>

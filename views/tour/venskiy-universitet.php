@@ -21,12 +21,6 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-      col-md-offset-1">
-                <h2 class="header-title"></h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul>
@@ -62,7 +56,7 @@
                         col-md-offset-1">
                 <img class="office" src="/tours/images/vui2(5).jpg" alt="img">
             </div>
-            <div class="col-xs-12 col-sm-10 col-md-6">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul style="line-height:20px;text-align:justify;">
                     <li style="background-color: blue;color:white;font-size: 20px; padding: 20px;">
                         История Университета
@@ -90,7 +84,7 @@
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-6">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul style="line-height:20px;text-align:justify;">
                     <li style="background-color:blue;color:white;font-size: 25px; padding: 20px; font-weight: bold">
                         Международная репутация:
@@ -111,22 +105,15 @@
                     <li style="list-style-type:disc;margin-left:10px;">
                         Факультет «Лингвистики» занимает 31 место в мире
                     </li>
-                    <li style="list-style-type:disc;margin-left:10px;">
-                        Факультет «Современных языков» (modern languages) занимает 46
-                        место в мире
-                    </li>
                     <li>
                         Рейтинги Times Higher Education World University Rankings 2017:
                     </li>
                     <li style="list-style-type:disc;margin-left:10px;">
                         Факультет «Искусства и гуманитарных наук» занимает 50 место в мире
                     </li>
-                    <li style="list-style-type:disc;margin-left:10px;">
-                        Факультет «Экономики и бизнеса» занимает 96 место в мире
-                    </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-md-5">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-1">
                 <img class="office" src="/tours/images/vui3(2).jpg" alt="img">
             </div>
         </div>
@@ -142,7 +129,7 @@
                         col-md-offset-1">
                 <img class="office" src="/tours/images/vui4(3).jpg" alt="img">
             </div>
-            <div class="col-xs-12 col-sm-10 col-md-6">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul style="line-height:20px;text-align:justify;">
                     <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;margin-bottom:0px;">
                         Исследовательские возможности:
@@ -163,11 +150,6 @@
                         исследовательские проекты (€80 млн в 2015 году) и привлекает
                         академиков с разных уголков мира (75% от общего состава).
                     </li>
-                    <li>
-                        Будущие студенты, которые хотят сосредоточиться на академической
-                        карьере или сделать значимое исследование, должны обратить особенное
-                        внимание на Венский университет.
-                    </li>
                 </ul>
             </div>
         </div>
@@ -179,7 +161,7 @@
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-6">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul style="line-height:20px;text-align:justify;">
                     <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;margin-bottom:0px;">
                         Варианты обучения:
@@ -199,7 +181,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-md-5">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
+                        col-md-offset-1">
                 <img class="office" src="/tours/images/vui5.jpg" alt="img">
             </div>
         </div>
@@ -211,15 +194,15 @@
 
 <div id="cost">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1 col-md-10
+        <div class="row ">
+            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
       col-md-offset-1">
                 <div class="col-md-6" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                     <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
                         Бакалавр
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; background-color: #F2F2F2;font-size: 17px; padding: 9px 10px">
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 17px; padding: 9px 10px">
                         Информация о специальностях:
                         <br>
                         <br>
@@ -257,7 +240,7 @@
                         Магистр
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; background-color: #F2F2F2;font-size: 17px; padding: 9px 10px">
+                    <div style="margin-top: 20px; height: 350px; width: 100%;font-size: 17px; padding: 9px 10px">
                     Информация о специальностях:
                         <br>
                         <br>
@@ -292,7 +275,7 @@
 <div id="cost">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1 col-md-10
+            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
       col-md-offset-1">
                 <div class="col-md-6"  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                     <div id="bakal" class="btn" style="border-radius:5px;width: 100%;font-size:20px; padding: 30px;line-height:25px;font-weight:bold; height: 70px;color:white; background-color: blue; display: flex; align-items: center; justify-content: center; text-align: center">
@@ -325,127 +308,86 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1 col-md-10
+            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
       col-md-offset-1">
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Требуемые документы - лого и текст
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                        Требуемые документы 
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 10px">
-                        Требуемые документы:
-                        <br>
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                         Главными документами для подачи
                         являются:
                         <br>
                         <br>
-                        <ul>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
                                     Аттестат / сертификат об окончании
-                                    среднего образования
-                                </p>
+                                    среднего образования;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
-                                    Справка из университета
-                                </p>
+                            <li >
+                                    Справка из университета;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
+                            <li >
                                     Сертификат о знании немецкого
-                                    языка – минимум А2:
-                                </p>
+                                    языка – минимум А2 :
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p style="padding-left: 20px" class="strr">*</p>
-                                <p>
+                            <li style="margin-left:7px;list-style-type:circle;">
                                     Österreichisches Sprachdiplom -
-                                    ÖSD Zertifikat A2.
-                                </p>
+                                    ÖSD Zertifikat A2;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p style="padding-left: 20px" class="strr">*</p>
-                                <p>
+                            <li style="margin-left:7px;list-style-type:circle;">
                                     Goethe Institut - Goethe
-                                    Zertifikat A2.
-                                </p>
+                                    Zertifikat A2;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p style="padding-left: 20px" class="strr">*</p>
-                                <p>
-                                    telc Deutsch A2.
-                                </p>
+                            <li style="margin-left:7px;list-style-type:circle;">
+                                    telc Deutsch A2;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p style="padding-left: 20px" class="strr">*</p>
-                                <p>
+                            <li style="margin-left:7px;list-style-type:circle;">
                                     Deutsches Sprachdiplom der
-                                    Kultusministerkonferenz DSD I.
-                                </p>
+                                    Kultusministerkonferenz DSD I;
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p style="padding-left: 20px" class="strr">*</p>
-                                <p>
+                            <li style="margin-left:7px;list-style-type:circle;">
                                     Sprachenzentrum der
                                     Universität Wien - Prüfung auf
-                                    dem Niveau A2/2.
-                                </p>
+                                    dem Niveau A2/2;
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Сроки подачи документов – лого и
-                        текст
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                        Сроки подачи документов 
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; background-color: #F2F2F2;font-size: 13px; padding: 9px 10px">
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                         Основные сроки подачи документов
                         Uni Wien:
                         <br>
                         <br>
-                        <ul>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
+                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                            <li >
                                     Подача документов на зимний
                                     семестр 2019/2020 – с Июля по
                                     Сентябрь 2019 (точные сроки будут
                                     объявлены в начале 2019 года)
-                                </p>
                             </li>
-                            <br>
-                            <li class="myli">
-                                <p class="strr">*</p>
-                                <p>
+                            <li >
                                     Регистрация на вступительные
                                     экзамены (для некоторых
                                     специальностей) – с Марта по Май
                                     2019 года (точные сроки будут
                                     объявлены в начале 2019 года)
-                                </p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Стоимость обучения - лого и текст
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                        Стоимость обучения 
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; background-color: #F2F2F2;font-size: 15px; padding: 3px 4px">
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                         Стоимость обучения в Венском Университете состовляет ~ 1500 евро в год
                     </div>
                 </div>
