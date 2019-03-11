@@ -5,34 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Венский Технический Университет</title>
+    <style>
+        .footer{
+            padding:0px;
+        }
+    </style>
 </head>
 <body style="font-family: 'Roboto', sans-serif;">
-<a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;">Вернуться назад</a>
+<a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;z-index:100;margin-top:25px;">Вернуться назад</a>
 
 
 <div id="rating">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
-      col-md-offset-1">
-                <h2 class="header-title"></h2>
-            </div>
-        </div>
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul>
-                    <li style="background-color: rgb(216, 216, 216); padding: 20px;">
-                        Венский Технический университет / TU Wien:
+                    <li>
+                       <h1> Венский Технический университет / TU Wien:</h1>
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 20px; margin-top: 25px;">
-                        <ul>
-                            <li>Лучший технический университет Австрии</li>
-                            <li>Сильная исследовательская база</li>
-                            <li>Престижное обучение всего за 745 евро в семестр</li>
+                    <li >
+                        <ul style="list-style-type:disc;">
+                            <li style="margin-bottom:10px;">Лучший технический университет Австрии;</li>
+                            <li style="margin-bottom:10px;">Сильная исследовательская база;</li>
+                            <li style="margin-bottom:10px;">Престижное обучение всего за 745 евро в семестр;</li>
                         </ul>
-                    </li>
-                    <li style="width: 100%; height: 80px; background-color: #FEE599">
-                        <a style="width: 100%;display: flex; align-items: center; justify-content: center; height: 100%; background-color: #FEE599" href="#">Кнопка</a>
                     </li>
                 </ul>
             </div>
@@ -171,18 +167,18 @@
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul style="line-height:20px;text-align:justify;">
-                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px 10px; font-weight: bold">
+                <ul style="line-height:20px;">
+                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px 10px; font-weight: bold;">
                         Высокое трудоустройство студентов после получения образования:
                     </li>
-                    <li >
+                    <li style="text-align:justify;">
                         Студенты участвуют в различных научных
                         разработках, проходят практику на промышленных предприятиях,
                         выполняют реальные заказы действующих предприятий. Все это позволяет
                         им получить опыт работы уже перед окончанием университета, что, в свою
                         очередь, помогает с большей легкостью найти работу.
                     </li>
-                    <li>
+                    <li style="text-align:justify;">
                         Выпускники вуза пользуются
                         популярностью на рынке труда, и фирмы предлагают лучшее условия
                         труда и более привлекательные зарплаты для привлечения выпускников.
@@ -250,14 +246,14 @@
             <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
       col-md-offset-1">
                 <div class="col-md-6" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
+                    <div style="width: 100%; padding: 30px; height: 70px;  display: flex; align-items: center;background-color:blue; color:white;justify-content: center; text-align: center">
                     Бакалавр
                     </div>
-                    <div style="margin-top: 20px; height: 450px; width: 100%; font-size: 17px; padding: 9px 10px">
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 17px; padding: 9px 10px">
                        Информация о специальностях:
                         <br>
                         <br>
-                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                        <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                             <li >
                                  Архитектура;<br>
                             </li>
@@ -299,15 +295,15 @@
                     </div>
                 </div>
                 <div class="col-md-6" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
+                    <div style="width: 100%; padding: 30px; height: 70px; background-color:blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
                     Магистратура 
                     </div>
 
-                    <div style="margin-top: 20px; height: 450px; width: 100%; font-size: 17px; padding: 9px 10px">
+                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 17px; padding: 9px 10px">
                        Информация о специальностях:
                         <br>
                         <br>
-                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                        <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                             <li >
                                 Факультет Архитектуры;
                             </li>
@@ -352,12 +348,12 @@
             <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
       col-md-offset-1">
                 <div class="col-md-6"  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div id="bakal" class="btn" style="border-radius:5px;width: 100%;font-size:20px; padding: 30px;line-height:25px;font-weight:bold; height: 70px;color:white; background-color: blue; display: flex; align-items: center; justify-content: center; text-align: center">
+                    <div id="bakal" class="btn" style="border-radius:5px;width: 100%;font-size:20px; padding: 30px;line-height:25px;font-weight:bold; height: 70px;color:black; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
                         Все специальности бакалавриата
                     </div>
                 </div>
                 <div class="col-md-6"  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div id="magis" class="btn" style="width: 100%;font-size:20px; padding: 30px;line-height:25px;font-weight:bold; height: 70px;color:white; background-color: blue; display: flex; align-items: center; justify-content: center; text-align: center;border-radius:5px;">
+                    <div id="magis" class="btn" style="width: 100%;font-size:20px; padding: 30px;line-height:25px;font-weight:bold; height: 70px;color:black; background-color: #FEE599;display: flex; align-items: center; justify-content: center; text-align: center;border-radius:5px;">
                         Все специальности магистратуры
                     </div>
                 </div>
