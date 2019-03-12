@@ -7,15 +7,11 @@
     <title>Венский Университет</title>
 </head>
 <body style="font-family: 'Roboto', sans-serif;">
-<a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;">Вернуться назад</a>
+<a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;z-index:100;margin-top:25px;">Вернуться назад</a>
 
 <style>
-   #bakal:hover{
-    cursor:pointer;
-    
-   }
-   #magis:hover{
-       cursor:pointer;
+   .footer{
+       padding:0px;
    }
 </style>
 
@@ -24,18 +20,15 @@
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul>
-                    <li style="background-color: rgb(216, 216, 216); padding: 20px;">
-                        Венский университет / Uni Wien:
+                    <li >
+                        <h1>Венский университет / Uni Wien:</h1>
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 20px 10px; margin-top: 25px;">
-                        <ul>
-                            <li>Самый крупный университет в Австрии</li>
-                            <li>Большое разнообразие специальностей</li>
-                            <li>Сильная исследовательская база</li>
+                    <li >
+                        <ul style="list-style-type:disc;">
+                            <li style="margin-bottom:10px;">Самый крупный университет в Австрии;</li>
+                            <li style="margin-bottom:10px;">Большое разнообразие специальностей;</li>
+                            <li style="margin-bottom:10px;">Сильная исследовательская база;</li>
                         </ul>
-                    </li>
-                    <li style="width: 100%; height: 70px; background-color: #FEE599">
-                        <a style="width: 100%;display: flex; align-items: center; justify-content: center; height: 100%; background-color: #FEE599" href="#">Кнопка</a>
                     </li>
                 </ul>
             </div>
@@ -57,11 +50,11 @@
                 <img class="office" src="/tours/images/vui2(5).jpg" alt="img">
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul style="line-height:20px;text-align:justify;">
-                    <li style="background-color: blue;color:white;font-size: 20px; padding: 20px;">
+                <ul style="text-align:justify;">
+                    <li style="color:white;background-color:blue;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         История Университета
                     </li>
-                    <li style="padding: 20px 0px 0px 0px; margin-top: 25px;">
+                    <li style="line-height:20px; padding: 25px 10px; margin-top: 25px;">
                         Основанный 12 марта 1365 года, Венский университет является
                         третьим старейшим высшим учебным заведением Европы и
                         старейшим университетом в немецкоязычном пространстве. Одной
@@ -195,18 +188,16 @@
 <div id="cost">
     <div class="container">
         <div class="row ">
-            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
-      col-md-offset-1">
-                <div class="col-md-6" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Бакалавр
+                <div class="col-md-5 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:30px;font-size: 25px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                        Бакалавриат
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 17px; padding: 9px 10px">
+                    <div style="margin-top: 20px;  width: 100%; font-size: 17px; padding: 9px 10px">
                         Информация о специальностях:
                         <br>
                         <br>
-                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                        <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                         <li >
                             Направление «История, искусство, культура и медиа»;<br>
                     </li>
@@ -235,16 +226,16 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width:100%;padding: 30px; height: 70px; background-color: #FEE599; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Магистр
+                <div class="col-md-5 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:30px;font-size: 25px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                        Магистратура
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%;font-size: 17px; padding: 9px 10px">
+                    <div style="margin-top: 20px;  width: 100%;font-size: 17px; padding: 9px 10px">
                     Информация о специальностях:
                         <br>
                         <br>
-                    <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                    <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                     <li >
                             Направление «История, искусство, культура и медиа»;<br>
                     </li>
@@ -267,30 +258,11 @@
                 </ul>
                     </div>
                 </div>
-            </div>
+    
         </div>
     </div>
 </div>
 
-<div id="cost">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
-      col-md-offset-1">
-                <div class="col-md-6"  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div id="bakal" class="btn" style="border-radius:5px;width: 100%;font-size:20px; padding: 30px;line-height:25px;font-weight:bold; height: 70px;color:white; background-color: blue; display: flex; align-items: center; justify-content: center; text-align: center">
-                        Все специальности бакалавриата
-                    </div>
-                </div>
-                <div class="col-md-6"  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div id="magis" class="btn" style="width: 100%;font-size:20px; padding: 30px;line-height:25px;font-weight:bold; height: 70px;color:white; background-color: blue; display: flex; align-items: center; justify-content: center; text-align: center;border-radius:5px;">
-                        Все специальности магистратуры
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -308,19 +280,16 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
-      col-md-offset-1">
-                <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                         Требуемые документы 
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
-                        Главными документами для подачи
-                        являются:
+                    <div style="line-height:25px;margin-top: 20px;width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                        <h3>Главными документами для подачи
+                        являются:</h3>
                         <br>
-                        <br>
-                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                        <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                             <li >
                                     Аттестат / сертификат об окончании
                                     среднего образования;
@@ -355,17 +324,16 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                         Сроки подачи документов 
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
-                        Основные сроки подачи документов
-                        Uni Wien:
+                    <div style="line-height:25px;margin-top: 20px;  width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                       <h3> Основные сроки подачи документов
+                        Uni Wien:</h3>
                         <br>
-                        <br>
-                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                        <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                             <li >
                                     Подача документов на зимний
                                     семестр 2019/2020 – с Июля по
@@ -382,20 +350,19 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                         Стоимость обучения 
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                    <div style="margin-top: 20px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                         Стоимость обучения в Венском Университете состовляет ~ 1500 евро в год
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </div>
-
+<hr>
 
 <div id="why">
     <div class="container">

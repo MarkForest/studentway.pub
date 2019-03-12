@@ -5,28 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Венский Университет Экономики и Бизнеса</title>
+    <style>
+        .footer{
+            padding:0px;
+        }
+    </style>
 </head>
 <body style="font-family: 'Roboto', sans-serif;">
->>>>>>> 596fc66782f8c68e71efd78efacd2de073cca835
-<a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;">Вернуться назад</a>
+<a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;z-index:100;margin-top:25px;">Вернуться назад</a>
 
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul>
-                    <li style="background-color: rgb(216, 216, 216); padding: 20px;">
-                        Венский экономический университет / WU Wien:
+                    <li >
+                        <h1>Венский экономический университет / WU Wien:</h1>
                     </li>
-                    <li style="background-color: rgb(216, 216, 216); padding: 20px; margin-top: 25px;">
-                        <ul>
-                            <li>Лучший университет в сфере экономики и бизнеса в Австрии</li>
-                            <li>Возможность обучения на английском языке</li>
-                            <li>Престижное обучение всего за 745 евро в семестр</li>
+                    <li >
+                        <ul style="list-style-type:disc;">
+                            <li style="margin-bottom:10px;">Лучший университет в сфере экономики и бизнеса в Австрии;</li>
+                            <li style="margin-bottom:10px;">Возможность обучения на английском языке;</li>
+                            <li style="margin-bottom:10px;">Престижное обучение всего за 745 евро в семестр;</li>
                         </ul>
-                    </li>
-                    <li style="width: 100%; height: 80px; background-color: #FEE599">
-                        <a style="width: 100%;display: flex; align-items: center; justify-content: center; height: 100%; background-color: #FEE599" href="#">Кнопка</a>
                     </li>
                 </ul>
             </div>
@@ -49,7 +50,7 @@
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul style="text-align:justify;">
-                    <li style="background-color: blue;color:white;font-size: 20px; padding: 20px;">
+                    <li style="color:white;background-color:blue;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         История Университета
                     </li>
                     <li style="line-height:20px; padding: 25px 10px; margin-top: 25px;">
@@ -158,7 +159,7 @@
                     </li>
                         <br>
                     <li style="margin-left:10px; list-style-type:disc;padding-bottom:15px;">
-                            Эксклюзивная онлайн платформа с более 2 500 вакансиями, которые
+                            Эксклюзивная онлайн платформа с более 2.500 вакансиями, которые
                             ориентированы на студентов и выпускников WU. Это позволяет найти
                             работу или стажировку в разных по размеру фирмах и даже в разных
                             странах;
@@ -175,11 +176,11 @@
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
-                <ul style="padding: 25px 20px 0px 20px;line-height:20px;list-style-type:disc;text-align:justify;">
-                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
+                <ul style="padding: 25px 20px 0px 20px;line-height:20px;list-style-type:disc;">
+                    <li style="background-color: blue;color:white;line-height:30px;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         Большой выбор возможностей:
                     </li>
-                    <li style=" margin-top: 5px;">
+                    <li style=" margin-top: 5px;text-align:justify;">
                         Поступая на бакалавра, вы изучаете предметы на базовом уровне с разных
                         областей экономики и бизнеса. Только потом, вам предоставляется
                         возможность выбора предметов, на которых вы будете в дальнейшем
@@ -188,7 +189,7 @@
                         определился на какой специализации сконцентрироваться.
                         <br>
                     </li>
-                    <li style="padding-bottom:15px;">
+                    <li style="padding-bottom:15px;text-align:justify;">
                         Более того, в рамках своей программы обучения, студенты могут поехать
                         по обмену в один из 240 партнерских университетов WU по всему миру. Это 
                         открывает безграничные возможности путешествий и получения знаний в 
@@ -289,18 +290,16 @@
 <div id="cost">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
-      col-md-offset-1">
-                <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:30px;font-size: 25px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Бакалавр
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                    <div style="margin-top: 20px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                         Информация о специальностях:
                         <br>
                         <br>
-                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                        <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                             <li >
                                 Бизнес, экономика и социальные
                                 науки (обучение на немецком
@@ -324,16 +323,16 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color:blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Магистратура(на английском языке)
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                    <div style="margin-top: 20px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                     Информация о специальностях:
                         <br>
                         <br>
-                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                        <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                             <li >
                                 Информационные системы;
                             </li>
@@ -366,16 +365,16 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Магистратура (на немецком языке)
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                    <div style="margin-top: 20px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                     Информация о специальностях:
                         <br>
                         <br>
-                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                        <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                             <li >
                                 Менеджмент;
                             </li>
@@ -402,7 +401,7 @@
                             и др.
                         </ul>
                     </div>
-                </div>
+               
             </div>
         </div>
     </div>
@@ -421,19 +420,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-xs-offset-0 col-md-12 col-md-offset-1 col-md-12
-      col-md-offset-1">
-                <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color:blue; color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                         Требуемые документы 
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                    <div style="line-height:25px;margin-top: 20px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                        
-                        Главными документами для подачи
-                        являются:
+                        <h3>Главными документами для подачи
+                        являются:</h3>
                         <br>
-                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                        <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                             <li >
                                     Аттестат / сертификат об окончании
                                     среднего образования;
@@ -468,18 +465,18 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                        Сроки подачи документов
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                    <div style="line-height:25px;margin-top: 20px;  width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                        
-                         Бакалавр (точные сроки будут
-                        объявлены в начале 2019 года):
+                         <h3>Бакалавр (точные сроки будут
+                        объявлены в начале 2019 года):</h3>
                         <br>
-                        <br>
-                        <ul style="line-height:25px;text-align:justify;list-style-type:disc;margin-left:12px;">
+                        
+                        <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                             <li >
                                 Онлайн регистрация (является
                                 обязательной для последующей
@@ -508,20 +505,20 @@
                     </div>
 
                 </div>
-                <div class="col-md-4" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                    <div style="width: 100%; padding: 30px; height: 70px; background-color: blue;color:white; display: flex; align-items: center; justify-content: center; text-align: center">
+                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                    <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                         Стоимость обучения
                     </div>
 
-                    <div style="margin-top: 20px; height: 350px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                    <div style="margin-top: 20px;  width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                         Стоимость обучения в Венском Университете состовляет ~ 1500 евро в год
                     </div>
                 </div>
             </div>
-        </div>
+       
     </div>
 </div>
-
+<hr>
 
 <div id="why">
     <div class="container">
