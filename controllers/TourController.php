@@ -103,6 +103,7 @@ class TourController extends Controller
 
 
     public function actionVenskiyUniversitet(){
+
         return $this->render('venskiy-universitet',[]);
     }
     public function actionVenskiyTechnicheskiyUniversitet(){

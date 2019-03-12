@@ -30,7 +30,7 @@ AdminAsset::register($this);
     <div class="wrap">
         <?php
         NavBar::begin([
-            'brandLabel' => Yii::$app->request->get('reg')==''
+            'brandLabel' => Yii::$app->request->get('reg')!=''
                 ? '<img src="/images/logo_bell_org.png" alt="StudentWay">'
                 : Resourse::getCity(Yii::$app->request->get('reg')),
             'brandUrl' => Yii::$app->homeUrl,
