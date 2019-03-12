@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mark
- * Date: 22.10.17
- * Time: 12:50
- */
+
 
 namespace app\assets;
 
@@ -26,6 +21,7 @@ class InstituteAsset extends AssetBundle
         'institute/css/style.css',
         'https://fonts.googleapis.com/css?family=Roboto:400,300,500',
         'institute/css/sequence-theme.modern-slide-in.css',
+        
     ];
     public $js = [
 //        'institute/js/jquery.js',
