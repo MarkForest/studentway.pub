@@ -21,7 +21,7 @@
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul>
                     <li>
-                       <h1> Венский Технический университет / TU Wien:</h1>
+                       <h1 class = "header__title"> Венский Технический университет <br> TU Wien:</h1>
                     </li>
                     <li >
                         <ul style="list-style-type:disc;">

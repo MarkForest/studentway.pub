@@ -280,7 +280,6 @@ $this->title = 'Tours | Austria';
                                             src="/tours/images/<?=$tour_other_university_img_block[0]['image']?>"
                                             alt="Венский Аграрный Университет"></a>
                                 <div class="carousel-caption"
-                                     style="background: #e4e4e4;width: 100%;margin-left: -300px">
                                     <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_first'] ?></p>
                                 </div>
                             </div>
@@ -290,7 +289,6 @@ $this->title = 'Tours | Austria';
                                             src="/tours/images/<?=$tour_other_university_img_block[1]['image']?>"
                                             alt="Венский Медицинский Университет"></a>
                                 <div class="carousel-caption"
-                                     style="background:#e4e4e4;width: 100%;margin-left: -300px">
                                     <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_second'] ?></p>
                                 </div>
                             </div>
@@ -300,7 +298,6 @@ $this->title = 'Tours | Austria';
                                             src="/tours/images/<?=$tour_other_university_img_block[2]['image']?>"
                                             alt="Венский Ветеринарный Университет"></a>
                                 <div class="carousel-caption"
-                                     style="background:#e4e4e4;width: 100%;margin-left: -300px">
                                     <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_third'] ?></p>
                                 </div>
                             </div>
@@ -310,7 +307,6 @@ $this->title = 'Tours | Austria';
                                             src="/tours/images/<?=$tour_other_university_img_block[3]['image']?>"
                                             alt="Венский Университет Прикладных Наук"></a>
                                 <div class="carousel-caption"
-                                     style="background:#e4e4e4;width: 100%;margin-left: -300px">
                                     <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_four'] ?></p>
                                 </div>
                             </div>
@@ -320,7 +316,6 @@ $this->title = 'Tours | Austria';
                                             src="/tours/images/<?=$tour_other_university_img_block[4]['image']?>"
                                             alt="Курсы немецкого языка в Вене"></a>
                                 <div class="carousel-caption"
-                                     style="background: #e4e4e4;width: 100%;margin-left: -300px">
                                     <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_five'] ?></p>
                                 </div>
 

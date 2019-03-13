@@ -15,13 +15,13 @@
           'tours/css/owl.theme.css',
           'tours/css/ionicons.min.css',
           'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
-          'tours/css/style.css',
           'tours/css/extra-small.css',
           'tours/css/main.css',
           'tours/css/small.css',
           'institute/css/style-polish/style-pricing.css',
           'https://use.fontawesome.com/releases/v5.4.1/css/all.css',
           'institute/css/style-social/style-social-bar.css',
+          'tours/css/style.css',
       ];
       public $js = [
             'tours/js/jquery-2.1.1.js',
