@@ -6,6 +6,16 @@ use yii\widgets\ActiveForm;
 
 $this->title = 'Tours | Austria';
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
 <div class="wrapper">
     <div class="container">
         <nav class="navbar navbar-inverse navbar-fixed-top" style="background:#00aeda; margin-top: -10px ">
@@ -25,8 +35,8 @@ $this->title = 'Tours | Austria';
                 <div class="collapse navbar-collapse navbar-right " id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <?php foreach ($tour_head_menus as $value): ?>
-                            <li><a class="page-scroll " style="font-weight: 800; font-size: 15px; color: #5f5f5f;"
-                                   onmouseover="this.style.color='#f5f5f5';" onmouseout="this.style.color='#5f5f5f';"
+                            <li><a class="page-scroll " style="font-weight: 800; font-size: 15px; color: black;"
+                                   onmouseover="this.style.color='#f5f5f5';" onmouseout="this.style.color='black';"
                                    href="#<?= $value['link_text'] ?>"><?= $value['menu_text'] ?></a></li>
                         <?php endforeach; ?>
                     </ul>
@@ -168,16 +178,19 @@ $this->title = 'Tours | Austria';
                             <div class="col-md-7 wow fadeInDown" data-wow-delay="0.2s">
                                 <div class="feature-single">
                                     <div style="background-color: transparent" class="pitch-icon">
-                                        <img style="width: 70px; height: 70px;" class="img-responsive" alt="picture" src="/tours/icons/univer.png"></img>
+                                        <img style="width: 70px; height: 70px;" class="img-responsive" alt="picture" src="/tours/icons/univer.png"/>
                                     </div>
                                     <h1 style="font-weight: 800"> <?= $tour_about_university_block['title_first'] ?></h1>
                 <p style="color: #4a4a4a">
                     <?= $tour_about_university_block['description_first'] ?>
                 </p>
                 <br>
-                <a target="_blank"
-                   href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskiy-universitet']) ?>">Подробнее</a>
+                <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+                <a  href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskiy-universitet']) ?>" class="btn btn-action wow fadeInUp"
+                style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;" target="_blank">Подробнее</a>
+                </div>
             </div>
+            
         </div>
 
     </div>
@@ -196,9 +209,12 @@ $this->title = 'Tours | Austria';
                     <?= $tour_about_university_block['description_second'] ?>
                 </p>
                 <br>
-                <a target="_blank"
-                   href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskiy-technicheskiy-universitet']) ?>">Подробнее</a>
+                <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+                <a  href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskiy-technicheskiy-universitet']) ?>" class="btn btn-action wow fadeInUp"
+                style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;" target="_blank">Подробнее</a>
+                </div>
             </div>
+            
         </div>
         <div class="col-md-5 wow fadeInDown" data-wow-delay="0.2s">
             <div class="feature-single">
@@ -227,8 +243,10 @@ $this->title = 'Tours | Austria';
                     <?= $tour_about_university_block['description_third'] ?>
                 </p>
                 <br>
-                <a target="_blank"
-                   href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskii-universitet-ekonomiki-i-biznesa']) ?>">Подробнее</a>
+                <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+                <a  href="<?php echo Yii::$app->urlManager->createUrl(['tour/venskii-universitet-ekonomiki-i-biznesa']) ?>" class="btn btn-action wow fadeInUp"
+                style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;" target="_blank">Подробнее</a>
+                </div>
             </div>
         </div>
 
@@ -262,7 +280,7 @@ $this->title = 'Tours | Austria';
                                             src="/tours/images/<?=$tour_other_university_img_block[0]['image']?>"
                                             alt="Венский Аграрный Университет"></a>
                                 <div class="carousel-caption"
-                                     style="background: linear-gradient(#e4e4e4, #ccc);width: 100%;margin-left: -300px">
+                                     style="background: #e4e4e4;width: 100%;margin-left: -300px">
                                     <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_first'] ?></p>
                                 </div>
                             </div>
@@ -272,7 +290,7 @@ $this->title = 'Tours | Austria';
                                             src="/tours/images/<?=$tour_other_university_img_block[1]['image']?>"
                                             alt="Венский Медицинский Университет"></a>
                                 <div class="carousel-caption"
-                                     style="background: linear-gradient(#e4e4e4, #ccc);width: 100%;margin-left: -300px">
+                                     style="background:#e4e4e4;width: 100%;margin-left: -300px">
                                     <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_second'] ?></p>
                                 </div>
                             </div>
@@ -282,7 +300,7 @@ $this->title = 'Tours | Austria';
                                             src="/tours/images/<?=$tour_other_university_img_block[2]['image']?>"
                                             alt="Венский Ветеринарный Университет"></a>
                                 <div class="carousel-caption"
-                                     style="background: linear-gradient(#e4e4e4, #ccc);width: 100%;margin-left: -300px">
+                                     style="background:#e4e4e4;width: 100%;margin-left: -300px">
                                     <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_third'] ?></p>
                                 </div>
                             </div>
@@ -292,7 +310,7 @@ $this->title = 'Tours | Austria';
                                             src="/tours/images/<?=$tour_other_university_img_block[3]['image']?>"
                                             alt="Венский Университет Прикладных Наук"></a>
                                 <div class="carousel-caption"
-                                     style="background: linear-gradient(#e4e4e4, #ccc);width: 100%;margin-left: -300px">
+                                     style="background:#e4e4e4;width: 100%;margin-left: -300px">
                                     <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_four'] ?></p>
                                 </div>
                             </div>
@@ -302,7 +320,7 @@ $this->title = 'Tours | Austria';
                                             src="/tours/images/<?=$tour_other_university_img_block[4]['image']?>"
                                             alt="Курсы немецкого языка в Вене"></a>
                                 <div class="carousel-caption"
-                                     style="background: linear-gradient(#e4e4e4, #ccc);width: 100%;margin-left: -300px">
+                                     style="background: #e4e4e4;width: 100%;margin-left: -300px">
                                     <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_five'] ?></p>
                                 </div>
 
@@ -346,69 +364,14 @@ $this->title = 'Tours | Austria';
 </div>
 </div>
 <!-- конец блока Про Университеты  -->
-<!-- блок Наши Услуги -->
-<div class="split-features" id="our_services">
-    <div style="margin-top: 23px;" class="col-md-5 col-md-offset-1 nopadding">
-        <div class="split-image"><img class="img-responsive wow fadeIn" src="/tours/images/<?=$tour_our_services_img_block->image?>"
-                                      alt="Image"/></div>
-    </div>
-    <div class="col-md-5 nopadding">
-        <div class="split-content">
-            <h1 class="wow fadeInUp"><?= $tour_our_services_block['title_big_head'] ?></h1>
-            <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_first'] ?></h3>
-            <ul class="wow fadeInUp">
-                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_first'] ?></li>
-                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_second'] ?></li>
-                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_third'] ?></li>
-            </ul>
-            <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_second'] ?></h3>
-            <ul class="wow fadeInUp">
-                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_first'] ?></li>
-                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_second'] ?></li>
-                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_third'] ?></li>
-                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_four'] ?></li>
-            </ul>
-            <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_third'] ?> </h3>
-            <ul class="wow fadeInUp">
-                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_third_first'] ?></li>
-                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_third_second'] ?></li>
-            </ul>
-            <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_four'] ?></h3>
-        </div>
-
-    </div>
-
-    <div style="padding-top: 30px; width: 100%; display: flex; align-items: center; justify-content: center;">
-        <a  href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
-            style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
-    </div>
-
-    <div style="text-align: center;">
-        <div class="btn-group">
-            <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
-                                                             href="tel:<?= $tour_our_services_block['btn_first_text'] ?>"><?= $tour_our_services_block['btn_first_text'] ?></a>
-            </button>
-            <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
-                                                          href="tel:<?= $tour_our_services_block['btn_second_text'] ?>"><?= $tour_our_services_block['btn_second_text'] ?></a>
-            </button>
-        </div>
-    </div>
-</div>
-<!-- конец блока Наши Услуги -->
 <!-- блок О нас -->
 <div style="padding: 50px 0 0 0;" class="split-features2" id="about_us">
     <div class="col-md-6 nopadding">
         <div class="split-content second">
             <h1 class="wow fadeInUp"><?= $tour_about_us_block['title_big_head'] ?></h1>
-            <p class="wow fadeInUp" style="color: #4a4a4a; font-weight: 500">
+            <p class="wow fadeInUp" style="color: #4a4a4a; font-weight: 500;padding-left:130px;text-align:right;line-height:30px;">
                 <?= $tour_about_us_block['text_head'] ?>
             </p>
-            <!--<ul class="wow fadeInUp">-->
-            <!--<li>Nulla ornare purus non consequat ultricies.</li>-->
-            <!--<li>Etiam est nisl, molestie sed egestas bibendum</li>-->
-            <!--<li>Aliquam vel euismod elit, sed suscipit est.</li>-->
-            <!--<li>Curabitur egestas justo neque viverra vel. </li>-->
-            <!--</ul>-->
         </div>
     </div>
     <div class="col-md-5 nopadding">
@@ -490,6 +453,125 @@ $this->title = 'Tours | Austria';
     </div>
 </div>
 <!-- конец блока О нас -->
+<!-- блок Наши Услуги -->
+<div class="split-features" id="our_services">
+    <div style="margin-top: 23px;" class="col-md-5 col-md-offset-1 nopadding">
+        <div class="split-image"><img class="img-responsive wow fadeIn" src="/tours/images/<?=$tour_our_services_img_block->image?>"
+                                      alt="Image"/></div>
+    </div>
+    <div class="col-md-6 nopadding">
+        <div class="split-content">
+            <h1 class="wow fadeInUp"><?= $tour_our_services_block['title_big_head'] ?></h1>
+            <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_first'] ?></h3>
+            <ul class="wow fadeInUp">
+                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_first'] ?></li>
+                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_second'] ?></li>
+                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_third'] ?></li>
+            </ul>
+            <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_second'] ?></h3>
+            <ul class="wow fadeInUp">
+                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_first'] ?></li>
+                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_second'] ?></li>
+                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_third'] ?></li>
+                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_four'] ?></li>
+            </ul>
+            <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_third'] ?> </h3>
+            <ul class="wow fadeInUp">
+                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_third_first'] ?></li>
+                <li style="color: #4a4a4a"><?= $tour_our_services_block['description_third_second'] ?></li>
+            </ul>
+            <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_four'] ?></h3>
+        </div>
+
+    </div>
+
+    <div style="padding-top: 30px; width: 100%; display: flex; align-items: center; justify-content: center;">
+        <a  href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
+            style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
+    </div>
+
+    <div style="text-align: center;">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
+                                                             href="tel:<?= $tour_our_services_block['btn_first_text'] ?>"><?= $tour_our_services_block['btn_first_text'] ?></a>
+            </button>
+            <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
+                                                          href="tel:<?= $tour_our_services_block['btn_second_text'] ?>"><?= $tour_our_services_block['btn_second_text'] ?></a>
+            </button>
+        </div>
+    </div>
+</div>
+<!-- конец блока Наши Услуги -->
+<!-- блок Цены -->
+<div id="pricing" class="pricing-section text-center">
+    <div class="container">
+        <div class="col-md-12 col-sm-12 nopadding">
+            <div class="pricing-intro">
+                <h1 class="wow fadeInUp" data-wow-delay="0s"><?=$tour_prices_block['title_big_head']?></h1>
+            </div>
+            <div class="pricing-table">
+    <div class="col">
+      <div class="table">
+        <h2>Базовый</h2>
+        <div class="price">
+        €1390
+          
+        </div>
+        <ul>
+          <li>Подготовка к поступлению в ВУЗ</li>
+          <li>Поступление в ВУЗ</li>
+          <li> Подробный инструктаж перед и во время пребывания в Австрии</li>
+        </ul>
+        <a href="#">Заказать сейчас</a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="table">
+        <h2>Стандарт</h2>
+       
+        <div class="price">
+        €1790
+         
+        </div>
+        <ul>
+          <li>Базовый </li>
+          <li>+ Поиск и бронирования жилья</li>
+        </ul>
+        <a href="#">Заказать сейчас</a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="table">
+        <h2>Полный</h2>
+        <div class="price">
+        €2390
+          
+        </div>
+        <ul>
+          <li>Стандарт</li>
+          <li>+ Подача документов на визы</li>
+          <li>+ Оформление всех документов в Австрии</li>
+        </ul>
+        <a href="#">Заказать сейчас</a>
+      </div>
+    </div>
+  </div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <h6 style="color: white; font-weight: bold"><?=$tour_prices_block['text_footer']?></h6>
+        <br>
+        <div class="btn-group">
+            <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
+                                                          href="tel:<?=$tour_prices_block['btn_first_text']?>"><?=$tour_prices_block['btn_first_text']?></a>
+            </button>
+            <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
+                                                             href="tel:<?=$tour_prices_block['btn_second_text']?>"><?=$tour_prices_block['btn_second_text']?></a>
+            </button>
+        </div>
+    </div>
+</div>
+<!-- конец блока Цены -->
 <!-- блок Отзывы -->
 <div style="padding: 150px 0 0 0" class="review-section" id="review">
     <div class="container">
@@ -616,12 +698,10 @@ $this->title = 'Tours | Austria';
             </div>
         </div>
     </div>
-
     <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
         <a  href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
             style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
     </div>
-
     <div style="text-align: center;">
         <h6 style="color: white; font-weight: bold"><?= $tour_questions_block['text_footer'] ?></h6>
         <br>
@@ -637,102 +717,18 @@ $this->title = 'Tours | Austria';
 </div>
 <!-- конец блока Часто задаваемые вопросы -->
 
-
-<!-- блок Цены -->
-<div id="pricing" class="pricing-section text-center">
-    <div class="container">
-        <div class="col-md-12 col-sm-12 nopadding">
-            <div class="pricing-intro">
-                <h1 class="wow fadeInUp" data-wow-delay="0s"><?=$tour_prices_block['title_big_head']?></h1>
-                <!--                        <p class="wow fadeInUp" data-wow-delay="0.2s"> Lorem ipsum dolor sit. Incidunt laborum beatae earum nihil odio consequatur officiis <br class="hidden-xs">-->
-                <!--                            tempore consequuntur officia ducimus unde doloribus quod unt repell </p>-->
-            </div>
-            <div class="col-sm-6">
-                <div style="display: flex; border-radius: 5px;
-                background-color: #fff;
-                align-items: flex-start;
-                flex-direction: column; padding: 30px;" class="wow fadeInUp" data-wow-delay="0.4s">
-                    <h2 style="margin: 0 0 50px 0;
-                            padding: 0;
-                            font-size: 13px;
-                            letter-spacing: 2px;
-                            text-transform: uppercase;
-                            font-weight: 700;
-                            color: #888f94;">
-                        <?=$tour_prices_block['title_first']?>
-                    </h2>
-                    <span style="color: #6d6d6d; font-size: 48px; font-family: 'Roboto', sans-serif; padding-bottom: 50px;"><?=$tour_prices_block['price_first']?></span>
-                    <ul style="padding-bottom: 50px;">
-                        <li style="display: flex;">
-                            <img style="height: 15px; width: 15px;" src="/tours/icons/check-mark.png">
-                            <p style="color: #333;"><?=$tour_prices_block['little_text_first']?></p>
-                        </li>
-                    </ul>
-                    <div style="display: flex; justify-content: flex-end; width: 100%;">
-                        <button style="padding: 10px 20px; font-size: 18px;
-                            background: #000080; font-family: 'Roboto', sans-serif;
-                            color: #fff;" class="btn btn-select-plan btn-sm"><?=$tour_prices_block['btn_rate_first']?></button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div style="display: flex; border-radius: 5px;
-                background-color: #fff;
-                align-items: flex-start;
-                flex-direction: column; padding: 30px;" class="wow fadeInUp" data-wow-delay="0.4s">
-                    <h2 style="margin: 0 0 50px 0;
-                            padding: 0;
-                            font-size: 13px;
-                            letter-spacing: 2px;
-                            text-transform: uppercase;
-                            font-weight: 700;
-                            color: #888f94;">
-                        <?=$tour_prices_block['title_second']?>
-                    </h2>
-                    <span style="color: #6d6d6d; font-size: 48px; font-family: 'Roboto', sans-serif; padding-bottom: 50px;"><?=$tour_prices_block['price_second']?></span>
-                    <ul style="padding-bottom: 50px;">
-                        <li style="display: flex;">
-                            <img style="height: 15px; width: 15px;" src="/tours/icons/check-mark.png">
-                            <p style="color: #333;"><?=$tour_prices_block['little_text_second']?></p>
-                        </li>
-                    </ul>
-                    <div style="display: flex; justify-content: flex-end; width: 100%;">
-                        <button style="padding: 10px 20px; font-size: 18px;
-                            background: #000080; font-family: 'Roboto', sans-serif;
-                            color: #fff;" class="btn btn-select-plan btn-sm"><?=$tour_prices_block['btn_rate_second']?></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div style="text-align: center;">
-        <h6 style="color: white; font-weight: bold"><?=$tour_prices_block['text_footer']?></h6>
-        <br>
-        <div class="btn-group">
-            <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
-                                                          href="tel:<?=$tour_prices_block['btn_first_text']?>"><?=$tour_prices_block['btn_first_text']?></a>
-            </button>
-            <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
-                                                             href="tel:<?=$tour_prices_block['btn_second_text']?>"><?=$tour_prices_block['btn_second_text']?></a>
-            </button>
-        </div>
-    </div>
-</div>
-<!-- конец блока Цены -->
 <!-- блок Контакты -->
 <div class="cta-sub no-color" style="background-image:linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url(/tours/images/<?=$tour_contact_img_block->image?>)">
     <div class="container">
         <div class="cta-inner">
             <h1 class="wow fadeInUp"><?= $tour_have_questions_block['title_big_head'] ?></h1>
             <br>
-            <a href="https://m.me/studentway.ukraina?ref=w3726749"
+            <a href="https://m.me/studentway.ukraina?ref=w3726749" style="background:#3498db;"
                class="btn btn-action wow fadeInUp"><?= $tour_have_questions_block['btn_message_text'] ?></a>
             <br>
             <br>
             <br>
             <br>
-
             <h1 id="contacts" class="wow fadeInUp" data-wow-delay="0s">
                 <?=$tour_contact_block['title_big_head']?>
             </h1>
@@ -743,38 +739,37 @@ $this->title = 'Tours | Austria';
                 <?=$tour_contact_block['text_head']?>
             </h3>
             <br>
-
             <hr>
             <br>
             <br>
             <div class="row" style="margin-left: 5px">
                 <div class="col-xs-6 col-md-2" style="width: 230px;">
-                    <a href="viber://chat?number=+380676367247" class="thumbnail" style="background-color: transparent;">
-                        <img src="/tours/images/viber-logo.png" class="img-circle" alt="...">
+                    <a href="viber://chat?number=+380676367247" class="thumbnail btn-social" >
+                        <i class="fab fa-viber"></i>
                     </a>
                     <p><?=$tour_contact_block['description_first']?></p>
                 </div>
                 <div class="col-xs-6 col-md-2" style="width: 230px">
-                    <a href="https://t.me/StudentWay_Ukraina" class="thumbnail" style="background-color: transparent;">
-                        <img src="/tours/images/telegram_PNG27.png" alt="...">
+                    <a href="https://t.me/StudentWay_Ukraina" class="thumbnail btn-social" >
+                        <i class="fab fa-telegram"></i>
                     </a>
                     <p><?=$tour_contact_block['description_second']?></p>
                 </div>
                 <div class="col-xs-6 col-md-2" style="width: 230px">
-                    <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail" style="background-color: transparent;">
-                        <img src="/tours/images/facebook-messenger-chat-logo.png" alt="...">
+                    <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail btn-social" >
+                        <i class="fab fa-facebook-messenger"></i>
                     </a>
                     <p><?=$tour_contact_block['description_third']?></p>
                 </div>
                 <div class="col-xs-6 col-md-2" style="width: 230px">
-                    <a href="whatsapp://send?phone=+380968141132" class="thumbnail" style="background-color: transparent;">
-                        <img src="/tours/images/whatsapp.png" alt="...">
+                    <a href="whatsapp://send?phone=+380968141132" class="thumbnail btn-social" >
+                        <i class="fab fa-whatsapp"></i>
                     </a>
                     <p><?=$tour_contact_block['description_four']?></p>
                 </div>
                 <div class="col-xs-6 col-md-2" style="width: 230px">
-                    <a href="https://www.instagram.com/studentway_ukraina/" class="thumbnail" style="background-color: transparent;">
-                        <img src="/tours/images/instagram-icon.png" alt="...">
+                    <a href="https://www.instagram.com/studentway_ukraina/" class="thumbnail btn-social" >
+                        <i class="fab fa-instagram"></i>
                     </a>
                     <p><?=$tour_contact_block['description_five']?></p>
                 </div>
@@ -782,7 +777,6 @@ $this->title = 'Tours | Austria';
             <hr>
             <br>
             <br>
-
             <h3 style="font-size: 20px; color: white" class="wow fadeInUp" data-wow-delay="0s">
                 <?=$tour_contact_block['text_footer']?>
             </h3>
@@ -790,7 +784,6 @@ $this->title = 'Tours | Austria';
             <br>
             <br>
             <div class="row">
-
                 <div class="col-md-6"><h1><a style="color: white" title="Позвонить"
                                              href="tel:
 <?=$tour_contact_block['link_phone_first']?>"><?=$tour_contact_block['link_phone_first']?></a></h1></div>
@@ -800,7 +793,9 @@ $this->title = 'Tours | Austria';
 
             </div>
         </div>
-
     </div>
 </div>
 <!-- конец блока Контакты -->
+
+</body>
+</html>
