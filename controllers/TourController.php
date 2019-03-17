@@ -35,7 +35,7 @@ use yii\web\Controller;
 
 class TourController extends Controller
 {
-    public $layout = '/tours';
+    public $layout = 'tours';
 
     /**
      * @param int $id
@@ -76,6 +76,11 @@ class TourController extends Controller
         //footer
         $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
         $this->view->params['footer'] = $tour_footer_block;
+        //contact
+        $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
+        $this->view->params['contact'] = $tour_contact_block;
+        $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
+        $this->view->params['img_block'] = $tour_contact_block;
         return $this->render('index', [
             'tour_head'=>$tour_head,
             'tour_head_menus'=>$tour_head_menus,
@@ -110,7 +115,15 @@ class TourController extends Controller
         return $this->render('venskiy-technicheskiy-universitet',[]);
     }
 
-    public function actionVenskiiUniversitetEkonomikiIBiznesa(){
+    public function actionVenskiiUniversitetEkonomikiIBiznesa($id =1){
+        $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
+        $this->view->params['footer'] = $tour_footer_block;
+
+        //contact
+        $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
+        $this->view->params['contact'] = $tour_contact_block;
+        $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
+        $this->view->params['img_block'] = $tour_contact_block;
         return $this->render('venskii-universitet-ekonomiki-i-biznesa',[]);
     }
 

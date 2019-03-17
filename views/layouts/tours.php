@@ -17,10 +17,9 @@ ToursAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 <?= $content ?>
-<!-- Footer Section -->
 <!-- блок Контакты -->
 <div class="cta-sub no-color"
-     style="background-image:linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url(/tours/images/<?= $tour_contact_img_block->image ?>)">
+     style="background-image:linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url('/tours/images/<?= $tour_contact_img_block->image ?>')">
     <div class="container">
         <div class="cta-inner">
             <h1 class="wow fadeInUp"><?= $tour_have_questions_block['title_big_head'] ?></h1>
@@ -32,13 +31,13 @@ ToursAsset::register($this);
             <br>
             <br>
             <h1 id="contacts" class="wow fadeInUp" data-wow-delay="0s">
-                <?= $tour_contact_block['title_big_head'] ?>
+                <?= $this->params['contact']['title_big_head'] ?>
             </h1>
             <br>
             <br>
             <br>
             <h3 style="font-size: 20px; color: white" class="wow fadeInUp" data-wow-delay="0s">
-                <?= $tour_contact_block['text_head'] ?>
+                <?= $this->params['contact']['text_head'] ?>
             </h3>
             <br>
             <hr>
@@ -49,38 +48,38 @@ ToursAsset::register($this);
                     <a href="viber://chat?number=+380676367247" class="thumbnail btn-social">
                         <i class="fab fa-viber"></i>
                     </a>
-                    <p><?= $tour_contact_block['description_first'] ?></p>
+                    <p><?= $this->params['contact']['description_first'] ?></p>
                 </div>
                 <div class="col-xs-6 col-md-2" style="width: 230px">
                     <a href="https://t.me/StudentWay_Ukraina" class="thumbnail btn-social">
                         <i class="fab fa-telegram"></i>
                     </a>
-                    <p><?= $tour_contact_block['description_second'] ?></p>
+                    <p><?= $this->params['contact']['description_second'] ?></p>
                 </div>
                 <div class="col-xs-6 col-md-2" style="width: 230px">
                     <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail btn-social">
                         <i class="fab fa-facebook-messenger"></i>
                     </a>
-                    <p><?= $tour_contact_block['description_third'] ?></p>
+                    <p><?= $this->params['contact']['description_third'] ?></p>
                 </div>
                 <div class="col-xs-6 col-md-2" style="width: 230px">
                     <a href="whatsapp://send?phone=+380968141132" class="thumbnail btn-social">
                         <i class="fab fa-whatsapp"></i>
                     </a>
-                    <p><?= $tour_contact_block['description_four'] ?></p>
+                    <p><?= $this->params['contact']['description_four'] ?></p>
                 </div>
                 <div class="col-xs-6 col-md-2" style="width: 230px">
                     <a href="https://www.instagram.com/studentway_ukraina/" class="thumbnail btn-social">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <p><?= $tour_contact_block['description_five'] ?></p>
+                    <p><?= $this->params['contact']['description_five'] ?></p>
                 </div>
             </div>
             <hr>
             <br>
             <br>
             <h3 style="font-size: 20px; color: white" class="wow fadeInUp" data-wow-delay="0s">
-                <?= $tour_contact_block['text_footer'] ?>
+                <?= $this->params['contact']['text_footer'] ?>
             </h3>
             <br>
             <br>
@@ -88,16 +87,17 @@ ToursAsset::register($this);
             <div class="row">
                 <div class="col-md-6"><h1><a style="color: white" title="Позвонить"
                                              href="tel:
-<?= $tour_contact_block['link_phone_first'] ?>"><?= $tour_contact_block['link_phone_first'] ?></a></h1></div>
+<?= $this->params['contact']['link_phone_first'] ?>"><?= $this->params['contact']['link_phone_first'] ?></a></h1></div>
                 <div class="col-md-6"><h1><a style="color: white" title="Позвонить"
                                              href="tel:
-<?= $tour_contact_block['link_phone_second'] ?>"><?= $tour_contact_block['link_phone_second'] ?></a></h1></div>
+<?= $this->params['contact']['link_phone_second'] ?>"><?= $this->params['contact']['link_phone_second'] ?></a></h1></div>
 
             </div>
         </div>
     </div>
 </div>
 <!-- конец блока Контакты -->
+<!-- Footer Section -->
 <div class="footer" >
     <div class="container">
         <div class="col-md-5 contact">
