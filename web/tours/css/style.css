@@ -2341,6 +2341,7 @@ img{
 
 .header__title{
 	font-size: 45px;
+	color: blue;
 	font-weight: bold;
 }
 #rating ul	:first-child{

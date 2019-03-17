@@ -1,18 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Венский Университет Экономики и Бизнеса</title>
-    <style>
-        .footer{
-            padding:0px;
-        }
-    </style>
-</head>
-<body style="font-family: 'Roboto', sans-serif;">
-<a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;z-index:100;margin-top:25px;">Вернуться назад</a>
+﻿<a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;z-index:100;margin-top:25px;">Вернуться назад</a>
 
 <div id="rating">
     <div class="container">
@@ -532,18 +518,3 @@
 </div>
 
 <hr>
-
-<!-- Jquery-3.3.1 -->
-
-<script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-
-<!-- Latest compiled and minified JavaScript -->
-
-<script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-</body>
-</html>
