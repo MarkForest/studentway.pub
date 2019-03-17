@@ -19,13 +19,13 @@ ToursAsset::register($this);
 <?= $content ?>
 <!-- блок Контакты -->
 <div class="cta-sub no-color"
-     style="background-image:linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url('/tours/images/<?= $tour_contact_img_block->image ?>')">
+     style="background-image:linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url('/tours/images/<?= $this->params['img_block']->image ?>')">
     <div class="container">
         <div class="cta-inner">
-            <h1 class="wow fadeInUp"><?= $tour_have_questions_block['title_big_head'] ?></h1>
+            <h1 class="wow fadeInUp"><?= $this->params['question']['title_big_head'] ?></h1>
             <br>
             <a href="https://m.me/studentway.ukraina?ref=w3726749" style="background:#3498db;"
-               class="btn btn-action wow fadeInUp"><?= $tour_have_questions_block['btn_message_text'] ?></a>
+               class="btn btn-action wow fadeInUp"><?= $this->params['question']['btn_message_text'] ?></a>
             <br>
             <br>
             <br>

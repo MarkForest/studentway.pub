@@ -64,15 +64,13 @@ class TourController extends Controller
         $tour_questions_block = TourQuestionsBlock::findOne(['id'=>$id]);
         //have questions
         $tour_have_questions_block = TourHaveQuestionsBlock::findOne(['id'=>$id]);
+        $this->view->params['question'] = $tour_have_questions_block;
         $tour_have_questions_img_block = TourHaveQuestionsImgBlock::findOne(['id'=>$id]);
         //review
         $tour_review_block = TourReviewBlock::findOne(['id'=>$id]);
         $tour_review_img_block = TourReviewImgBlock::find()->all();;
         //prices
         $tour_prices_block = TourPricesBlock::findOne(['id'=>$id]);
-        //contact
-        $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
-        $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
         //footer
         $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
         $this->view->params['footer'] = $tour_footer_block;
@@ -80,7 +78,7 @@ class TourController extends Controller
         $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
         $this->view->params['contact'] = $tour_contact_block;
         $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
-        $this->view->params['img_block'] = $tour_contact_block;
+        $this->view->params['img_block'] = $tour_contact_img_block;
         return $this->render('index', [
             'tour_head'=>$tour_head,
             'tour_head_menus'=>$tour_head_menus,
@@ -107,15 +105,9 @@ class TourController extends Controller
     }
 
 
-    public function actionVenskiyUniversitet(){
-
-        return $this->render('venskiy-universitet',[]);
-    }
-    public function actionVenskiyTechnicheskiyUniversitet(){
-        return $this->render('venskiy-technicheskiy-universitet',[]);
-    }
-
-    public function actionVenskiiUniversitetEkonomikiIBiznesa($id =1){
+    public function actionVenskiyUniversitet($id=1){
+        $tour_have_questions_block = TourHaveQuestionsBlock::findOne(['id'=>$id]);
+        $this->view->params['question'] = $tour_have_questions_block;
         $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
         $this->view->params['footer'] = $tour_footer_block;
 
@@ -123,27 +115,112 @@ class TourController extends Controller
         $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
         $this->view->params['contact'] = $tour_contact_block;
         $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
-        $this->view->params['img_block'] = $tour_contact_block;
+        $this->view->params['img_block'] = $tour_contact_img_block;
+
+        return $this->render('venskiy-universitet',[]);
+    }
+    public function actionVenskiyTechnicheskiyUniversitet($id=1){
+        $tour_have_questions_block = TourHaveQuestionsBlock::findOne(['id'=>$id]);
+        $this->view->params['question'] = $tour_have_questions_block;
+        $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
+        $this->view->params['footer'] = $tour_footer_block;
+
+        //contact
+        $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
+        $this->view->params['contact'] = $tour_contact_block;
+        $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
+        $this->view->params['img_block'] = $tour_contact_img_block;
+
+        return $this->render('venskiy-technicheskiy-universitet',[]);
+    }
+
+    public function actionVenskiiUniversitetEkonomikiIBiznesa($id =1){
+        $tour_have_questions_block = TourHaveQuestionsBlock::findOne(['id'=>$id]);
+        $this->view->params['question'] = $tour_have_questions_block;
+        $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
+        $this->view->params['footer'] = $tour_footer_block;
+
+        //contact
+        $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
+        $this->view->params['contact'] = $tour_contact_block;
+        $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
+        $this->view->params['img_block'] = $tour_contact_img_block;
+
         return $this->render('venskii-universitet-ekonomiki-i-biznesa',[]);
     }
 
-    public function actionVenskijAgrarnyijUniversitet(){
+    public function actionVenskijAgrarnyijUniversitet($id=1){
+        $tour_have_questions_block = TourHaveQuestionsBlock::findOne(['id'=>$id]);
+        $this->view->params['question'] = $tour_have_questions_block;
+        $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
+        $this->view->params['footer'] = $tour_footer_block;
+
+        //contact
+        $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
+        $this->view->params['contact'] = $tour_contact_block;
+        $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
+        $this->view->params['img_block'] = $tour_contact_img_block;
+
         return $this->render('venskij-agrarnyij-universitet',[]);
     }
 
-    public function actionVenskyyMedytsynskyyUnyversytet(){
+    public function actionVenskyyMedytsynskyyUnyversytet($id=1){
+        $tour_have_questions_block = TourHaveQuestionsBlock::findOne(['id'=>$id]);
+        $this->view->params['question'] = $tour_have_questions_block;
+        $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
+        $this->view->params['footer'] = $tour_footer_block;
+
+        //contact
+        $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
+        $this->view->params['contact'] = $tour_contact_block;
+        $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
+        $this->view->params['img_block'] = $tour_contact_img_block;
+
         return $this->render('venskyy-medytsynskyy-unyversytet',[]);
     }
 
-    public function actionVidenskijVeterinarnijUniversite(){
+    public function actionVidenskijVeterinarnijUniversite($id=1){
+        $tour_have_questions_block = TourHaveQuestionsBlock::findOne(['id'=>$id]);
+        $this->view->params['question'] = $tour_have_questions_block;
+        $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
+        $this->view->params['footer'] = $tour_footer_block;
+
+        //contact
+        $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
+        $this->view->params['contact'] = $tour_contact_block;
+        $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
+        $this->view->params['img_block'] = $tour_contact_img_block;
+
         return $this->render('videnskij-veterinarnij-universite',[]);
     }
 
-    public function actionVenskiyUniversitetPrikladnyNauk(){
+    public function actionVenskiyUniversitetPrikladnyNauk($id=1){
+        $tour_have_questions_block = TourHaveQuestionsBlock::findOne(['id'=>$id]);
+        $this->view->params['question'] = $tour_have_questions_block;
+        $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
+        $this->view->params['footer'] = $tour_footer_block;
+
+        //contact
+        $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
+        $this->view->params['contact'] = $tour_contact_block;
+        $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
+        $this->view->params['img_block'] = $tour_contact_img_block;
+
         return $this->render('venskiy-universitet-prikladnyh-nauk',[]);
     }
 
-    public function actionCoursiNemeckogoVAvstii(){
+    public function actionCoursiNemeckogoVAvstii($id=1){
+        $tour_have_questions_block = TourHaveQuestionsBlock::findOne(['id'=>$id]);
+        $this->view->params['question'] = $tour_have_questions_block;
+        $tour_footer_block = TourFooterBlock::findOne(['id'=>$id]);
+        $this->view->params['footer'] = $tour_footer_block;
+
+        //contact
+        $tour_contact_block = TourContactBlock::findOne(['id'=>$id]);
+        $this->view->params['contact'] = $tour_contact_block;
+        $tour_contact_img_block = TourContactsImgBlock::findOne(['id'=>$id]);
+        $this->view->params['img_block'] = $tour_contact_img_block;
+
         return $this->render('coursi-nemeckogo-v-avstii',[]);
     }
 }
