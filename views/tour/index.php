@@ -60,7 +60,7 @@ $this->title = 'Tours | Austria';
                         <p class="wow fadeInUp" data-wow-delay="0.2s"
                            style="color: white;font-size: larger; font-weight:bold  "> <?= $tour_first_block['description'] ?> </p>
 
-                        <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
+                        <a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
 
                            style="visibility: visible; animation-name: fadeInUp;"><?= $tour_first_block['btn_message_text'] ?></a>
                     </div>
@@ -140,7 +140,7 @@ $this->title = 'Tours | Austria';
                 </div>
 
             </div>
-            <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
+            <a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
                style="margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
             <div>
                 <h6 style="color: white; font-weight: bold"><?= $tour_info_block['text_footer'] ?></h6>
@@ -343,7 +343,7 @@ $this->title = 'Tours | Austria';
 </p>
 </div>
 
-<a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
+<a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
 
    style="visibility: visible; animation-name: fadeInUp;"><?= $tour_about_university_block['btn_message_text'] ?></a>
 </div>
@@ -515,7 +515,7 @@ $this->title = 'Tours | Austria';
 
 
     <div style="padding-top: 30px; width: 100%; display: flex; align-items: center; justify-content: center;">
-        <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
+        <a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
            style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить
             консультацию</a>
     </div>
@@ -552,7 +552,7 @@ $this->title = 'Tours | Austria';
                             <li>Поступление в ВУЗ</li>
                             <li>Подробный инструктаж перед и во время пребывания в Австрии</li>
                         </ul>
-                        <a href="#">Заказать сейчас</a>
+                        <a href="https://m.me/studentway.ukraina?ref=w5191658">Заказать сейчас</a>
                     </div>
                 </div>
                 <div class="col">
@@ -567,7 +567,7 @@ $this->title = 'Tours | Austria';
                             <li>Базовый</li>
                             <li>+ Поиск и бронирования жилья</li>
                         </ul>
-                        <a href="#">Заказать сейчас</a>
+                        <a href="https://m.me/studentway.ukraina?ref=w5191658">Заказать сейчас</a>
                     </div>
                 </div>
                 <div class="col">
@@ -582,7 +582,7 @@ $this->title = 'Tours | Austria';
                             <li>+ Подача документов на визы</li>
                             <li>+ Оформление всех документов в Австрии</li>
                         </ul>
-                        <a href="#">Заказать сейчас</a>
+                        <a href="https://m.me/studentway.ukraina?ref=w5191658">Заказать сейчас</a>
                     </div>
                 </div>
             </div>
@@ -734,7 +734,7 @@ $this->title = 'Tours | Austria';
         </div>
     </div>
     <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
-        <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
+        <a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
            style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить
             консультацию</a>
     </div>

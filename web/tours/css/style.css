@@ -2339,11 +2339,19 @@ img{
 	background: #00aeda;
 }
 
+
+#rating ul	:first-child{
+	border-radius: 2%;
+}
+
+
+/*    University Grid      */
 .header__title{
 	font-size: 45px;
 	color: blue;
 	font-weight: bold;
 }
-#rating ul	:first-child{
-	border-radius: 2%;
+
+.info__grid {
+	margin-top: 20px;
 }

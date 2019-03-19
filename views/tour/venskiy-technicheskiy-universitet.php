@@ -76,12 +76,14 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1" style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;margin-bottom:10px;">
+                Высокий уровень:
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
                 <ul style="line-height:20px;text-align:justify;">
-                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;margin-bottom:10px;">
-                        Высокий уровень:
-                    </li>
                     <li style=" padding: 15px 0px; margin-bottom:0px;">
                         Венский технический университет является самым лучшим технический
                         университетом в Австрии, образование которого цениться во всем мире.
@@ -110,9 +112,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
-                        col-md-offset-1">
-                <img class="office" src="/tours/images/vtui3(3).jpg" alt="img">
+            <div class="col-md-6">
+                <img class="office" src="/tours/images/vui3(2).jpg" alt="img">
             </div>
         </div>
     </div>
@@ -123,11 +124,10 @@
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
-                        col-md-offset-1">
+            <div class="col-md-6 col-md-offset-1">
                 <img class="office" src="/tours/images/vtui4(2).jpg" alt="img">
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+            <div class="col-md-5">
                 <ul style="line-height:20px;text-align:justify;">
                     <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold">
                     Исследовательские возможности:
@@ -199,11 +199,10 @@
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
-                        col-md-offset-1">
+            <div class="col-md-6 col-md-offset-1">
                 <img class="office" src="/tours/images/vtui6(1).jpg" alt="img">
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+            <div class="col-md-5">
                 <ul style="line-height:20px;text-align:justify;">
                     <li style="background-color: blue;color:white;font-size: 25px; padding: 20px 10px; font-weight: bold">
                         Жизнь вне учебы:

@@ -24,7 +24,7 @@ ToursAsset::register($this);
         <div class="cta-inner">
             <h1 class="wow fadeInUp"><?= $this->params['question']['title_big_head'] ?></h1>
             <br>
-            <a href="https://m.me/studentway.ukraina?ref=w3726749" style="background:#3498db;"
+            <a href="https://m.me/studentway.ukraina?ref=w5191658" style="background:#3498db;"
                class="btn btn-action wow fadeInUp"><?= $this->params['question']['btn_message_text'] ?></a>
             <br>
             <br>

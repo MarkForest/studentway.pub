@@ -62,7 +62,7 @@
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+            <div class="col-md-5 col-md-offset-1">
                 <ul style="padding: 25px 20px 0px 20px;list-style-type:disc;text-align:justify;line-height:20px;">
                     <li style="color:white;background-color:blue;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         Престижный вариант:
@@ -107,8 +107,7 @@
                         <br>
                 </ul>
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
-                        col-md-offset-1">
+            <div class="col-md-6">
                 <img class="office" src="/tours/images/vue3(2).jpg" alt="img">
             </div>
         </div>
@@ -119,17 +118,18 @@
 
 <div id="rating">
     <div class="container">
-        <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
-                        col-md-offset-1">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-7" style="background-color:blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;margin-bottom:0px; ">
+                Высокое трудоустройство:
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-1">
                 <img class="office" src="/tours/images/vue4(4).jpg" alt="img">
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+            <div class="col-md-5">
                 <ul style="padding: 25px 20px 0px 20px;list-style-type:circle;text-align:justify;line-height:20px;">
-                    <li style="background-color:blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;margin-bottom:0px; ">
-                        Высокое трудоустройство:
-                    </li>
-                    <li style="padding: 25px 10px;margin-bottom:0px; ">
+                    <li style="padding: 0px 10px;margin-bottom:0px; ">
                         Благодаря мировым рейтингам высокому уровню образования, диплом
                         WU открывает широкие возможности трудоустройства не только в Австрии,
                         но и по всему миру. Особую роль в трудоустройстве студентов играет
@@ -161,7 +161,7 @@
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+            <div class="col-md-5 col-md-offset-1">
                 <ul style="padding: 25px 20px 0px 20px;line-height:20px;list-style-type:disc;">
                     <li style="background-color: blue;color:white;line-height:30px;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         Большой выбор возможностей:
@@ -184,8 +184,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
-                        col-md-offset-1">
+            <div class="col-md-6">
                 <img class="office" src="/tours/images/vue5(1).jpg" alt="img">
             </div>
         </div>
@@ -197,13 +196,12 @@
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
-                        col-md-offset-1">
+            <div class="col-md-6 col-md-offset-1">
                 <img class="office" src="/tours/images/vue6(4).jpg" alt="img">
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+            <div class="col-md-5">
                 <ul style="padding: 25px 10px 0px 20px;list-style-type:disc;text-align:justify;line-height:20px;">
-                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;text-align:auto;">
+                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         Новый кампус:
                     </li>
                     <li style="list-style-type:none;margin-bottom:0px;">
