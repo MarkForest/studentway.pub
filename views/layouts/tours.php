@@ -24,7 +24,7 @@ ToursAsset::register($this);
         <div class="cta-inner">
             <h1 class="wow fadeInUp"><?= $this->params['question']['title_big_head'] ?></h1>
             <br>
-            <a href="https://m.me/studentway.ukraina?ref=w5191658" style="background:#3498db;"
+            <a href="https://m.me/studentway.ukraina?ref=w3726749" style="background:#3498db;"
                class="btn btn-action wow fadeInUp"><?= $this->params['question']['btn_message_text'] ?></a>
             <br>
             <br>
@@ -44,31 +44,31 @@ ToursAsset::register($this);
             <br>
             <br>
             <div class="row" style="margin-left: 5px">
-                <div class="col-xs-6 col-md-2" style="width: 230px;">
+                <div class="col-xs-2" style="width: 230px;">
                     <a href="viber://chat?number=+380676367247" class="thumbnail btn-social">
                         <i class="fab fa-viber"></i>
                     </a>
                     <p><?= $this->params['contact']['description_first'] ?></p>
                 </div>
-                <div class="col-xs-6 col-md-2" style="width: 230px">
+                <div class="col-xs-2" style="width: 230px">
                     <a href="https://t.me/StudentWay_Ukraina" class="thumbnail btn-social">
                         <i class="fab fa-telegram"></i>
                     </a>
                     <p><?= $this->params['contact']['description_second'] ?></p>
                 </div>
-                <div class="col-xs-6 col-md-2" style="width: 230px">
+                <div class="col-xs-2" style="width: 230px">
                     <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail btn-social">
                         <i class="fab fa-facebook-messenger"></i>
                     </a>
                     <p><?= $this->params['contact']['description_third'] ?></p>
                 </div>
-                <div class="col-xs-6 col-md-2" style="width: 230px">
+                <div class="col-xs-2" style="width: 230px">
                     <a href="whatsapp://send?phone=+380968141132" class="thumbnail btn-social">
                         <i class="fab fa-whatsapp"></i>
                     </a>
                     <p><?= $this->params['contact']['description_four'] ?></p>
                 </div>
-                <div class="col-xs-6 col-md-2" style="width: 230px">
+                <div class="col-xs-2" style="width: 230px">
                     <a href="https://www.instagram.com/studentway_ukraina/" class="thumbnail btn-social">
                         <i class="fab fa-instagram"></i>
                     </a>

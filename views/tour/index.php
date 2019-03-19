@@ -140,8 +140,9 @@ $this->title = 'Tours | Austria';
                 </div>
 
             </div>
-            <a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
-               style="margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить консультацию</a>
+            <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
+               style="visibility: visible; margin-bottom: 20px; animation-name: fadeInUp;">Получить консультацию <br>ЭКСПЕРТОВ из АВСТРИИ
+                <br>через Messenger<br><font size="3">на русском</font></a>
             <div>
                 <h6 style="color: white; font-weight: bold"><?= $tour_info_block['text_footer'] ?></h6>
                 <br>
@@ -343,9 +344,9 @@ $this->title = 'Tours | Austria';
 </p>
 </div>
 
-<a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
-
-   style="visibility: visible; animation-name: fadeInUp;"><?= $tour_about_university_block['btn_message_text'] ?></a>
+<a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp" style="visibility: visible;
+        animation-name: fadeInUp;">Получить консультацию <br>ЭКСПЕРТОВ из АВСТРИИ
+    <br>через Messenger<br><font size="3">на русском</font></a>
 </div>
 
 </div>
@@ -456,7 +457,7 @@ $this->title = 'Tours | Austria';
         </h6>
         <br>
         <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
-            <a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
+            <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
                style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить
                 консультацию</a>
         </div>
@@ -481,41 +482,41 @@ $this->title = 'Tours | Austria';
             </div>
         </div>
     </div>
-   <div class="row">
-       <div class="col-md-5 col-md-offset-1 nopadding">
-           <div class="split-image"><img class="img-responsive wow fadeIn"
-                                         src="/tours/images/<?= $tour_our_services_img_block->image ?>"
-                                         alt="Image"/></div>
-       </div>
-       <div class="col-md-6 nopadding">
-           <div class="split-content">
-               <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_first'] ?></h3>
-               <ul class="wow fadeInUp">
-                   <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_first'] ?></li>
-                   <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_second'] ?></li>
-                   <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_third'] ?></li>
-               </ul>
-               <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_second'] ?></h3>
-               <ul class="wow fadeInUp">
-                   <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_first'] ?></li>
-                   <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_second'] ?></li>
-                   <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_third'] ?></li>
-                   <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_four'] ?></li>
-               </ul>
-               <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_third'] ?> </h3>
-               <ul class="wow fadeInUp">
-                   <li style="color: #4a4a4a"><?= $tour_our_services_block['description_third_first'] ?></li>
-                   <li style="color: #4a4a4a"><?= $tour_our_services_block['description_third_second'] ?></li>
-               </ul>
-               <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_four'] ?></h3>
-           </div>
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1 nopadding">
+            <div class="split-image"><img class="img-responsive wow fadeIn"
+                                          src="/tours/images/<?= $tour_our_services_img_block->image ?>"
+                                          alt="Image"/></div>
+        </div>
+        <div class="col-md-6 nopadding">
+            <div class="split-content">
+                <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_first'] ?></h3>
+                <ul class="wow fadeInUp">
+                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_first'] ?></li>
+                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_second'] ?></li>
+                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_third'] ?></li>
+                </ul>
+                <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_second'] ?></h3>
+                <ul class="wow fadeInUp">
+                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_first'] ?></li>
+                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_second'] ?></li>
+                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_third'] ?></li>
+                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_four'] ?></li>
+                </ul>
+                <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_third'] ?> </h3>
+                <ul class="wow fadeInUp">
+                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_third_first'] ?></li>
+                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_third_second'] ?></li>
+                </ul>
+                <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_four'] ?></h3>
+            </div>
 
-       </div>
-   </div>
+        </div>
+    </div>
 
 
     <div style="padding-top: 30px; width: 100%; display: flex; align-items: center; justify-content: center;">
-        <a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
+        <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
            style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить
             консультацию</a>
     </div>
@@ -537,7 +538,8 @@ $this->title = 'Tours | Austria';
     <div class="container">
         <div class="col-md-12 col-sm-12 nopadding">
             <div class="pricing-intro">
-                <h1 class="wow fadeInUp" style="margin: 0px;" data-wow-delay="0s"><?= $tour_prices_block['title_big_head'] ?></h1>
+                <h1 class="wow fadeInUp" style="margin: 0px;"
+                    data-wow-delay="0s"><?= $tour_prices_block['title_big_head'] ?></h1>
             </div>
             <div class="pricing-table">
                 <div class="col">
@@ -552,7 +554,7 @@ $this->title = 'Tours | Austria';
                             <li>Поступление в ВУЗ</li>
                             <li>Подробный инструктаж перед и во время пребывания в Австрии</li>
                         </ul>
-                        <a href="https://m.me/studentway.ukraina?ref=w5191658">Заказать сейчас</a>
+                        <a href="https://m.me/studentway.ukraina?ref=w3726749">Заказать сейчас</a>
                     </div>
                 </div>
                 <div class="col">
@@ -567,7 +569,7 @@ $this->title = 'Tours | Austria';
                             <li>Базовый</li>
                             <li>+ Поиск и бронирования жилья</li>
                         </ul>
-                        <a href="https://m.me/studentway.ukraina?ref=w5191658">Заказать сейчас</a>
+                        <a href="https://m.me/studentway.ukraina?ref=w3726749">Заказать сейчас</a>
                     </div>
                 </div>
                 <div class="col">
@@ -582,7 +584,7 @@ $this->title = 'Tours | Austria';
                             <li>+ Подача документов на визы</li>
                             <li>+ Оформление всех документов в Австрии</li>
                         </ul>
-                        <a href="https://m.me/studentway.ukraina?ref=w5191658">Заказать сейчас</a>
+                        <a href="https://m.me/studentway.ukraina?ref=w3726749">Заказать сейчас</a>
                     </div>
                 </div>
             </div>
@@ -734,7 +736,7 @@ $this->title = 'Tours | Austria';
         </div>
     </div>
     <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
-        <a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
+        <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
            style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить
             консультацию</a>
     </div>
