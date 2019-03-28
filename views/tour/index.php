@@ -18,26 +18,25 @@ $this->title = 'Tours | Austria';
 <body>
 <div class="wrapper">
     <div class="container">
-        <nav class="navbar navbar-inverse navbar-fixed-top" style="background:#00aeda; margin-top: -10px ">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll" style="padding-top: 10px">
+                <div class="navbar-header page-scroll" style="">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                     </button>
-                    <a href="<?= \yii\helpers\Url::toRoute('/site/index') ?>"
-                       style="color: white; text-decoration: none;">
-                        <p style=" font-family: 'Open Sans', sans-serif "><?= $tour_head['logo_text'] ?></p>
-                        <p style="font-size: 12px; margin-top: 5px "><?= $tour_head['phone_number'] ?></p>
+                    <a href="<?= \yii\helpers\Url::toRoute('/site/index') ?>" class="navbar-brand">
+                        <img src="/tours/images/logo_bell2.png" alt="StudentWay">
+<!--                        <p style=" font-family: 'Open Sans', sans-serif ">--><?//= $tour_head['logo_text'] ?><!--</p>-->
+<!--                        <p style="font-size: 12px; margin-top: 5px ">--><?//= $tour_head['phone_number'] ?><!--</p>-->
                     </a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-right " id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <?php foreach ($tour_head_menus as $value): ?>
-                            <li><a class="page-scroll " style="font-weight: 800; font-size: 15px; color: black;"
-                                   onmouseover="this.style.color='#f5f5f5';" onmouseout="this.style.color='black';"
+                            <li><a class="page-scroll " style="font-weight: 800; font-size: 15px;"
                                    href="#<?= $value['link_text'] ?>"><?= $value['menu_text'] ?></a></li>
                         <?php endforeach; ?>
                     </ul>
@@ -292,35 +291,35 @@ $this->title = 'Tours | Austria';
                                 <img src="/tours/images/<?= $tour_other_university_img_block[0]['image'] ?>"
                                      alt="Венский Аграрный Университет">
                                 <div class="carousel-caption"
-                                <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_first'] ?></p>
+                                <p><?= $tour_about_university_block['curusel_title_first'] ?></p>
                             </div>
                         </div>
                         <div class="item">
                             <img src="/tours/images/<?= $tour_other_university_img_block[1]['image'] ?>"
                                  alt="Венский Медицинский Университет">
                             <div class="carousel-caption"
-                            <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_second'] ?></p>
+                            <p><?= $tour_about_university_block['curusel_title_second'] ?></p>
                         </div>
                     </div>
                     <div class="item">
                         <img src="/tours/images/<?= $tour_other_university_img_block[2]['image'] ?>"
                              alt="Венский Ветеринарный Университет">
                         <div class="carousel-caption"
-                        <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_third'] ?></p>
+                        <p><?= $tour_about_university_block['curusel_title_third'] ?></p>
                     </div>
                 </div>
                 <div class="item">
                     <img src="/tours/images/<?= $tour_other_university_img_block[3]['image'] ?>"
                          alt="Венский Университет Прикладных Наук">
                     <div class="carousel-caption"
-                    <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_four'] ?></p>
+                    <p><?= $tour_about_university_block['curusel_title_four'] ?></p>
                 </div>
             </div>
             <div class="item">
                 <img src="/tours/images/<?= $tour_other_university_img_block[4]['image'] ?>"
                      alt="Курсы немецкого языка в Вене">
                 <div class="carousel-caption"
-                <p style="color: #00aeda; font-size: x-large; font-weight: 400;"><?= $tour_about_university_block['curusel_title_five'] ?></p>
+                <p><?= $tour_about_university_block['curusel_title_five'] ?></p>
             </div>
 
         </div>
@@ -364,113 +363,114 @@ $this->title = 'Tours | Austria';
 </div>
 <!-- конец блока Про Университеты  -->
 <!-- блок О нас -->
-<div style="padding: 50px 0 0 0;" class="split-features2" id="about_us">
-    <div class="row">
-        <div class="col-md-6 nopadding">
-            <div class="split-content second">
-                <h1 class="wow fadeInUp" style="margin: 0px;"><?= $tour_about_us_block['title_big_head'] ?></h1>
+<div class="container">
+    <div style="padding: 50px 0 0 0;" class="split-features2" id="about_us">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="split-content second">
+                    <h1 class="wow fadeInUp" style="margin: 0px;"><?= $tour_about_us_block['title_big_head'] ?></h1>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="wow fadeInUp"><?= $tour_about_us_block['text_head'] ?></p>
+            </div>
+
+            <div class="col-md-5 nopadding">
+                <div class="split-image"><img class="img-responsive wow fadeIn"
+                                              src="/tours/images/<?= $tour_about_us_img_block[0]['image'] ?>"
+                                              alt="Image"/></div>
             </div>
         </div>
-        <div class="col-md-6"></div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <p class="wow fadeInUp"
-               style="color: #4a4a4a; font-weight: 500;padding-left:130px;text-align:right;line-height:35px;">
-                <?= $tour_about_us_block['text_head'] ?></p>
-        </div>
 
-        <div class="col-md-5 nopadding">
-            <div class="split-image"><img class="img-responsive wow fadeIn"
-                                          src="/tours/images/<?= $tour_about_us_img_block[0]['image'] ?>"
-                                          alt="Image"/></div>
-        </div>
     </div>
-
 </div>
 <!-- About Us Section 2-->
 <div class="split-features">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-6">
-            <div class="split-content">
-                <h1 class="wow fadeInUp" style="margin: 0px;">
-                    <?= $tour_about_us_block['title_big_footer'] ?>
-                </h1>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-5 col-md-offset-1 nopadding">
-            <div class="split-image"><img class="img-responsive wow fadeIn"
-                                          src="/tours/images/<?= $tour_about_us_img_block[1]['image'] ?>"
-                                          alt="Image"/></div>
-        </div>
-        <div class="col-md-6 nopadding">
-            <div class="split-content">
-                <h3 class="wow fadeInUp" style="font-weight: 700">
-                    <?= $tour_about_us_block['title_first'] ?>
-                </h3>
-                <ul class="wow fadeInUp" style="list-style: none">
-                    <li style="color: #4a4a4a">
-                        <?= $tour_about_us_block['description_first'] ?>
-                    </li>
-                </ul>
-                <h3 class="wow fadeInUp" style="font-weight: 700">
-                    <?= $tour_about_us_block['title_second'] ?>
-                </h3>
-                <ul class="wow fadeInUp" style="list-style: none">
-                    <li style="color: #4a4a4a">
-                        <?= $tour_about_us_block['description_second'] ?>
-                    </li>
-                </ul>
-                <h3 class="wow fadeInUp" style="font-weight: 700">
-                    <?= $tour_about_us_block['title_third'] ?>
-                </h3>
-                <ul class="wow fadeInUp" style="list-style: none">
-                    <li style="color: #4a4a4a">
-                        <?= $tour_about_us_block['description_third'] ?>
-                    </li>
-                </ul>
-                <h3 class="wow fadeInUp" style="font-weight: 700">
-                    <?= $tour_about_us_block['title_four'] ?>
-                </h3>
-                <ul class="wow fadeInUp" style="list-style: none">
-                    <li style="color: #4a4a4a">
-                        <?= $tour_about_us_block['description_four'] ?>
-                    </li>
-                </ul>
-                <h3 class="wow fadeInUp" style="font-weight: 700">
-                    <?= $tour_about_us_block['title_five'] ?>
-                </h3>
-                <ul class="wow fadeInUp" style="list-style: none">
-                    <li style="color: #4a4a4a">
-                        <?= $tour_about_us_block['description_five'] ?>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+   <div class="container">
+       <div class="row">
+           <div class="col-md-6 col-md-offset-6">
+               <div class="split-content">
+                   <h1 class="wow fadeInUp" style="margin: 0px;">
+                       <?= $tour_about_us_block['title_big_footer'] ?>
+                   </h1>
+               </div>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-md-5 col-md-offset-1 nopadding">
+               <div class="split-image"><img class="img-responsive wow fadeIn"
+                                             src="/tours/images/<?= $tour_about_us_img_block[1]['image'] ?>"
+                                             alt="Image"/></div>
+           </div>
+           <div class="col-md-6 nopadding">
+               <div class="split-content">
+                   <h3 class="wow fadeInUp" style="font-weight: 700">
+                       <?= $tour_about_us_block['title_first'] ?>
+                   </h3>
+                   <ul class="wow fadeInUp" style="list-style: none">
+                       <li style="color: #4a4a4a">
+                           <?= $tour_about_us_block['description_first'] ?>
+                       </li>
+                   </ul>
+                   <h3 class="wow fadeInUp" style="font-weight: 700">
+                       <?= $tour_about_us_block['title_second'] ?>
+                   </h3>
+                   <ul class="wow fadeInUp" style="list-style: none">
+                       <li style="color: #4a4a4a">
+                           <?= $tour_about_us_block['description_second'] ?>
+                       </li>
+                   </ul>
+                   <h3 class="wow fadeInUp" style="font-weight: 700">
+                       <?= $tour_about_us_block['title_third'] ?>
+                   </h3>
+                   <ul class="wow fadeInUp" style="list-style: none">
+                       <li style="color: #4a4a4a">
+                           <?= $tour_about_us_block['description_third'] ?>
+                       </li>
+                   </ul>
+                   <h3 class="wow fadeInUp" style="font-weight: 700">
+                       <?= $tour_about_us_block['title_four'] ?>
+                   </h3>
+                   <ul class="wow fadeInUp" style="list-style: none">
+                       <li style="color: #4a4a4a">
+                           <?= $tour_about_us_block['description_four'] ?>
+                       </li>
+                   </ul>
+                   <h3 class="wow fadeInUp" style="font-weight: 700">
+                       <?= $tour_about_us_block['title_five'] ?>
+                   </h3>
+                   <ul class="wow fadeInUp" style="list-style: none">
+                       <li style="color: #4a4a4a">
+                           <?= $tour_about_us_block['description_five'] ?>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+       <div style="text-align: center; margin-top: 50px;">
+           <h6 style="color: black; font-weight: bold">
+               <?= $tour_about_us_block['text_footer'] ?>
+           </h6>
+           <br>
+           <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+               <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
+                  style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить
+                   консультацию</a>
+           </div>
 
-    <div style="text-align: center; margin-top: 50px;">
-        <h6 style="color: black; font-weight: bold">
-            <?= $tour_about_us_block['text_footer'] ?>
-        </h6>
-        <br>
-        <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
-            <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
-               style=" width: 500px; margin-bottom: 20px; visibility: visible; animation-name: fadeInUp;">Получить
-                консультацию</a>
-        </div>
-
-        <div class="btn-group">
-            <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
-                                                             href="tel:<?= $tour_about_us_block['btn_first_text'] ?>"><?= $tour_about_us_block['btn_first_text'] ?></a>
-            </button>
-            <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
-                                                          href="tel:<?= $tour_about_us_block['btn_second_text'] ?>"><?= $tour_about_us_block['btn_second_text'] ?></a>
-            </button>
-        </div>
-    </div>
+           <div class="btn-group">
+               <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
+                                                                href="tel:<?= $tour_about_us_block['btn_first_text'] ?>"><?= $tour_about_us_block['btn_first_text'] ?></a>
+               </button>
+               <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
+                                                             href="tel:<?= $tour_about_us_block['btn_second_text'] ?>"><?= $tour_about_us_block['btn_second_text'] ?></a>
+               </button>
+           </div>
+       </div>
+   </div>
 </div>
 <!-- конец блока О нас -->
 <!-- блок Наши Услуги -->

@@ -16,7 +16,7 @@ ToursAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-<?= $content ?>
+    <?= $content ?>
 <!-- блок Контакты -->
 <div class="cta-sub no-color"
      style="background-image:linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url('/tours/images/<?= $this->params['img_block']->image ?>')">
@@ -43,38 +43,40 @@ ToursAsset::register($this);
             <hr>
             <br>
             <br>
-            <div class="row" style="margin-left: 5px">
-                <div class="col-xs-2" style="width: 230px;">
-                    <a href="viber://chat?number=+380676367247" class="thumbnail btn-social">
-                        <i class="fab fa-viber"></i>
-                    </a>
-                    <p><?= $this->params['contact']['description_first'] ?></p>
-                </div>
-                <div class="col-xs-2" style="width: 230px">
-                    <a href="https://t.me/StudentWay_Ukraina" class="thumbnail btn-social">
-                        <i class="fab fa-telegram"></i>
-                    </a>
-                    <p><?= $this->params['contact']['description_second'] ?></p>
-                </div>
-                <div class="col-xs-2" style="width: 230px">
-                    <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail btn-social">
-                        <i class="fab fa-facebook-messenger"></i>
-                    </a>
-                    <p><?= $this->params['contact']['description_third'] ?></p>
-                </div>
-                <div class="col-xs-2" style="width: 230px">
-                    <a href="whatsapp://send?phone=+380968141132" class="thumbnail btn-social">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    <p><?= $this->params['contact']['description_four'] ?></p>
-                </div>
-                <div class="col-xs-2" style="width: 230px">
-                    <a href="https://www.instagram.com/studentway_ukraina/" class="thumbnail btn-social">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <p><?= $this->params['contact']['description_five'] ?></p>
-                </div>
-            </div>
+           <div class="container">
+               <div class="row">
+                   <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-1">
+                       <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail btn-social">
+                           <i class="fab fa-viber"></i>
+                       </a>
+                       <p><?= $this->params['contact']['description_first'] ?></p>
+                   </div>
+                   <div class="col-xs-6 col-sm-4 col-md-2">
+                       <a href="https://t.me/StudentWay_Ukraina" class="thumbnail btn-social">
+                           <i class="fab fa-telegram"></i>
+                       </a>
+                       <p><?= $this->params['contact']['description_second'] ?></p>
+                   </div>
+                   <div class="col-xs-6 col-sm-4 col-md-2">
+                       <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail btn-social">
+                           <i class="fab fa-facebook-messenger"></i>
+                       </a>
+                       <p><?= $this->params['contact']['description_third'] ?></p>
+                   </div>
+                   <div class="col-xs-6 col-sm-4 col-md-2">
+                       <a href="whatsapp://send?phone=+380968141132" class="thumbnail btn-social">
+                           <i class="fab fa-whatsapp"></i>
+                       </a>
+                       <p><?= $this->params['contact']['description_four'] ?></p>
+                   </div>
+                   <div class="col-xs-6 col-sm-4 col-md-2">
+                       <a href="https://www.instagram.com/studentway_ukraina/" class="thumbnail btn-social">
+                           <i class="fab fa-instagram"></i>
+                       </a>
+                       <p><?= $this->params['contact']['description_five'] ?></p>
+                   </div>
+               </div>
+           </div>
             <hr>
             <br>
             <br>

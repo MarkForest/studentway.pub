@@ -38,7 +38,7 @@
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul style="text-align:justify;">
-                    <li style="color:white;background-color:blue;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
+                    <li class="block-header--add" style="color:white;background-color:#00aeda; font-family: 'Roboto', sans-serif; font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         История Университета
                     </li>
                     <li style="line-height:20px; padding: 25px 10px; margin-top: 25px;">
@@ -66,7 +66,7 @@
         <div class="row flexbox-wrapper">
             <div class="col-md-5 col-md-offset-1">
                 <ul style="padding: 25px 20px 0px 20px;list-style-type:disc;text-align:justify;line-height:20px;">
-                    <li style="color:white;background-color:blue;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
+                    <li style="color:white;background-color:#00aeda; font-family: 'Roboto', sans-serif;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;" class="block-header--add">
                         Престижный вариант:
                     </li>
                     <li style="margin-bottom:0px;">
@@ -122,7 +122,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 col-md-offset-7"
-                 style="background-color:blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;margin-bottom:0px; ">
+                 style="background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;margin-bottom:0px; ">
                 Трудоустройство:
             </div>
         </div>
@@ -166,7 +166,7 @@
         <div class="row flexbox-wrapper">
             <div class="col-md-5 col-md-offset-1">
                 <ul style="padding: 25px 20px 0px 20px;line-height:20px;list-style-type:disc;">
-                    <li style="background-color: blue;color:white;line-height:30px;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
+                    <li style="background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;line-height:30px;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         Большой выбор возможностей:
                     </li>
                     <li style=" margin-top: 5px;text-align:justify;">
@@ -204,7 +204,7 @@
             </div>
             <div class="col-md-5">
                 <ul style="padding: 25px 10px 0px 20px;list-style-type:disc;text-align:justify;line-height:20px;">
-                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
+                    <li style="background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;font-size: 25px; padding: 20px; font-weight: bold;list-style-type:none;">
                         Новый кампус:
                     </li>
                     <li style="list-style-type:none;margin-bottom:0px;">
@@ -243,7 +243,7 @@
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
                 <ul style="line-height:20px;text-align:justify;">
-                    <li style="background-color: blue;color:white;font-size: 25px; padding: 20px 10px; font-weight: bold;">
+                    <li style="background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;font-size: 25px; padding: 20px 10px; font-weight: bold;">
                         Стоимость образования:
                     </li>
                     <li style="line-height: 25px;">
@@ -279,7 +279,7 @@
         <div class="row">
             <div class="col-md-3 col-md-offset-1"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                <div style="line-height:30px;font-size: 25px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                <div style="line-height:30px;font-size: 25px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Бакалавр
                 </div>
 
@@ -313,7 +313,7 @@
             </div>
             <div class="col-md-3 col-md-offset-1"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Магистратура(на английском языке)
                 </div>
 
@@ -356,7 +356,7 @@
             </div>
             <div class="col-md-3 col-md-offset-1"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Магистратура (на немецком языке)
                 </div>
 
@@ -412,7 +412,7 @@
         <div class="row">
             <div class="col-md-3 col-md-offset-1"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Требуемые документы
                 </div>
 
@@ -458,7 +458,7 @@
             </div>
             <div class="col-md-3 col-md-offset-1"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Сроки подачи документов
                 </div>
 
@@ -498,7 +498,7 @@
             </div>
             <div class="col-md-3 col-md-offset-1"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color: blue;color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Стоимость обучения
                 </div>
                 <div style="margin-top: 20px;  width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">

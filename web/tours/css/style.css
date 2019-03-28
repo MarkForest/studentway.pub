@@ -77,6 +77,7 @@ table {
 
 h1 {
   font-size: 16px;
+	/*text-transform: capitalize;*/
 }
 
 /*----- Helper Classes -----*/
@@ -101,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
-p {
+* {
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -197,7 +198,7 @@ p {
 	text-transform: capitalize;
 	padding-top: 25px;
 	letter-spacing: 1px;
-	height: 80px;
+	/*height: 80px;*/
 	-webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
 	-o-transition: all 0.6s;
@@ -212,7 +213,7 @@ p {
 }
 
 .navbar-default .navbar-toggle {
-  border-radius: 0px;
+  /*border-radius: 0px;*/
   border-color: transparent;
 }
 
@@ -235,7 +236,7 @@ p {
   }
 
 .navbar-default .navbar-brand {
-	padding-top: 5px;
+	padding-top: 0px;
 	color: #111111;
 	-webkit-transition: 200ms;
 	-moz-transition: 200ms;
@@ -248,7 +249,7 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a {
-  	color: green;
+  	color: white;
 	font-weight: 100;
   	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -258,6 +259,7 @@ p {
 .navbar-default .navbar-nav > li > a:hover {
   color: #A1A1A1;
 }
+
 
 .navbar-default .navbar-nav > .active > a {
   background: transparent;
@@ -272,7 +274,7 @@ p {
 
 .navbar-default .navbar-nav > .active > a:focus {
 	background: transparent;
-  color: #111111;
+  	color: #fff;
 }
 
 .navbar-default .navbar-collapse {
@@ -309,7 +311,7 @@ p {
 
 	.navbar {
 		padding-top: 5px;
-		height: 60px;
+		/*height: 60px;*/
 	}
 
   .navbar-default {
@@ -321,6 +323,7 @@ p {
 		text-align: center;
 		border-color: transparent;
 	  background-color: #FFFFFF;
+
 	}
 
   .navbar-default .navbar-collapse {
@@ -339,7 +342,7 @@ p {
 
   .navbar-default .navbar-brand {
     color: #FFFFFF;
-		padding: 16px 15px !important;
+		/*padding: 16px 15px !important;*/
   }
 
 	.navbar-default .navbar-brand.nav-white {
@@ -349,20 +352,23 @@ p {
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #111111;
   }
+	.navbar-default .navbar-nav>li>a:focus{
+		color:#fff;
+	}
 }
 
 @media only screen and (min-width: 240px) {
 
-
 .navbar.past-main {
 	font-size: 14px;
 	padding-top: 5px;
-	height: 60px;
-	background-color: rgba(0, 174, 218, 1);
+	/*height: 60px;*/
+	background-color: rgba(255, 255, 255, .95);
 	-webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
 	-o-transition: all 0.6s;
 	transition: all 0.6s;
+	box-shadow: 0px 0px 10px #3f5267;
 }
 
 .navbar-default.past-main .navbar-brand {
@@ -374,11 +380,14 @@ p {
 }
 
 .navbar-default.past-main .navbar-nav > li > a {
-  color: #fff;
+  color: #111111;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
 }
 
+.navbar-default.past-main .navbar-nav > li > a:focus {
+	color: #111;
+}
 .navbar-default.past-main .navbar-nav > li > a:hover {
   color: #111111;
 }
@@ -393,10 +402,13 @@ p {
     background: transparent;
     color: #222222;
 }
-
+.navbar-default .navbar-nav>li>a:focus{
+	/*color:#111;*/
+}
 .navbar-default.past-main .navbar-nav > .active > a:focus {
 	background: transparent;
-  color: #222222;
+  /*color: #222222;*/
+	color: #00aeda;
 }
 
 }
@@ -407,6 +419,10 @@ p {
 
 .navbar-default.past-main .nav-white .navbar-toggle .icon-bar {
 	background-color: #111111;
+}
+
+.navbar-default.past-main .navbar-nav > li > a:focus{
+	color:#111;
 }
 
 /* ------------------------------------------------------
@@ -1108,7 +1124,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .pitch {
 	padding: 100px 0 100px 0;
-	background: #2e2e30;
+	background: #58585a;
 }
 
 .pitch-intro {
@@ -1384,7 +1400,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-size: 37px;
 	font-weight: 900;
 	margin: 0 0 10px 0;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 }
 
 .app-features p {
@@ -1422,12 +1438,12 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .app-features .feature-single h1 {
-	font-size: 15px;
+	/*font-size: 15px;*/
 	font-weight: 600;
 	color: #222222;
 	margin: 0 0 10px 0;
 	letter-spacing: 1px;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 }
 
 .app-features .feature-single p {
@@ -1495,6 +1511,11 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	background: #FFFFFF;
 	padding: 50px 0 50px 0;
 	overflow: hidden;
+}
+
+#about_us .row p.wow{
+	line-height:22px;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -1624,7 +1645,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	color: #FFF;
 	font-weight: 600;
 	line-height: 1.4;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 }
 
 
@@ -2303,9 +2324,12 @@ font-size: 12px;
 /*Slider Style*/
 .carousel-caption {
 	text-shadow: none;
-	background: #2e2e30;
-	width: 100%;
-	margin-left: -300px;
+	background: rgba(0, 0, 0, 0.7);
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	bottom: 0px;
+	/*width: 100%;*/
+	/*margin-left: -300px;*/
 }
 .btn-social{
 	width: 110px;
@@ -2348,10 +2372,14 @@ img{
 /*    University Grid      */
 .header__title{
 	font-size: 45px;
-	color: blue;
+	color: #00aeda;
 	font-weight: bold;
 }
 
 .info__grid {
 	margin-top: 20px;
+}
+
+#rating ul li{
+	font-family: 'Roboto', sans-serif;
 }
