@@ -375,7 +375,7 @@ $this->title = 'Tours | Austria';
             <div class="col-md-6"></div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 abzac">
                 <p class="wow fadeInUp"><?= nl2br($tour_about_us_block['text_head']) ?></p>
             </div>
 
