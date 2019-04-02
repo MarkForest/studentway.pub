@@ -68,38 +68,38 @@ $this->title = 'Tours | Austria';
         </div>
         <!-- конец блока Главная-->
         <!-- блок Инфо -->
-        <div style="padding: 50px 0 20px 0;" class="pitch text-center" id="info">
+        <div style="padding: 50px 0 20px 0;" class="information text-center" id="info">
             <div style="padding-bottom: 5px;" class="container">
-                <div style="padding: 0;" class="pitch-intro">
+                <div style="padding: 0;" class="information-intro">
                     <h1 class="wow fadeInDown" data-wow-delay="0.2s"><?= $tour_info_block['title_big_head'] ?></h1>
                     <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p> -->
                 </div>
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent;" class="pitch-icon">
+                            <div style="background-color: transparent;" class="information-icon">
                                 <img src="/tours/icons/web.png" class="img-responsive" alt="picture"></img>
                                 <!--<i class="ion-ios-checkmark-outline"></i>-->
                             </div>
-                            <div class="pitch-content">
+                            <div class="information-content">
                                 <h1><?= $tour_info_block['title_first'] ?></h1>
                                 <p> <?= $tour_info_block['description_first'] ?> </p>
                             </div>
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent" class="pitch-icon">
+                            <div style="background-color: transparent" class="information-icon">
                                 <img src="/tours/icons/diploma.png" class="img-responsive" alt="picture"></img>
                             </div>
-                            <div class="pitch-content">
+                            <div class="information-content">
                                 <h1><?= $tour_info_block['title_second'] ?></h1>
                                 <p> <?= $tour_info_block['description_second'] ?> </p>
                             </div>
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent" class="pitch-icon">
+                            <div style="background-color: transparent" class="information-icon">
                                 <img src="/tours/icons/alarm.png" class="img-responsive" alt="picture"></img>
                             </div>
-                            <div class="pitch-content">
+                            <div class="information-content">
                                 <h1><?= $tour_info_block['title_third'] ?></h1>
                                 <p> <?= $tour_info_block['description_third'] ?> </p>
                             </div>
@@ -107,28 +107,28 @@ $this->title = 'Tours | Austria';
                     </div>
                     <div class="row">
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent" class="pitch-icon">
+                            <div style="background-color: transparent" class="information-icon">
                                 <img src="/tours/icons/germany.png" class="img-responsive" alt="picture"></img>
                             </div>
-                            <div class="pitch-content">
+                            <div class="information-content">
                                 <h1><?= $tour_info_block['title_four'] ?></h1>
                                 <p> <?= $tour_info_block['description_four'] ?> </p>
                             </div>
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent" class="pitch-icon">
+                            <div style="background-color: transparent" class="information-icon">
                                 <img src="/tours/icons/graduate.png" class="img-responsive" alt="picture"></img>
                             </div>
-                            <div class="pitch-content">
+                            <div class="information-content">
                                 <h1><?= $tour_info_block['title_five'] ?></h1>
                                 <p> <?= $tour_info_block['description_five'] ?> </p>
                             </div>
                         </div>
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
-                            <div style="background-color: transparent" class="pitch-icon">
+                            <div style="background-color: transparent" class="information-icon">
                                 <img src="/tours/icons/coins.png" class="img-responsive" alt="picture"></img>
                             </div>
-                            <div class="pitch-content">
+                            <div class="information-content">
                                 <h1><?= $tour_info_block['title_six'] ?></h1>
                                 <p> <?= $tour_info_block['description_six'] ?> </p>
                             </div>
@@ -139,6 +139,7 @@ $this->title = 'Tours | Austria';
                 </div>
 
             </div>
+<!--            TODO поменять btn-action на чето другое-->
             <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
                style="visibility: visible; margin-bottom: 20px; animation-name: fadeInUp;">Получить консультацию <br>ЭКСПЕРТОВ из АВСТРИИ
                 <br>через Messenger<br><font size="3">на русском</font></a>
@@ -375,7 +376,7 @@ $this->title = 'Tours | Austria';
         </div>
         <div class="row">
             <div class="col-md-6">
-                <p class="wow fadeInUp"><?= $tour_about_us_block['text_head'] ?></p>
+                <p class="wow fadeInUp"><?= nl2br($tour_about_us_block['text_head']) ?></p>
             </div>
 
             <div class="col-md-5 nopadding">
@@ -605,7 +606,7 @@ $this->title = 'Tours | Austria';
 </div>
 <!-- конец блока Цены -->
 <!-- блок Отзывы -->
-<div style="padding: 150px 0 0 0" class="review-section" id="review">
+<div style="padding: 150px 0 0 0" class="review-section hidden-xs hidden-sm" id="review">
     <div class="container">
         <div class="col-md-10 col-md-offset-1">
             <div class="reviews owl-carousel owl-theme">

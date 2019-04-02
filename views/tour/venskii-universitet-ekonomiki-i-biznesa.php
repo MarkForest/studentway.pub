@@ -10,7 +10,7 @@
                         <h1 class="header__title">Венский экономический университет <br> WU Wien:</h1>
                     </li>
                     <li>
-                        <ul style="list-style-type:disc;">
+                        <ul style="list-style-type:disc; margin-left: 20px;">
                             <li style="margin-bottom:10px;">Лучший университет в сфере экономики и бизнеса в Австрии;
                             </li>
                             <li style="margin-bottom:10px;">Возможность обучения на английском языке;</li>
@@ -43,13 +43,13 @@
                     </li>
                     <li style="line-height:20px; padding: 25px 10px; margin-top: 25px;">
                         Венский экономический университет создан в 1898 году с целью
-                        подготовки будущих специалистов в сфере экономики и бизнеса. Со
+                        подготовки будущих специалистов в сфере экономики и бизнеса. <br>Со
                         временем, Венский Экономический Университет начал становиться
                         значимым институтом в Австрии, так как многие австрийские
                         предприниматели (например, Дитрих Матешиц – основатель Red
                         Bull), эксперты мирового уровня и политики (например, Томас
                         Клестиль – бывший президент Австрии) получили свое образование
-                        здесь. На сегодняшний день, здесь учатся более 20 000 студентов,
+                        здесь. <br>На сегодняшний день, здесь учатся более 20 000 студентов,
                         что делает Венский экономический университет одним из самых
                         крупных учебных учреждений экономики в Европе.
                     </li>
@@ -266,7 +266,7 @@
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
                         col-md-offset-1">
-                <img class="office" src="/tours/images/vue7(7).jpg" alt="img">
+                <img class="office" src="/tours/images/vue7(1).jpg" alt="img">
             </div>
         </div>
     </div>
@@ -313,8 +313,8 @@
             </div>
             <div class="col-md-3 col-md-offset-1"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
-                    Магистратура(на английском языке)
+                <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                    Магистратура<br>(на английском языке)
                 </div>
 
                 <div style="margin-top: 20px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
@@ -356,8 +356,8 @@
             </div>
             <div class="col-md-3 col-md-offset-1"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-                <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
-                    Магистратура (на немецком языке)
+                <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
+                    Магистратура <br>(на немецком языке)
                 </div>
 
                 <div style="margin-top: 20px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
@@ -501,8 +501,8 @@
                 <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Стоимость обучения
                 </div>
-                <div style="margin-top: 20px;  width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
-                    Стоимость обучения в Венском Университете состовляет ~ 1500 евро в год
+                <div style="margin-top: 20px; margin-bottom: 15px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
+                    Стоимость обучения в Венском Университете состовляет <h1 style="font-weight: bold; padding: 5px;">~ 1500 евро в год</h1>
                 </div>
             </div>
         </div>

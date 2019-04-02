@@ -1190,6 +1190,81 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	letter-spacing: 0;
 }
 
+/*----------------------------------------------------
+----------- Information Section Styling Starts ----------
+-----------------------------------------------------*/
+
+.information {
+	padding: 100px 0 100px 0;
+	background: #00aeda;
+}
+
+.information .btn-action{
+	background: #000000;
+}
+
+.information-intro {
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 0 100px 0;
+}
+
+.information-intro h1 {
+	font-size: 37px;
+	font-weight: 900;
+	line-height: 1.2;
+	color: #FFF;
+	margin: 0 0 30px 0;
+}
+
+
+.information-intro p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #A1A1A1;
+	letter-spacing: 0;
+}
+
+.information-icon {
+	margin: 0 0 10px 0;
+	background: #00aeda;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.information-icon i {
+	font-size: 34px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 13px;
+}
+
+.information-content {
+	padding: 10px 0 50px 0;
+}
+
+.information-content h1 {
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 0;
+	color: #FFF;
+	margin: 0 0 10px 0;
+	text-transform:uppercase;
+}
+
+.information-content p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #FFF;
+	letter-spacing: 0;
+}
 
 /*----------------------------------------------------
 ----------- Features Icon Styling Starts -------------
@@ -1475,7 +1550,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .split-content {
 	padding: 20px;
-	text-align: center;
+	/*text-align: start;*/
 }
 
 .split-content h1 {
@@ -2187,7 +2262,7 @@ font-size: 12px;
 	.split-content {
 
 		/*padding: 70px 350px 50px 10px;*/
-		text-align: left;
+		text-align: start;
 	}
 	
 	.second {
@@ -2235,7 +2310,7 @@ font-size: 12px;
 
 	.split-content {
 		padding: 100px 100px 50px 50px;
-		text-align: left;
+		text-align: start;
 	}
 
 }
@@ -2382,4 +2457,8 @@ img{
 
 #rating ul li{
 	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-fixed-top .navbar-collapse {
+	max-height: none; !important;
 }

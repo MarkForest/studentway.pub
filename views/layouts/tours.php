@@ -46,7 +46,7 @@ ToursAsset::register($this);
            <div class="container">
                <div class="row">
                    <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-1">
-                       <a href="https://m.me/studentway.ukraina?ref=w3726749" class="thumbnail btn-social">
+                       <a href="viber://chat?number=+380676367247" class="thumbnail btn-social">
                            <i class="fab fa-viber"></i>
                        </a>
                        <p><?= $this->params['contact']['description_first'] ?></p>
