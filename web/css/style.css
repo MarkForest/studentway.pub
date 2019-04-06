@@ -11,6 +11,7 @@
 *	Edit this section
 *
 * ======================================================= */
+
 body {
   font-family: "PT Sans", Arial, serif;
   font-weight: 300;
@@ -60,7 +61,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   /*background: #1fb5f6;*/
 }
-
 #fh5co-header {
   position: absolute;
   z-index: 99;
@@ -1126,6 +1126,7 @@ text-decoration: none;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 
 .fh5co-nav-toggle {
   width: 25px;

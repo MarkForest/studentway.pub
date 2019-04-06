@@ -13,7 +13,14 @@ $this->title = 'Tours | Austria';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
+    <style type="text/css">
+        .phone__link {
+            color: black;
+            font-family:  Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 <div class="wrapper">
@@ -140,17 +147,17 @@ $this->title = 'Tours | Austria';
 
             </div>
 <!--            TODO поменять btn-action на чето другое-->
-            <a href="https://m.me/studentway.ukraina?ref=w3726749" class="btn btn-action wow fadeInUp"
-               style="visibility: visible; margin-bottom: 20px; animation-name: fadeInUp;">Получить консультацию <br>ЭКСПЕРТОВ из АВСТРИИ
-                <br>через Messenger<br><font size="3">на русском</font></a>
+            <a href="https://m.me/studentway.ukraina?ref=w5191658" class="btn btn-action wow fadeInUp"
+               style="visibility: visible; animation-name: fadeInUp;">Получить консультацию <br>
+                ЭКСПЕРТОВ из АВСТРИИ <br>через Messenger<br><font size="3">на русском</font></a>
             <div>
-                <h6 style="color: white; font-weight: bold"><?= $tour_info_block['text_footer'] ?></h6>
+                <h6 style="color: white;margin-top: 15px; font-weight: bold"><?= $tour_info_block['text_footer'] ?></h6>
                 <br>
                 <div class="btn-group">
-                    <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
+                    <button type="button" class="btn btn-default"><a class="phone__link" title="Позвонить"
                                                                      href="tel:<?= $tour_info_block['btn_first_text'] ?>"><?= $tour_info_block['btn_first_text'] ?></a>
                     </button>
-                    <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
+                    <button type="button" class="btn btn-info"><a class="phone__link" title="Позвонить"
                                                                   href="tel:<?= $tour_info_block['btn_second_text'] ?>"><?= $tour_info_block['btn_second_text'] ?></a>
                     </button>
                 </div>
@@ -353,10 +360,10 @@ $this->title = 'Tours | Austria';
 <br>
 <div>
     <div class="btn-group">
-        <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
+        <button type="button" class="btn btn-info"><a class="phone__link" title="Позвонить"
                                                       href="tel:<?= $tour_about_university_block['btn_first_text'] ?>"><?= $tour_about_university_block['btn_first_text'] ?></a>
         </button>
-        <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
+        <button type="button" class="btn btn-default"><a class="phone__link" title="Позвонить"
                                                          href="tel:<?= $tour_about_university_block['btn_second_text'] ?>"><?= $tour_about_university_block['btn_second_text'] ?></a>
         </button>
     </div>
@@ -463,10 +470,10 @@ $this->title = 'Tours | Austria';
            </div>
 
            <div class="btn-group">
-               <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
+               <button type="button" class="btn btn-default"><a class="phone__link" title="Позвонить"
                                                                 href="tel:<?= $tour_about_us_block['btn_first_text'] ?>"><?= $tour_about_us_block['btn_first_text'] ?></a>
                </button>
-               <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
+               <button type="button" class="btn btn-info"><a class="phone__link" title="Позвонить"
                                                              href="tel:<?= $tour_about_us_block['btn_second_text'] ?>"><?= $tour_about_us_block['btn_second_text'] ?></a>
                </button>
            </div>
@@ -524,10 +531,10 @@ $this->title = 'Tours | Austria';
 
     <div style="text-align: center;">
         <div class="btn-group">
-            <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
+            <button type="button" class="btn btn-default"><a class="phone__link" title="Позвонить"
                                                              href="tel:<?= $tour_our_services_block['btn_first_text'] ?>"><?= $tour_our_services_block['btn_first_text'] ?></a>
             </button>
-            <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
+            <button type="button" class="btn btn-info"><a class="phone__link" title="Позвонить"
                                                           href="tel:<?= $tour_our_services_block['btn_second_text'] ?>"><?= $tour_our_services_block['btn_second_text'] ?></a>
             </button>
         </div>
@@ -595,10 +602,10 @@ $this->title = 'Tours | Austria';
         <h6 style="color: white; font-weight: bold"><?= $tour_prices_block['text_footer'] ?></h6>
         <br>
         <div class="btn-group">
-            <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
+            <button type="button" class="btn btn-info"><a class="phone__link" title="Позвонить"
                                                           href="tel:<?= $tour_prices_block['btn_first_text'] ?>"><?= $tour_prices_block['btn_first_text'] ?></a>
             </button>
-            <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
+            <button type="button" class="btn btn-default"><a class="phone__link" title="Позвонить"
                                                              href="tel:<?= $tour_prices_block['btn_second_text'] ?>"><?= $tour_prices_block['btn_second_text'] ?></a>
             </button>
         </div>
@@ -745,10 +752,10 @@ $this->title = 'Tours | Austria';
         <h6 style="color: white; font-weight: bold"><?= $tour_questions_block['text_footer'] ?></h6>
         <br>
         <div class="btn-group">
-            <button type="button" class="btn btn-default"><a style="color: black" title="Позвонить"
+            <button type="button" class="btn btn-default"><a class="phone__link" title="Позвонить"
                                                              href="tel:<?= $tour_questions_block['btn_first_text'] ?>"><?= $tour_questions_block['btn_first_text'] ?></a>
             </button>
-            <button type="button" class="btn btn-info"><a style="color: black" title="Позвонить"
+            <button type="button" class="btn btn-info"><a class="phone__link" title="Позвонить"
                                                           href="tel:<?= $tour_questions_block['btn_second_text'] ?>"><?= $tour_questions_block['btn_second_text'] ?></a>
             </button>
         </div>
