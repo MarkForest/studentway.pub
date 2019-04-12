@@ -14,19 +14,55 @@ $this->title = 'Tours | Austria';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style type="text/css">
+
+        .app .btn-action{
+            background: rgba(0,174,218,1);
+        }
+        .app .btn-action:hover{
+            background: #191970;
+            color: #fff;
+        }
+        .information .btn-action{
+            background: rgba(255,255,255,1);
+            color: rgba(0,174,218,1);
+        }
+        .information .btn-action:hover{
+            background: #191970;
+            color: #fff;
+        }
+
+        /*блок наши услуги*/
         #our_services .btn-action {
-            background: #000000;
+            background: rgba(255,255,255,1);
+            color: rgba(0,174,218,1);
         }
         #our_services .btn-action:hover {
-            background: rgba(0,0,0, 0.8);
+            background: #191970;
+            color: #fff;
         }
         #our_services{
-            background-color: rgba(0,174,218, 0.8);
+            background-color: rgba(0,174,218,1);
             color: #fff;
         }
         #our_services ul li{
             color: #FFFAFA;
         }
+        /*о нас*/
+        #about_us .abzac{
+            margin-bottom: 50px;
+        }
+
+        /*цены*/
+        #pricing{
+            background-color: #fff;
+        }
+        /*вопросы*/
+        #questions{
+            background: #fff;
+        }
+
+
+        /*ссылки телефонов*/
         .phone__link {
             color: black;
             font-family:  Arial, sans-serif;
@@ -36,6 +72,15 @@ $this->title = 'Tours | Austria';
         @media (max-width: 480px) {
             .cta-sub{
                 padding-top: 25px;
+            }
+            .phone__link{
+                font-size: 16px;
+            }
+            #about_us{
+                text-align: center;
+                line-height: 1.5;
+                color: #4a4a4a;
+                font-size: 15px;
             }
         }
     </style>
@@ -103,7 +148,7 @@ $this->title = 'Tours | Austria';
                     <div class="row">
                         <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
                             <div style="background-color: transparent;" class="information-icon">
-                                <img src="/tours/icons/web.png" class="img-responsive" alt="picture"></img>
+                                <img src="/tours/icons/web2.png" class="img-responsive" alt="picture"></img>
                                 <!--<i class="ion-ios-checkmark-outline"></i>-->
                             </div>
                             <div class="information-content">
@@ -230,7 +275,14 @@ $this->title = 'Tours | Austria';
 
 
     <div class="row">
-        <div class="col-md-7 wow fadeInDown" data-wow-delay="0.2s">
+        <div class="col-md-5 wow fadeInDown col-md-push-6" data-wow-delay="0.2s">
+            <div class="feature-single">
+                <img class="img-responsive" src="/tours/images/<?= $tour_about_university_img_block[0]['image']; ?>"
+                     alt="App"
+                     style="margin-bottom: 15px"/>
+            </div>
+        </div>
+        <div class="col-md-7 wow fadeInDown col-md-pull-6" data-wow-delay="0.2s">
             <div class="feature-single">
                 <div style="background-color: transparent" class="pitch-icon">
                     <img src="/tours/icons/search.png" class="img-responsive" alt="picture">
@@ -250,13 +302,6 @@ $this->title = 'Tours | Austria';
                 </div>
             </div>
 
-        </div>
-        <div class="col-md-5 wow fadeInDown" data-wow-delay="0.2s">
-            <div class="feature-single">
-                <img class="img-responsive" src="/tours/images/<?= $tour_about_university_img_block[0]['image']; ?>"
-                     alt="App"
-                     style="margin-bottom: 15px"/>
-            </div>
         </div>
     </div>
 
@@ -564,7 +609,7 @@ $this->title = 'Tours | Austria';
     <div class="container">
         <div class="col-md-12 col-sm-12 nopadding">
             <div class="pricing-intro">
-                <h1 class="wow fadeInUp" style="margin: 0px;"
+                <h1 class="wow fadeInUp" style="margin: 0px; color: black"
                     data-wow-delay="0s"><?= $tour_prices_block['title_big_head'] ?></h1>
             </div>
             <div class="pricing-table">
@@ -617,7 +662,7 @@ $this->title = 'Tours | Austria';
         </div>
     </div>
     <div style="text-align: center;">
-        <h6 style="color: white; font-weight: bold"><?= $tour_prices_block['text_footer'] ?></h6>
+        <h6 style="color: black; font-weight: bold"><?= $tour_prices_block['text_footer'] ?></h6>
         <br>
         <div class="btn-group">
             <button type="button" class="btn btn-info"><a class="phone__link" title="Позвонить"
@@ -684,7 +729,7 @@ $this->title = 'Tours | Austria';
 <div style="padding: 40px 0 40px 0" class="pitch text-center" id="questions">
     <div class="container">
         <div style="padding: 0 0 10px 0;" class="pitch-intro">
-            <h1 class="wow fadeInDown" data-wow-delay="0.2s"><?= $tour_questions_block['title_big_head'] ?></h1>
+            <h1 style="color: black" class="wow fadeInDown" data-wow-delay="0.2s"><?= $tour_questions_block['title_big_head'] ?></h1>
             <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p> -->
         </div>
         <div class="col-md-12">
@@ -694,8 +739,8 @@ $this->title = 'Tours | Austria';
                         <img class="img-responsive" src="/tours/icons/file.png" alt="picture">
                     </div>
                     <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_first'] ?></h1>
-                        <p>
+                        <h1 style="color: black"><?= $tour_questions_block['title_first'] ?></h1>
+                        <p style="color: black">
                             <?= $tour_questions_block['description_first'] ?>
                         </p>
                     </div>
@@ -705,8 +750,8 @@ $this->title = 'Tours | Austria';
                         <img class="img-responsive" src="/tours/icons/hourglass.png" alt="picture">
                     </div>
                     <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_second'] ?></h1>
-                        <p>
+                        <h1 style="color: black"><?= $tour_questions_block['title_second'] ?></h1>
+                        <p style="color: black">
                             <?= $tour_questions_block['description_second'] ?>
                         </p>
                     </div>
@@ -716,8 +761,8 @@ $this->title = 'Tours | Austria';
                         <img class="img-responsive" src="/tours/icons/germany.png" alt="picture">
                     </div>
                     <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_third'] ?></h1>
-                        <p>
+                        <h1 style="color: black"><?= $tour_questions_block['title_third'] ?></h1>
+                        <p style="color: black">
                             <?= $tour_questions_block['description_third'] ?>
                         </p>
                     </div>
@@ -730,8 +775,8 @@ $this->title = 'Tours | Austria';
                         <img class="img-responsive" src="/tours/icons/coins.png" alt="picture">
                     </div>
                     <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_four'] ?></h1>
-                        <p>
+                        <h1 style="color: black"><?= $tour_questions_block['title_four'] ?></h1>
+                        <p style="color: black">
                             <?= $tour_questions_block['description_four'] ?>
                         </p>
                     </div>
@@ -741,8 +786,8 @@ $this->title = 'Tours | Austria';
                         <img class="img-responsive" src="/tours/icons/diploma.png" alt="picture">
                     </div>
                     <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_five'] ?></h1>
-                        <p>
+                        <h1 style="color: black"><?= $tour_questions_block['title_five'] ?></h1>
+                        <p style="color: black">
                             <?= $tour_questions_block['description_five'] ?>
                         </p>
                     </div>
@@ -752,8 +797,8 @@ $this->title = 'Tours | Austria';
                         <img class="img-responsive" src="/tours/icons/report.png" alt="picture">
                     </div>
                     <div class="pitch-content">
-                        <h1><?= $tour_questions_block['title_six'] ?></h1>
-                        <p>
+                        <h1 style="color: black"><?= $tour_questions_block['title_six'] ?></h1>
+                        <p style="color: black">
                             <?= $tour_questions_block['description_six'] ?>
                         </p>
                     </div>

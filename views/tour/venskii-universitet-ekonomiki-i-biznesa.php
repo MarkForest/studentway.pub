@@ -2,6 +2,20 @@
     назад</a>
 
 <style>
+    .header{
+        background: -webkit-linear-gradient(#191970, #00aeda);
+        background: -o-linear-gradient(#191970, #00aeda);
+        background: -moz-linear-gradient(#191970, #00aeda);
+        background: linear-gradient(#191970, #00aeda);
+        color: #fff;
+    }
+    .header h1{
+        color: #fff;
+    }
+
+    #rating, #cost{
+        padding: 20px 0 20px 0;
+    }
     .offset__down{
         margin-bottom: 30px;
 
@@ -15,19 +29,19 @@
         font-size: 16px;
         line-height: 1.5;
     }
-
-    /*.section__blue{*/
-    /*background-color: rgba(0,174,218, 0.8);*/
-    /*}*/
-    .footer{
-    /*padding:0px;*/
-    /*}*/
+    .section__grey{
+        background-color: #F9F9F9;
+    }
 </style>
 
-<div id="rating">
+<div id="rating" class="header">
     <div class="container">
         <div class="row flexbox-wrapper">
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
+                        col-md-offset-1 col-md-push-6">
+                <img class="office" src="/tours/images/vue1(4).jpg" alt="img">
+            </div>
+            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5 col-md-pull-6">
                 <ul>
                     <li>
                         <h1 class="header__title">Венский экономический университет <br> WU Wien:</h1>
@@ -42,15 +56,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5
-                        col-md-offset-1">
-                <img class="office" src="/tours/images/vue1(4).jpg" alt="img">
-            </div>
+
         </div>
     </div>
 </div>
 
-<hr>
+
 
 <div id="rating">
     <div class="container">
@@ -82,9 +93,9 @@
     </div>
 </div>
 
-<hr>
 
-<div id="rating">
+
+<div id="rating" class="section__grey">
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-md-5 col-md-offset-1">
@@ -139,7 +150,7 @@
     </div>
 </div>
 
-<hr>
+
 
 <div id="rating">
     <div class="container">
@@ -182,9 +193,9 @@
     </div>
 </div>
 
-<hr>
 
-<div id="rating">
+
+<div id="rating" class="section__grey">
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-md-5 col-md-offset-1">
@@ -217,7 +228,7 @@
     </div>
 </div>
 
-<hr>
+
 
 <div id="rating">
     <div class="container">
@@ -259,9 +270,9 @@
     </div>
 </div>
 
-<hr>
 
-<div id="rating">
+
+<div id="rating" class="section__grey">
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
@@ -295,7 +306,7 @@
     </div>
 </div>
 
-<hr>
+
 
 <div id="cost">
     <div class="container">
@@ -420,9 +431,9 @@
     </div>
 </div>
 
-<hr>
 
-<div id="cost">
+
+<div id="cost" class="section__grey">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10
