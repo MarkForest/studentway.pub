@@ -1,6 +1,28 @@
 <a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;z-index:100;margin-top:25px;">Вернуться
     назад</a>
 
+<style>
+    .offset__down{
+        margin-bottom: 30px;
+
+    }
+    #cost{
+        font-family: Arial, sans-serif;
+    }
+    .price__bold{
+        font-weight: bold;
+        padding: 5px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    /*.section__blue{*/
+    /*background-color: rgba(0,174,218, 0.8);*/
+    /*}*/
+    .footer{
+    /*padding:0px;*/
+    /*}*/
+</style>
+
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
@@ -344,17 +366,13 @@
         </div>
         <div class="row">
 
-            <div class="col-md-3 col-md-offset-1"
+            <div class="col-md-3 col-md-offset-1 offset__down"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                 <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Требуемые документы
                 </div>
 
                 <div style="line-height:25px;margin-top: 20px;  width: 100%; font-size: 15px; padding: 9px 10px 0px 10px">
-                    Главными документами для подачи
-                    являются:
-                    <br>
-                    <br>
                     <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                         <li>
                             Аттестат / сертификат об окончании
@@ -392,7 +410,7 @@
 
 
             </div>
-            <div class="col-md-3 col-md-offset-1"
+            <div class="col-md-3 col-md-offset-1 offset__down"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                 <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Сроки подачи документов
@@ -400,7 +418,6 @@
 
                 <div style="margin-top: 20px; line-height:25px;width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                     <h3>Основные сроки:</h3>
-                    <br>
                     <br>
                     <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                         <li>
@@ -416,7 +433,7 @@
 
 
             </div>
-            <div class="col-md-3 col-md-offset-1"
+            <div class="col-md-3 col-md-offset-1 offset__down"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                 <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Стоимость обучения
@@ -425,7 +442,7 @@
                 <div style="margin-top: 20px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
                     Стоимость обучения в Венском
                     Техническом университете составляет
-                    ~ 1 500 евро в год
+                    <span class="price__bold"><br>~ 1500 евро в год</span>
                 </div>
             </div>
         </div>

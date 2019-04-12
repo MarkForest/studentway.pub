@@ -14,11 +14,29 @@ $this->title = 'Tours | Austria';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style type="text/css">
+        #our_services .btn-action {
+            background: #000000;
+        }
+        #our_services .btn-action:hover {
+            background: rgba(0,0,0, 0.8);
+        }
+        #our_services{
+            background-color: rgba(0,174,218, 0.8);
+            color: #fff;
+        }
+        #our_services ul li{
+            color: #FFFAFA;
+        }
         .phone__link {
             color: black;
             font-family:  Arial, sans-serif;
             font-size: 24px;
             font-weight: bold;
+        }
+        @media (max-width: 480px) {
+            .cta-sub{
+                padding-top: 25px;
+            }
         }
     </style>
 </head>
@@ -34,7 +52,7 @@ $this->title = 'Tours | Austria';
                         <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                     </button>
                     <a href="<?= \yii\helpers\Url::toRoute('/site/index') ?>" class="navbar-brand">
-                        <img src="/tours/images/logo_bell2.png" alt="StudentWay">
+                        <img src="/tours/images/logo_bell5.png" alt="StudentWay">
 <!--                        <p style=" font-family: 'Open Sans', sans-serif ">--><?//= $tour_head['logo_text'] ?><!--</p>-->
 <!--                        <p style="font-size: 12px; margin-top: 5px ">--><?//= $tour_head['phone_number'] ?><!--</p>-->
                     </a>
@@ -500,21 +518,21 @@ $this->title = 'Tours | Austria';
             <div class="split-content">
                 <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_first'] ?></h3>
                 <ul class="wow fadeInUp">
-                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_first'] ?></li>
-                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_second'] ?></li>
-                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_first_third'] ?></li>
+                    <li><?= $tour_our_services_block['description_first_first'] ?></li>
+                    <li><?= $tour_our_services_block['description_first_second'] ?></li>
+                    <li><?= $tour_our_services_block['description_first_third'] ?></li>
                 </ul>
                 <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_second'] ?></h3>
                 <ul class="wow fadeInUp">
-                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_first'] ?></li>
-                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_second'] ?></li>
-                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_third'] ?></li>
-                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_second_four'] ?></li>
+                    <li><?= $tour_our_services_block['description_second_first'] ?></li>
+                    <li><?= $tour_our_services_block['description_second_second'] ?></li>
+                    <li><?= $tour_our_services_block['description_second_third'] ?></li>
+                    <li><?= $tour_our_services_block['description_second_four'] ?></li>
                 </ul>
                 <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_third'] ?> </h3>
                 <ul class="wow fadeInUp">
-                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_third_first'] ?></li>
-                    <li style="color: #4a4a4a"><?= $tour_our_services_block['description_third_second'] ?></li>
+                    <li><?= $tour_our_services_block['description_third_first'] ?></li>
+                    <li><?= $tour_our_services_block['description_third_second'] ?></li>
                 </ul>
                 <h3 class="wow fadeInUp" style="font-weight: 700"><?= $tour_our_services_block['title_four'] ?></h3>
             </div>

@@ -137,6 +137,9 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li.active a {
     color: #000080;
   }
+  .app .hero-content{
+    padding: 0 0 100px 0;
+  }
 }
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;

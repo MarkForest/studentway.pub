@@ -1,6 +1,29 @@
 ﻿<a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;z-index:100;margin-top:25px;">Вернуться
     назад</a>
 
+<style>
+    .offset__down{
+        margin-bottom: 30px;
+
+    }
+    #cost{
+        font-family: Arial, sans-serif;
+    }
+    .price__bold{
+        font-weight: bold;
+        padding: 5px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /*.section__blue{*/
+    /*background-color: rgba(0,174,218, 0.8);*/
+    /*}*/
+    .footer{
+    /*padding:0px;*/
+    /*}*/
+</style>
+
 <div id="rating">
     <div class="container">
         <div class="row flexbox-wrapper">
@@ -277,7 +300,7 @@
 <div id="cost">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-md-offset-1"
+            <div class="col-md-3 col-md-offset-1 offset__down"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                 <div style="line-height:30px;font-size: 25px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Бакалавр
@@ -311,7 +334,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 col-md-offset-1"
+            <div class="col-md-3 col-md-offset-1 offset__down"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                 <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Магистратура<br>(на английском языке)
@@ -354,7 +377,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 col-md-offset-1"
+            <div class="col-md-3 col-md-offset-1 offset__down"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                 <div style="line-height:25px;font-size: 20px;font-weight:bold;width: 100%; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Магистратура <br>(на немецком языке)
@@ -410,17 +433,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-md-offset-1"
+            <div class="col-md-3 col-md-offset-1 offset__down"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                 <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Требуемые документы
                 </div>
 
                 <div style="line-height:25px;margin-top: 20px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
-
-                    <h3>Главными документами для подачи
-                        являются:</h3>
-                    <br>
                     <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                         <li>
                             Аттестат / сертификат об окончании
@@ -456,7 +475,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 col-md-offset-1"
+            <div class="col-md-3 col-md-offset-1 offset__down"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                 <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Сроки подачи документов
@@ -464,8 +483,7 @@
 
                 <div style="line-height:25px;margin-top: 20px;  width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
 
-                    <h3>Бакалавр (точные сроки будут
-                        объявлены в начале 2019 года):</h3>
+                    <h3>Бакалавр:</h3>
                     <br>
 
                     <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
@@ -496,13 +514,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 col-md-offset-1"
+            <div class="col-md-3 col-md-offset-1 offset__down"
                  style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                 <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                     Стоимость обучения
                 </div>
                 <div style="margin-top: 20px; margin-bottom: 15px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
-                    Стоимость обучения в Венском Университете состовляет <h1 style="font-weight: bold; padding: 5px;">~ 1500 евро в год</h1>
+                    Стоимость обучения в Венском Университете состовляет <span class="price__bold"><br>~ 1500 евро в год</span>
                 </div>
             </div>
         </div>

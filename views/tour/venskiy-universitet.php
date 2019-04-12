@@ -1,12 +1,28 @@
 <a href="./#about_universiti" class="btn btn-danger" style="position: fixed;left: 10px;z-index:100;margin-top:25px;">Вернуться назад</a>
 
 <style>
+    .offset__down{
+        margin-bottom: 30px;
+
+    }
+    #cost{
+        font-family: Arial, sans-serif;
+    }
+    .price__bold{
+        font-weight: bold;
+        padding: 5px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    /*.section__blue{*/
+        /*background-color: rgba(0,174,218, 0.8);*/
+    /*}*/
    .footer{
-       padding:0px;
-   }
+       /*padding:0px;*/
+   /*}*/
 </style>
 
-<div id="rating">
+<div id="rating" class="section__blue">
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
@@ -65,7 +81,7 @@
 
 <hr>
 
-<div id="rating">
+<div id="rating"  class="section__light-blue">
     <div class="container">
         <div class="row flexbox-wrapper">
             <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-5">
@@ -276,15 +292,12 @@
             </div>
         </div>
         <div class="row">
-                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                <div class="col-md-3 col-md-offset-1 offset__down" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                     <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                         Требуемые документы 
                     </div>
 
                     <div style="line-height:25px;margin-top: 20px;width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
-                        <h3>Главными документами для подачи
-                        являются:</h3>
-                        <br>
                         <ul style="line-height:25px;list-style-type:disc;margin-left:12px;">
                             <li >
                                     Аттестат / сертификат об окончании
@@ -320,7 +333,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                <div class="col-md-3 col-md-offset-1 offset__down" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                     <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                         Сроки подачи документов 
                     </div>
@@ -333,26 +346,25 @@
                             <li >
                                     Подача документов на зимний
                                     семестр 2019/2020 – с Июля по
-                                    Сентябрь 2019 (точные сроки будут
-                                    объявлены в начале 2019 года)
+                                    Сентябрь 2019
                             </li>
                             <li >
                                     Регистрация на вступительные
                                     экзамены (для некоторых
                                     специальностей) – с Марта по Май
-                                    2019 года (точные сроки будут
-                                    объявлены в начале 2019 года)
+                                    2019 года
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-md-offset-1" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
+                <div class="col-md-3 col-md-offset-1 offset__down" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
                     <div style="line-height:28px;font-size: 23px;font-weight:bold;width: 100%; padding: 30px; height: 70px; background-color:#00aeda; font-family: 'Roboto', sans-serif; color:white;display: flex; align-items: center; justify-content: center; text-align: center">
                         Стоимость обучения 
                     </div>
 
                     <div style="margin-top: 20px; width: 100%; font-size: 15px; padding: 9px 10px 0px 10px;">
-                        Стоимость обучения в Венском Университете состовляет ~ 1500 евро в год
+                        Стоимость обучения в Венском Университете состовляет
+                        <span class="price__bold"><br>~ 1500 евро в год</span>
                     </div>
                 </div>
             </div>
