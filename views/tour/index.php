@@ -22,6 +22,9 @@ $this->title = 'Tours | Austria';
             background: #191970;
             color: #fff;
         }
+        .app-features{
+            background-color: #F9F9F9;
+        }
         .information .btn-action{
             background: rgba(255,255,255,1);
             color: rgba(0,174,218,1);
@@ -337,7 +340,7 @@ $this->title = 'Tours | Austria';
     </div>
 </div>
 </div>
-<div style="margin-right: 0" class="row">
+<div style="margin-right: 0;" class="row">
     <div class="col-md-12 wow fadeInDown" data-wow-delay="0.2s">
         <div style="margin-bottom: 20px;" class="feature-single">
             <div class="icon"><i class="ion-ios-heart-outline"></i></div>
